@@ -5,6 +5,15 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+
+    <!-- Tag feature -->
+    {%- if page.tags -%}
+      <div style="padding-bottom: 8px; font-size: small;">
+        <b>Tags:</b> &nbsp;
+        {% include custom/tags.html tags=page.tags %}
+      </div>
+    {%- endif -%}
+
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -12,7 +21,9 @@ layout: default
       </time>
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+      {%- endif -%}
+    </p>
+    {% include custom/hline.html %}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
