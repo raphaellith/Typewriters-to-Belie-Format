@@ -4,7 +4,6 @@ title:  "Hello World! (For website construction, testing and development purpose
 date:   2024-08-27 15:56:53 +0800
 description: A fake, stand-in, placeholder post for website construction, and development purposes. Also, just for the sake of it, here is a considerably and almost unrealistically lengthy description.
 tags: explainer
-categories: jekyll update
 ---
 
 ## This is a heading with font size h2.

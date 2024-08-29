@@ -4,7 +4,6 @@ title:  "How to Solve a Cryptic Crossword"
 date:   2024-08-28 15:56:53 +0800
 description: A guide to solving cryptic crosswords.
 tags: cryptic-crossword explainer
-categories: jekyll update
 ---
 
 ## What's in a clue?
