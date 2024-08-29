@@ -230,6 +230,9 @@
 }
 
 .post-content {
+  // Added to remove extra unnecessary spacing between
+  // the horizontal line and the actual post content
+  margin-top: -20px;
   margin-bottom: $spacing-unit;
 
   h2 {
