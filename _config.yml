@@ -28,7 +28,7 @@ url: "https://raphaellith.github.io" # the base hostname & protocol for your sit
 # github_username:  jekyll
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
