@@ -14,7 +14,9 @@ Here is a list of posts on this site, classified by tags.
 {% include custom/hline.html %}
 </div>
 
-{%- for sitetag in site.tags -%}
+{% assign sitetags = site.tags | sort %}
+
+{%- for sitetag in sitetags -%}
 
 {% assign tag_name = sitetag[0] %}
 {% assign posts_for_tag = sitetag[1] %}
