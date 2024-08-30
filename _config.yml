@@ -33,9 +33,18 @@ plugins:
   - jekyll-feed
 
 
+# ----------------------------------------
+
 # To quiet deprecation warnings
 sass:
   quiet_deps: true
+
+# Remove '.html' at the end of post/page URLs
+# See https://mademistakes.com/mastering-jekyll/how-to-link/
+permalink: /:categories/:year/:month/:day/:title
+
+
+
 
 
 
