@@ -26,7 +26,7 @@ Here is a list of posts on this site, classified by tags.
 <div style="margin-top: 0.4em">
 <ul>
 {%- for post in posts_for_tag -%}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {%- endfor -%}
 </ul>
 </div>
