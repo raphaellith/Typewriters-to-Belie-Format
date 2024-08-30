@@ -6,7 +6,7 @@ appear-in-top-right: true
 ---
 
 
-> ***This website is still in construction --- a more detailed description is coming soon!***
+> **This website is still in construction --- a more detailed description is coming soon!**
 
 
 ## What's with the name?

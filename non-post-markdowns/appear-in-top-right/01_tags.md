@@ -6,7 +6,7 @@ appear-in-top-right: true
 ---
 
 
-> ***This website is still in construction --- more stuff coming soon!***
+> **This website is still in construction --- more stuff coming soon!**
 
 Here is a list of posts on this site, classified by tags.
 
