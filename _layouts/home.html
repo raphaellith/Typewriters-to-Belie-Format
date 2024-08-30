@@ -23,7 +23,7 @@ layout: default
 
           {%- if post.tags -%}
             <div style="margin-top: 5px; margin-bottom: 15px;">
-              {% include custom/tags.html tags=post.tags %}
+              {% include custom/tags.html tags=post.tags with_link=true %}
             </div>
           {%- endif -%}
 

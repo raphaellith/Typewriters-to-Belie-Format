@@ -10,7 +10,7 @@ layout: default
     {%- if page.tags -%}
       <div style="padding-bottom: 8px; font-size: small;">
         <b>Tags:</b> &nbsp;
-        {% include custom/tags.html tags=page.tags %}
+        {% include custom/tags.html tags=page.tags with_link=true %}
       </div>
     {%- endif -%}
 

@@ -21,7 +21,8 @@ Here is a list of posts on this site, classified by tags.
 
 <div style="margin-bottom: 1.75em;">
 
-{% include custom/tag.html tag=tag_name %}
+<div id="anchor-tag-{{tag_name}}"></div>
+{% include custom/tag.html tag=tag_name with_link=false %}
 
 <div style="margin-top: 0.4em">
 <ul>
