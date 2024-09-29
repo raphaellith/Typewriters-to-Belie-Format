@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Title here"
-date:   0000-00-00 00:00:00 +0000
+date:   2024-01-01 00:00:00 +0100
 description: Here's the description of the post, which will be displayed on the home page of the blog.
 tags: tag another-tag
 ---
@@ -20,10 +20,6 @@ Here is a sample paragraph that appears under this heading. This is the base fon
 
 To link to a post, use the following:
 
-```
-[text for link]({{site.baseurl}}{% link _posts/2024-08-27-Hello-World.markdown %})
-```
-
-This results in something like [text for link]({{site.baseurl}}{% link _posts/2024-08-27-Hello-World.markdown %}).
+[text for link]({{site.baseurl}}{% raw %}{% link _posts/2024-01-01-Hello-World.markdown %}){% endraw %}
 
 For more info on markdown formatting, see [this Markdown guide](https://www.markdownguide.org/basic-syntax/).
