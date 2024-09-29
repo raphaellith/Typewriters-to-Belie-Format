@@ -17,3 +17,13 @@ Here is a sample paragraph that appears under this heading. This is the base fon
 #### This is a heading with font size h4.
 
 Here is a sample paragraph that appears under this heading. This is the base font size, which will be used for the body text of most blog posts.
+
+To link to a post, use the following:
+
+```
+[text for link]({{site.baseurl}}{% link _posts/2024-08-27-Hello-World.markdown %})
+```
+
+This results in something like [text for link]({{site.baseurl}}{% link _posts/2024-08-27-Hello-World.markdown %}).
+
+For more info on markdown formatting, see [this Markdown guide](https://www.markdownguide.org/basic-syntax/).
