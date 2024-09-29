@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Hello World! (For website construction, testing and development purposes, this is a placeholder post with an unrealistically long title)"
-date:   2024-08-27 15:56:53 +0800
-description: A fake, stand-in, placeholder post for website construction, and development purposes. Also, just for the sake of it, here is a considerably and almost unrealistically lengthy description.
-tags: explainer fake-tag experimental-tag stand-in placeholder tag-here
+title:  "Title here"
+date:   0000-00-00 00:00:00 +0000
+description: Here's the description of the post, which will be displayed on the home page of the blog.
+tags: tag another-tag
 ---
 
 ## This is a heading with font size h2.
