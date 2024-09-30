@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Solve a Cryptic Crossword"
-date:   2024-08-28 15:56:53 +0800
+date:   2024-01-01 00:00:00 +0100
 description: A guide to solving cryptic crosswords.
 tags: cryptic-crossword explainer
 ---
