@@ -6,10 +6,6 @@ description: Here's the description of the post, which will be displayed on the 
 tags: tag another-tag
 ---
 
-## This is a heading with font size h2.
-
-Here is a sample paragraph that appears under this heading. This is the base font size, which will be used for the body text of most blog posts.
-
 ### This is a heading with font size h3.
 
 Here is a sample paragraph that appears under this heading. This is the base font size, which will be used for the body text of most blog posts.
