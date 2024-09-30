@@ -150,7 +150,8 @@ In anagram clues, the letters to be anagrammed must come directly from the clue.
 - Worsening: worse, sick, lousy
 - Destruction: split, broken, blasted
 - Disorder: messy, dirty, scattered, chaotic
-- Delirium: mad, wild, crazy, lunatic, insane - Movement: vagrant, running, dancing
+- Delirium: mad, wild, crazy, lunatic, insane
+- Movement: vagrant, running, dancing
 - Adaptation: version of, manifestation of, rendition of
 - Correctness: straight, correct, perfect
 
