@@ -2,7 +2,7 @@
 layout: post
 title:  "Microsoft's Magnification Mystery"
 date:   2024-10-06 15:35:00 +0100
-description: On non-linear sliders.
+description: Mmm, alliteration. We start off this blog with an interesting conundrum concerning UI design, to which the answer is... almost as interesting.
 tags: programming
 ---
 
