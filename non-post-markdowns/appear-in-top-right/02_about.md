@@ -13,6 +13,9 @@ I'm a Year 1 undergraduate studying BSc Computer Science at UCL. I previously gr
 
 In the meantime though, here are some questions that I _do_ know the answer to.
 
+{% include custom/hline.html %}
+<br>
+
 
 ### Why is the blog called... that?
 
@@ -43,6 +46,6 @@ To explain why this blog may look similar to other ones, here's a technical brea
 1. The Markdown file is then automatically converted into standard HTML and CSS by Jekyll. This conversion is done in accordance with a predefined theme, which directly affects the appearance of the website. 
 1. Lastly, the generated HTML/CSS code is processed and hosted by GitHub Pages, which explains the ```github.io``` part in this blog's URL.
 
-Now, there are [a lot of themes](https://pages.github.com/themes/) I could've chosen from for Step 2, but I ultimately settled for the ```minima``` theme, partly because I liked its simplistic design, but also because it's the default option, which means it's much more straightforward to implement in code.
+Now, there are [a lot of themes](https://pages.github.com/themes/) I could've chosen from for Step 2, but I ultimately settled for the ```minima``` theme, partly because I liked its simplistic design, but also because it's the default option, which means it's much more straightforward to implement and customize in code.
 
 Obviously, I wouldn't be the only one to have chosen ```minima``` for these reasons. It's the first theme that Jekyll ever released, and as of time of writing, the GitHub repository for ```minima``` has had over 3600 forks. (And that's just the forks!) Given the overwhelming plethora of ```minima```-based blogs out there on the Internet, I'm genuinely not surprised if you've seen one before.
