@@ -30,7 +30,7 @@ Plus, _The Dumping Ground_ is by all metrics definitely a catchier name than _Ty
 
 Probably not.
 
-As much as I would love to be able to post on a weekly basis, that likely would not be sustainable. Right now, this site is just an experiment of unknown duration, and I have no idea how long I can stay active here for. I guess only time will tell!
+As much as I would love to be able to post on a weekly basis, that likely would not be sustainable. Right now, this site is just an experiment of unknown duration, and I have no idea how long I can stay active here for. I guess only time will tell.
 
 
 ### Am I _déjà vu_-ing, or does your blog look suspiciously similar to other ones I've seen before?
