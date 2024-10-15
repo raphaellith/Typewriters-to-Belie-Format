@@ -8,4 +8,11 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
+
+  <style>
+    :root {
+      --theme-color: #3307a9;
+    }
+    /* Can be referred to via var(--theme-color) */
+  </style>
 </head>
