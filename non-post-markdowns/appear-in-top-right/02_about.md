@@ -26,14 +26,11 @@ After most of the site development was done, I decided on the title _The Dumping
 Plus, _The Dumping Ground_ is by all metrics definitely a catchier name than _Typewriters to Belie Format_, which is a mouthful to say and is frankly speaking nothing more than a few meaningless lexicons squished together.
 
 
-
 ### Will you post regularly?
 
 Probably not.
 
 As much as I would love to be able to post on a weekly basis, that likely would not be sustainable. Right now, this site is just an experiment of unknown duration, and I have no idea how long I can stay active here for. I guess only time will tell!
-
-
 
 
 ### Am I _déjà vu_-ing, or does your blog look suspiciously similar to other ones I've seen before?
