@@ -46,3 +46,5 @@ To explain why this blog may look similar to other ones, here's a technical brea
 Now, there are [a lot of themes](https://pages.github.com/themes/) I could've chosen from for Step 2, but I ultimately settled for the ```minima``` theme, partly because I liked its simplistic design, but also because it's the default option, which means it's much more straightforward to implement and customize in code.
 
 Obviously, I wouldn't be the only one to have chosen ```minima``` for these reasons. It's the first theme that Jekyll ever released, and as of time of writing, the [GitHub repository](https://github.com/jekyll/minima) for ```minima``` has had over 3600 forks. (And that's just the forks!) Given the overwhelming plethora of ```minima```-based blogs out there on the Internet, I wouldn't not surprised if you've seen one of them before.
+
+That being said, I _did_ try my best to give the blog a somewhat unique look and feel by messing around with some of the formatting and color schemes --- so hopefully that helps...!
