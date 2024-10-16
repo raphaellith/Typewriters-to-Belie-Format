@@ -22,7 +22,7 @@ tags: programming maths
   width: 25px;
   height: 25px;
   border-radius: 50%; 
-  background: var(--theme-color-dark);
+  background: blue;
   cursor: pointer;
 }
 
@@ -30,13 +30,13 @@ tags: programming maths
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: var(--theme-color-dark);
+  background: blue;
   cursor: pointer;
 }
 
 .output {
     font-weight: bold;
-    color: var(--theme-color-dark);
+    color: blue;
     text-align: center;
     padding-top: 10px;
     font-family: monospace;
