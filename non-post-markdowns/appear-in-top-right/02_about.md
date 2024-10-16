@@ -11,7 +11,7 @@ I'm a Year 1 undergraduate studying BSc Computer Science at UCL. I previously gr
 
 "What would you even put on an About page?" If you've landed on this page wondering this, allow me to assure you that I too am seeking the answer to this very question. Chances are, I'll probably come up with something more decent or fitting to put here in the near future, so I'll leave it at this for now.
 
-In the meantime though, here are some questions that I _do_ know the answer to.
+In the meantime though, here are some questions I _do_ know the answer to.
 
 {% include custom/hline.html %}
 <br>
