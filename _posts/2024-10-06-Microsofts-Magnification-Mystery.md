@@ -101,7 +101,7 @@ Right away you'll immediately notice a couple of flaws with this slider:
 - To set the output value to 50, the handle must be dragged to a position that is noticeably off-centre, even though 50 is supposed to be midway between 0 and 100.
 - The distance by which the handle must be dragged to increase the output value from 0 to 1 is significantly greater than that from 99 to 100, despite the absolute difference being identical in both scenarios.
 
-This is perhaps not too surprising when I reveal that this wonky slider is in fact implemented using the function $$y = 100x^2$$, which is quadratic rather than linear. Computing the derivative of $$y$$ with respect to $$x$$ gives $$y' = 200x$$, which actually provides a neat explanation for the second flaw.
+This is perhaps not too surprising when I reveal that this wonky slider is in fact implemented using the function $$y = 100x^2$$, which is quadratic rather than linear. Computing the derivative of $$y$$ with respect to $$x$$ gives $$y' = 200x$$, which provides a neat explanation for the second flaw.
 
 So there you have it: Unless you want users to pull their hair out trying to fill out a questionnaire, sliders should always be designed in a linear fashion.
 
