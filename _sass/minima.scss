@@ -18,9 +18,7 @@ $brand-color: #15a5FF !default;
 // Custom added colors:
 $theme-color:      #007acc !default;
 $theme-color-dark: #0062A3 !default;
-// Alternatives considered:
-// $theme-color:      #3307a9 !default; // Purple
-// $theme-color:      #008c5f !default;  // Green
+$theme-color-light:#D6EFFF !default;
  
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
