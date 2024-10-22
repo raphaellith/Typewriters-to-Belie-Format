@@ -8,13 +8,13 @@ tags: theatre-trip review
 
 ### My first exposure to Phantom
 
-Sometime around November 2023, YouTube recommended to me a video with a rather intriguing thumbnail. It featured a mysterious, half-masked gentleman wearing a sophisticated sable suit, raising his left hand aloft as he gracefully sends a lady, dressed constrastingly in white, into a deep, mesmerizing trance. I didn't think much of it at first; but for the next few weeks or so, the same video has been consistently and temptingly popping up in my feed, to the extent that I could not help but simply click on the video.
+Sometime around November 2023, YouTube recommended to me a video with a rather intriguing thumbnail. It featured a mysterious, half-masked gentleman wearing a sophisticated sable suit, raising his left hand aloft as he gracefully sends a lady, dressed constrastingly in white, into a deep, mesmerizing trance. I didn't think much of it at first, but for the next few weeks or so, the same video has been consistently and temptingly popping up in my feed, to the extent that I could not help but simply click on the video.
 
-That video, posted by Andrew Lloyd Webber's channel _The Shows Must Go On!_, was a concert film adaptation of _The Phantom of the Opera_, the second longest-running West End musical of all time (after _Les Misérables_). Released in 2011, the film marked the 25th anniversary of the musical's 1986 premiere, and was officially titled _The Phantom of the Opera at the Royal Albert Hall_. During the COVID-19 epidemic, the full proshot was released on YouTube free of charge amid theatre closures.
+That video, posted by the channel _The Shows Must Go On!_, was the concert film adaptation of _The Phantom of the Opera_, the second longest-running West End musical of all time (after _Les Misérables_). Released in 2011, the film marked the 25th anniversary of the musical's 1986 premiere, and was officially titled _The Phantom of the Opera at the Royal Albert Hall_. During the COVID-19 epidemic, the full proshot was released on YouTube free of charge amid theatre closures.
 
 Now, I'm not typically a fan of most fictional media, so when I do discover something that I really enjoy, I tend to become quite obsessed with it (in a healthy way), and this one was no exception. Hooked by the show's enigmatic and captivating premise, I binged through all 2 hours and 41 minutes of the show on my phone (albeit in multiple sittings). Over the past year, I've rewatched the film countless times*, the proshot's soundtrack became my most-streamed album of 2023, and I've even learnt to play the title number on piano.
 
-(*Unfortunately, [the video](https://www.youtube.com/watch?v=nINQjT7Zr9w){:target="_blank"} got taken down from YouTube at some point and is to this day not accessible to the public, at least not for free. Instead, only [snippets and highlights](https://youtube.com/playlist?list=PLRImnjFIgJIWRMkXEoKmaUgW8qihGyRnm&si=CICqYVnIZOYwz_j9){:target="_blank"} from the show are available. That was the day I realized how useful [the Internet Archive](https://archive.org/details/The_Phantom_of_The_Opera_Full_Stage_Show){:target="_blank"} and [Wayback Machine video downloaders](https://www.waybackyt.download){:target="_blank"} were.)
+(*Unfortunately, [the video](https://www.youtube.com/watch?v=nINQjT7Zr9w){:target="_blank"} got taken down from YouTube at some point and is to this day not accessible to the public, at least not for free. Instead, only [snippets](https://youtube.com/playlist?list=PLRImnjFIgJIWRMkXEoKmaUgW8qihGyRnm&si=CICqYVnIZOYwz_j9){:target="_blank"} from the show are available. That was the day I realized how useful [the Internet Archive](https://archive.org/details/The_Phantom_of_The_Opera_Full_Stage_Show){:target="_blank"} and [Wayback Machine video downloaders](https://www.waybackyt.download){:target="_blank"} were.)
 
 
 ### Seeing Phantom live on stage
@@ -117,6 +117,10 @@ One of the differences I noticed between the performances is how this reluctance
 
 Another dissimilarity lies in how the rehearsal ends. In the film, Piangi (as Hannibal) is unable to unsheathe his sword from his scabbard, which gives us the impression that this is indeed merely an rehearsal, with a couple of places that are yet to be perfected. In comparison, the live show really upped their schadenfreude game, with Piangi attempting but failing to mount an enormous prop elephant, which is a hilarious sight to behold. Throughout the play, Piangi seems to be main source of comic relief, which I'll come back to later on.
 
+********
+
+
+
 After the rehearsal, the owner of the Opera Populaire announces his retirement and introduces the new managers Monsieur Firmin and Monsieur André. Firmin then requests whether Carlotta could perform an aria for him "as a personal favor", to which Carlotta promptly accedes. One verse into the aria though, this happens:
 
 > _(The scenic backdrop on stage falls from the flies unexpectedly, seemingly without explanation.)_
@@ -156,3 +160,25 @@ With the female lead gone, the managers are tasked with finding a stand-in sopra
 > **CHRISTINE:** My father, sir.
 >
 > **MADAME GIRY:** Let her sing for you, monsieur. She has been well-taught.
+
+Except... that's not how that conversation went in the live show. Instead of introducing Christine after Carlotta storms off, her introduction was given much earlier in the West End performance, during the Hannibal rehearsal. During the ballet section, 
+
+
+
+
+### Angel of Music / Little Lotte / The Mirror
+
+
+### The Phantom of the Opera
+
+### The Music of the Night
+
+### I Remember / Stranger than You Dreamt It
+
+### Magical Lassoo
+
+### Notes / Prima Donna
+
+### Why Have You Brought Me Here / All I Ask of You
+
+### All I Ask of You (Reprise)
