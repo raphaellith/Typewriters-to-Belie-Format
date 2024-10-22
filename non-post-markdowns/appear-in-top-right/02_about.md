@@ -9,6 +9,8 @@ Hi, I'm Raphael Li!
 
 I'm a Year 1 undergraduate studying BSc Computer Science at UCL. I previously graduated from St. Joseph's College as part of the Class of 2024.
 
+I started this blog and published its first post on my 18th birthday, in November 2024.
+
 "What would you even put on an About page?" If you've landed on this page wondering this, allow me to assure you that I too am seeking the answer to this very question. Chances are, I'll probably come up with something more decent or fitting to put here in the near future, so I'll leave it at this for now.
 
 In the meantime though, here are some questions I _do_ know the answer to.
