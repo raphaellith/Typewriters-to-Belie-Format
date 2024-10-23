@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Microsoft's Magnification Mystery"
-date:   2024-10-16 20:30:00 +0100
+date:   2024-11-03 08:00:00 +0000
 description: Mmm, alliteration. We start off this blog with an interesting conundrum concerning UI design, to which the answer is... almost as interesting.
 tags: programming maths
 ---
@@ -115,7 +115,7 @@ I was using Microsoft Word the other day, when I realized something pretty inter
 
 Anyway, my micro-discovery concerns the tiny little slider at the bottom right corner of the Microsoft Word interface, shown below in Focus mode.
 
-![A screenshot showing the Zoom slider in Microsoft Word.]({{ site.baseurl }}/assets/2024-10-16/Word-Zoom-Scale-Screenshot.png){: width="80%" style="display:block; margin-left:auto; margin-right:auto"}
+![A screenshot showing the Zoom slider in Microsoft Word.]({{ site.baseurl }}/assets/2024-11-03/Word-Zoom-Scale-Screenshot.png){: width="80%" style="display:block; margin-left:auto; margin-right:auto"}
 
 As you probably know, this slider is also featured in many other software applications included in the Microsoft Office suite, and is used to zoom in and out of the currently displayed document. What caught my eye though, is the fact that this slider has a minimum value of 10% and a maximum value of 500%, and yet when you drag the handle to the exact middle of the slider, you get a magnification of 100%.
 
@@ -202,7 +202,7 @@ By the end of the execution process, the program will have saved all 50 screensh
 
 Plotting all the data points on a coordinate system produces the following, slightly surprising graph:
 
-![A Desmos graph visualizing all 50 collected data points.]({{ site.baseurl }}/assets/2024-10-16/Desmos-Graph.png){: width="80%" style="display:block; margin-left:auto; margin-right:auto"}
+![A Desmos graph visualizing all 50 collected data points.]({{ site.baseurl }}/assets/2024-11-03/Desmos-Graph.png){: width="80%" style="display:block; margin-left:auto; margin-right:auto"}
 
 I'm not entirely sure whether this is an anticlimax. There aren't any fancy Bézier curves in sight; instead, it's just two line segments connecting the three key data points we mentioned earlier.
 
