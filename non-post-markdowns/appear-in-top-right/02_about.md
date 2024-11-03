@@ -43,7 +43,7 @@ To explain why this blog may look similar to other ones, here's a technical brea
 
 1. I'm currently writing the contents of this page using a markup language called [Markdown](https://www.markdownguide.org).
 1. The Markdown file is then automatically converted into standard HTML and CSS by Jekyll. This conversion is done in accordance with a predefined theme, which directly affects the appearance of the website. 
-1. Lastly, the generated HTML/CSS code is processed and hosted by GitHub Pages, which explains the ```github.io``` part in the blog's URL.
+1. Lastly, the generated HTML/CSS code is processed and hosted by GitHub Pages (hence the ```github.io``` part in the blog's URL).
 
 Now, there are [a lot of themes](https://pages.github.com/themes/) I could've chosen from for Step 2, but I ultimately settled for the ```minima``` theme, partly because I liked its simplistic design, but also because it's the default option, which means it's much more straightforward to implement and customize in code.
 
