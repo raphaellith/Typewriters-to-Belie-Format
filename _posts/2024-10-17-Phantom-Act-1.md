@@ -197,7 +197,7 @@ The dialogue itself is fine, but I still find this decision fairly problematic f
 
 ### Think of Me / Angel of Music
 
-Now, where was I? Oh right: Carlotta storms off and Madame Giry recommends Christine as a stand-in soprano. As a ballet girl, Christine isn't necessarily familiar with the lyrics and melody for Think of Me, which is why Monsieur Reyer, quite hysterically, offered her a very brief one-second glimpse at the sheet music, before promptly taking it away. This part wasn't featured in the 2011 proshot, so I absolutely did not see that gag coming --- it's hilarious.
+Now, where was I? Oh right: Carlotta storms off and Madame Giry recommends Christine as a stand-in soprano. As a ballet girl, Christine isn't necessarily familiar with the lyrics and melody for Think of Me, which is why Monsieur Reyer, quite hysterically, offered her a very brief one-second glimpse at the sheet music, before promptly taking it away. This part wasn't featured in the 2011 proshot, so I certainly did not see that gag coming --- it's hilarious.
 
 In spite of her initial nervousness (which is portrayed incredibly in both productions), Christine manages to deliver a stunning rendition of Think of Me, be it during the rehearsal or in the live performance of Hannibal. Midway through the aria, we are also introduced to Raoul, Vicomte de Chagny, who as the Opera House's patron is watching Christine, her childhood friend, from an opera box. The song ends with a short, _a capella_ cadenza for which, while Kerhoas' singing is undeniably impressive, I personally prefer Boggess' performance in the 25th anniversary proshot due to the vibrancy of her voice.
 
@@ -238,7 +238,7 @@ Afterwards, Christine is approached by Meg, who curiously asks how Christine is 
 >
 > **MEG:** Who is this angel, this...
 >
-> **BOTH:** Angel of Music, hide no longer, secret and strange angel!
+> **BOTH:** ...Angel of Music, hide no longer, secret and strange angel!
 >
 > **CHRISTINE:** He's with me, even now. All around---
 >
@@ -255,9 +255,9 @@ Afterwards, Christine is approached by Meg, who curiously asks how Christine is 
 As Meg tries to help Christine calm down, she is sternly reminded by her mother Madame Giry that as a dancer, she must "go and practice" at once. Left alone, Christine returns to her dressing room, where she is visited by her old playfellow from long ago (along with someone else...?).
 
 
-### Little Lotte / The Mirror
+### Little Lotte
 
-In the dressing room, Christine receives a visit from Raoul, who brings with him a single, red rose. Together, they recount their fond memories of the past, especially how they used to "read to each other dark stories of the North" as Christine's father played the violin. In particular, they recite the tale of Little Lotte:
+In the dressing room, Christine receives a visit from Raoul, who brings with him a single red rose. Together, they recount their fond memories of the past and how they used to "read to each other dark stories of the North" as Christine's father played his fiddle. In particular, they recite the tale of Little Lotte:
 
 > **CHRISTINE:**<br>
 > "No what I love best, Lotte said,<br>
@@ -270,28 +270,91 @@ In the dressing room, Christine receives a visit from Raoul, who brings with him
 >
 > **CHRISTINE:** No, Raoul, the Angel of Music is very strict!
 >
-> **RAOUL:** I shan't keep you up late --- you must change; I must get my hat. Two minutes! Little Lotte.
+> **RAOUL:** I shan't keep you up late --- you must change; I must get my hat. Two minutes! Little Lotte. _(Raoul leaves the room.)_
+>
+> **CHRISTINE:** Raoul! Things have changed, Raoul!
 
-Piecing together the last couple of scenes, we start to see Christine's and Raoul's different opinions on the Angel of Music. The story of Little Lotte clearly holds a special place in both of their hearts, but Christine seems particularly attached to this story especially after his father 
+I should add that you can still see the dancers rehearsing on stage right throughout Angel of Music and Little Lotte, which is a surprise to me as this was omitted in the staging of the 2011 production. Allowing the audience to see the ballerinas dance to the waltzy rhythm of Angel of Music as well as the enchanting melody of Little Lotte is such a nice touch, and the faint and low-profile lighting on the dancers is so masterfully done too.
 
-
-
-
-
-
+Piecing together the last couple of scenes, we start to see Christine's and Raoul's different opinions on the Angel of Music. Evidently, Little Lotte's story holds a special place in both of their hearts, but Christine seems particularly attached to it, since his father promised to "send the Angel of Music" to her once he's dead. It's clear that his father meant this in a metaphorical sense, as a blessing to her daughter; but Christine's interpretation of this seems more tangible than figurative.
 
 
+### The Mirror
 
+Following a brief drumroll, we hear the mysterious voice return, irately criticizing Raoul as an insolent boy sharing in his triumph. Christine recognizes the voice as her Angel of Music and apologetically asks for his forgiveness, to which he responds:
 
+> **MYSTERIOUS VOICE ("THE ANGEL OF MUSIC"):**<br>
+> Flattering child, you shall know me<br>
+> See why in shadow I hide<br>
+> Look at your face in the mirror<br>
+> I am there inside! <br>
+> _(The silhouette of a caped man with a white procelain half-mask emerges into view in the mirror.)_
 
+To put it briefly, the lighting for the mirror here is amazing, and the pale illumination therein sells ghost-in-the-mirror effect really well. In the Royal Albert Hall performance, the mirror is represented by a huge vertical screen, which _works_ but is definitely not as realistic. (The half-mask on the screen display is also placed on the wrong half of the face, but it's not really that noticeable --- I didn't spot it until someone pointed it out online.)
 
+The figure in the mirror subsequently hypontizes Christine, seemingly trying to convince Christine that he _is_ her Angel of Music. At the same time, Raoul attempts to open the dressing room door in vain. It wasn't until the ghostlike figure invites Christine to enter the mirror, that the door rapidly springs open, leaving Raoul confused as to where Christine went.
 
-
+| Differences | On screen | On stage |
+| :---: | :---: | :---: |
+| Ending of The Mirror | Raoul comes on stage and shouts for Christine, who had already entered the mirror. | The door of the dressing room is inexplicably thrown wide. Raoul dashes into the room, only to find it empty. Dissonantly, he wonders "whose is that voice, who is that in there" to the melody of Angel of Music. |
 
 
 ### The Phantom of the Opera
 
+Immediately we hear the organ resound, signifying the start of the musical's title number. On the other side of the looking glass, Christine unites with her Angel of Music, but quickly realizes that this half-masked individual is more than just her vocal coach; she recognizes him as the Phantom of the Opera, the ghost that has been haunting the opera house for the past three years. Holding a lantern, the Phantom leads Christine as they wander through the underground walkways of the opera house.
+
+> **PHANTOM/CHRISTINE:**<br>
+> My/Your spirit and your/my voice<br>
+> In one combined<br>
+> The Phantom of the Opera is there<br>
+> inside your/my mind
+>
+> **OFFSTAGE ENSEMBLE:**<br>
+> He's there, the Phantom of the Opera!<br>
+> Beware, the Phantom of the Opera!
+>
+> **PHANTOM:**<br>
+> In all your fantasies<br>
+> you always knew<br>
+> that man and mystery...
+>
+> **CHRISTINE:** ...were both in you!
+
+Rhyming "he's there" with "beware" is genius. Honestly, the entire number is just so sensational I would've included all of its lyrics here if I could.
+
+It's also worth noting how their underground journey is depicted on stage. In the Royal Albert Hall performance, Christine and the Phantom traverse across a vertically descending platform, like this:
+
+![In the 2011 Royal Albert Hall performance, Christine and the Phantom traverse across a vertically descending platform.]({{ site.baseurl }}/assets/2024-10-17/POTO-Vertically-descending.jpg){: width="60%" style="display:block; margin-left:auto; margin-right:auto"}
+
+In the West End performance, the platform moves in a zigzag manner, as if the actors are actually walking down a long, elaborate staircase:
+
+![In the West End performance, Christine and the Phantom traverse across a vertically descending platform.]({{ site.baseurl }}/assets/2024-10-17/POTO-Zigzag.jpg){: width="60%" style="display:block; margin-left:auto; margin-right:auto"}
+
+After crossing a subterranean lake by boat, the two finally reaches the Phantom's hidden, candlelit lair. There, the Phantom commands Christine to sing for him, referring to her as _his_ Angel of Music. Entranced, Christine finishes the number by belting an absolutely breathtaking E6, the highest note ever sung in the entire show.
+
+| Differences | On screen | On stage |
+| :---: | :---: | :---: |
+| The Phantom | Ramin Karimloo's portrayal of the Phantom sounds more authoritative and commanding with a persistent hint of emotional vulnerability. | Dean Chisnall's portrayal of the Phantom doesn't sound as vulnerable, but is certainly more hypnotizing and gentle. |
+| Christine | Sierra Boggess' vibrato in the final bars of the song makes the scene a lot more dramatic. | Lily Kerhoas uses little to no vibrato during this number, but her buttery smooth voice definitely makes up for it. |
+
+At the end of this extraordinary number, the Phantom declares why he needs Christine to be with him:
+
+> **PHANTOM:**<br>
+> You have come here<br>
+> For one purpose and one alone:<br>
+> Since the moment I first heard you sing<br>
+> I have needed you with me<br>
+> To serve me --- to sing for my music... my music...
+
+This part is slightly sped up in the West End show, although I prefer the slower pacing in the 2011 performance more.
+
+Seated on his throne, the Phantom continues to hypontize and seduce Christine, with a moving rendition of The Music of the Night.
+
+
 ### The Music of the Night
+
+
+
 
 ### I Remember / Stranger than You Dreamt It
 
