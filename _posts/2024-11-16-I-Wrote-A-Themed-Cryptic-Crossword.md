@@ -17,6 +17,6 @@ I also managed to include a cryptic definition clue, which wasn't mentioned in t
 
 ### The crossword
 
-Download the PDF file [here]({{ site.baseurl }}/assets/2024-11-17/Themed-Cryptic-Crossword.pdf){:target="_blank"}.
+Download the PDF file [here]({{ site.baseurl }}/assets/2024-11-16/Themed-Cryptic-Crossword.pdf){:target="_blank"}.
 
-<object style="margin:auto; display:block" data="{{ site.url }}{{ site.baseurl }}/assets/2024-11-17/Themed-Cryptic-Crossword.pdf" width="95%" height="800" type="application/pdf"></object> 
+<object style="margin:auto; display:block" data="{{ site.url }}{{ site.baseurl }}/assets/2024-11-16/Themed-Cryptic-Crossword.pdf" width="95%" height="800" type="application/pdf"></object> 
