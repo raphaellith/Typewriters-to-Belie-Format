@@ -299,7 +299,7 @@ The figure in the mirror subsequently hypontizes Christine, seemingly trying to 
 | Ending of The Mirror | Raoul comes on stage and shouts for Christine, who had already entered the mirror. | The door of the dressing room is inexplicably thrown wide. Raoul dashes into the room, only to find it empty. Dissonantly, he wonders "whose is that voice, who is that in there" to the melody of Angel of Music. |
 
 
-### The Phantom of the Opera
+### The Phantom of the Opera / The Music of the Night
 
 Immediately we hear the organ resound, signifying the start of the musical's title number. On the other side of the looking glass, Christine unites with her Angel of Music, but quickly realizes that this half-masked individual is more than just her vocal coach; she recognizes him as the Phantom of the Opera, the ghost that has been haunting the opera house for the past three years. Holding a lantern, the Phantom leads Christine as they wander through the underground walkways of the opera house.
 
@@ -335,7 +335,7 @@ After crossing a subterranean lake by boat, the two finally reaches the Phantom'
 | Differences | On screen | On stage |
 | :---: | :---: | :---: |
 | The Phantom | Ramin Karimloo's portrayal of the Phantom sounds more authoritative and commanding with a persistent hint of emotional vulnerability. | Dean Chisnall's portrayal of the Phantom doesn't sound as vulnerable, but is certainly more hypnotizing and gentle. |
-| Christine | Sierra Boggess' vibrato in the final bars of the song makes the scene a lot more dramatic. | Lily Kerhoas uses little to no vibrato during this number, but her buttery smooth voice definitely makes up for it. |
+| Christine | Sierra Boggess' vibrato in the final bars of the song makes the scene a lot more dramatic. | Lily Kerhoas uses little to no vibrato during this number, but her buttery smooth voice still sounds stunningly angelic. |
 
 At the end of this extraordinary number, the Phantom declares why he needs Christine to be with him:
 
@@ -348,19 +348,75 @@ At the end of this extraordinary number, the Phantom declares why he needs Chris
 
 This part is slightly sped up in the West End show, although I prefer the slower pacing in the 2011 performance more.
 
-Seated on his throne, the Phantom continues to hypontize and seduce Christine, with a moving rendition of The Music of the Night.
+Seated on his throne, the Phantom continues to hypontize and seduce Christine, with a touching rendition of The Music of the Night. I don't have a lot to say about this number apart from the fact that both of the versions I've seen are equally touching. It's rare for a song to move me to tears, but this brilliantly soothing serenade, be it performed in a recording or live on stage, is certainly an exception.
+
+> **PHANTOM:**<br>
+> Softly, deftly, music shall caress you<br>
+> Hear it, feel it, secretly possess you<br>
+> Open up your mind<br>
+> Let your fantasies unwind<br>
+> In this darkness that you know you cannot fight<br>
+> The darkness of the music of the night
+>
+> _Let your mind start to journey through a strange new world_<br>
+> _Leave all thoughts of the life you knew before_<br>
+> Let your soul take you where you long to be<br>
+> Only then can you belong to me
+
+(Before seeing the show live, I've seen many comments online criticizing how the lyrics in italics are sung much faster than the rest of the song, which doesn't seem to align with the lulling nature of the song. And while I had the same problem with [some recent recordings of the show](https://www.youtube.com/watch?v=M9u8IoID85M){:target="_blank"}, this tempo change was barely noticeable when viewed live --- at least for me.)
 
 
-### The Music of the Night
+| Differences | On screen | On stage |
+| :---: | :---: | :---: |
+| Christine's fainting during The Music of the Night | Hypnotized by the Phantom's tranquilizing nocturne, Christine feels increasingly light-headed and eventually faints. The Phantom then carries her to a bed. | The Phantom unveils a mannequin which resembles Christine in a wedding dress. As Christine attempts to examine it closely, the mannequin suddenly leans forward, causing Christine to faint from fear and surprise. There is no carrying-to-the-bed on stage, but the Phantom _does_ cover Christine with a blanket. |
 
 
+### I Remember There Was Mist / Stranger than You Dreamt It
+
+The next morning, Christine awakes to the sound of musical box: the same one we saw in the auction at the start of the show. The monkey on the musical box plays its cymbals, as a playful, innocent melody resounds through the Phantom's lair. Bewildered, Christine attempts to recollect what had happened before she fainted. She looks up and sees the Phantom composing music, and wonders what his true identity is.
+
+| Differences | On screen | On stage |
+| :---: | :---: | :---: |
+| The Phantom during I Remember There Was Mist | The Phantom doesn't wear anything on his head (apart from his mask, of course) during this sequence. | The Phantom wears a red fez as he composes his music, which is a nice detail. |
+
+Curiously, Christine sneaks up behind the Phantom to remove his mask, but is aghast as she discovers the Phantom is severely and hideously disfigured on the right half of his face. The Phantom instinctively rises to his feet, furiously berates Christine and even throws her on the floor.
+
+> **PHANTOM:** _(lets out a scream)_ <br>
+> Damn you! You little prying Pandora!<br>
+> You little demon! Is this what you wanted to see?<br>
+> Curse you! You little lying Delilah!<br>
+> You little viper! Now you cannot ever be free!
+
+If only real-life outbursts are this poetic as well. Covering the unsightly half of his face with his hand, the Phantom kneels and eventually crawls across the floor. Apart from begging Christine to return the mask, he also conveys his desire to feel the love of another despite his facial disfigurement.
+
+> **PHANTOM:**<br>
+> Stranger than you dreamt it<br>
+> Can you even dare to look<br>
+> Or bear to think of me<br>
+> This loathsome gargoyle<br>
+> Who burns in hell, but secretly yearns for heaven...<br>
+> Secretly, secretly...
+> 
+> But Christine --- fear can turn to love<br>
+> You'll learn to see<br>
+> To find the man behind the monster<br>
+> This repulsive carcass<br>
+> Who seems a beast, but secretly dreams of beauty...<br>
+> Secretly, secretly...
+
+Overwhelmed with sympathy, Christine gives the mask back to the Phantom, who brings Christine back overground.
+
+| Differences | On screen | On stage |
+| :---: | :---: | :---: |
+| The Phantom's outburst | There's a caveat here: After the performance was recorded on the night, some lines in this scene were ADR'ed for the film as they were deemed too frightening (see [this Reddit post](https://www.reddit.com/r/box5/comments/153f573/did_they_reshoot_stranger_than_you_dreamt_it_for/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button){:target="_blank"}). In short, [Ramin Karimloo's original rendition](https://www.youtube.com/watch?v=_ZOVFEkbY7g){:target="_blank"} was composed almost entirely of screams and screeches, which is horrific and frankly quite amazing; the ADR'ed version was less petrifying but nonetheless emotionally heavy. | There was a mix of words being spoken, shouted and sung. Here, Dean Chisnall chooses to have the word "viper" shouted with emphasis. |
+| Stranger than You Dreamt It | In both versions, Ramin Karimloo delivered the line "dreams of beauty" in a falsetto, highlighting how far-fetched the mere idea of beauty is to the Phantom. | This line is entirely sung, which is a fresh angle for me because I never really thought about what melody it's actually supposed to be sung to before. |
 
 
-### I Remember / Stranger than You Dreamt It
+### Magical Lasso / Notes / Prima Donna
 
-### Magical Lassoo
 
-### Notes / Prima Donna
+### Poor Fool, He Makes Me Laugh
+
 
 ### Why Have You Brought Me Here / All I Ask of You
 
