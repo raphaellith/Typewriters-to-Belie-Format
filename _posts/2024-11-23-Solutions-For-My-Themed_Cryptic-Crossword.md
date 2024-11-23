@@ -2,7 +2,7 @@
 layout: post
 title:  "Solutions to My Themed Cryptic Crossword"
 date:   2024-11-23 10:30:00 +0000
-description: "\"Fencing headlessly\" is half of a cryptic crossword clue (8)"
+description: "\"Fencing headlessly\" is half of cryptic crossword clue (8)"
 tags: puzzle
 ---
 
