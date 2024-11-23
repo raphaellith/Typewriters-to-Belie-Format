@@ -192,7 +192,7 @@ The dialogue itself is fine, but I still find this decision fairly problematic f
 
 - Having to pay attention to the conversation means that the audience cannot enjoy the gracefully synchronized movements from the dancers, which is unfortunate.
 - It's hard to focus on spoken dialogue when there's orchestral music playing in the background.
-- And finally the worst part: pacing. Bear in mind that the entire ballet section lasts for just over a minute. Try reading through the dialogue above (complete with pauses and clear enunciation) in 60 seconds, and you'll soon realize there's no plausible way whatsoever to deliver this part of the script at a natural speed, leaving the actors no choice but to rush through the dialogue at a frankly unorthodox pace.
+- And finally the worst part: pacing. Bear in mind that the whole ballet section lasts for just over a minute. Try reading through the dialogue above (complete with pauses and clear enunciation) in 60 seconds, and you'll soon realize there's no plausible way whatsoever to deliver this part of the script at a natural speed, leaving the actors no choice but to rush through the dialogue at a frankly unorthodox pace.
 
 
 ### Think of Me / Angel of Music
@@ -219,7 +219,7 @@ As Christine meanders backstage, she hears a mysterious voice praising her perfo
 
 | Differences | On screen | On stage |
 | :---: | :---: | :---: |
-| What the mysterious voice says | "Brava. Brava. Bravissima."<br> In Italian, "brava" is the feminine form of "bravo", meaning that the compliment is specifically directed at Christine. Personally, I prefer the use of "brava" instead of "bravi" because it fits better with the entire storyline, as we will see later. | "Bravi. Bravi. Bravissimi."<br> In Italian, "bravi" is the plural form of "bravo", so the compliment is directed to not just Christine, but the entire cast as well. To me, using "bravi" doesn't really make sense as it contradicts Madame Giry's previous comment that the dancers "were a disgrace". |
+| What the mysterious voice says | "Brava. Brava. Bravissima."<br> In Italian, "brava" is the feminine form of "bravo", meaning that the compliment is specifically directed at Christine. Personally, I prefer the use of "brava" instead of "bravi" because it fits better with the rest of the storyline, as we will see later. | "Bravi. Bravi. Bravissimi."<br> In Italian, "bravi" is the plural form of "bravo", so the compliment is directed to not just Christine, but the entire cast as well. To me, using "bravi" doesn't really make sense as it contradicts Madame Giry's previous comment that the dancers "were a disgrace". |
 
 Afterwards, Christine is approached by Meg, who curiously asks how Christine is able to sing so well.
 
@@ -320,7 +320,7 @@ Immediately we hear the organ resound, signifying the start of the musical's tit
 >
 > **CHRISTINE:** ...were both in you!
 
-Rhyming "he's there" with "beware" is genius. Honestly, the entire number is just so sensational I would've included all of its lyrics here if I could.
+Rhyming "he's there" with "beware" is genius. Honestly, the whole number is just so sensational I would've included all of its lyrics here if I could.
 
 It's also worth noting how their underground journey is depicted on stage. In the Royal Albert Hall performance, Christine and the Phantom traverse across a vertically descending platform, like this:
 
@@ -334,8 +334,8 @@ After crossing a subterranean lake by boat, the two finally reaches the Phantom'
 
 | Differences | On screen | On stage |
 | :---: | :---: | :---: |
-| The Phantom | Ramin Karimloo's portrayal of the Phantom sounds more authoritative and commanding with a persistent hint of emotional vulnerability. | Dean Chisnall's portrayal of the Phantom doesn't sound as vulnerable, but is certainly more hypnotizing and gentle. |
-| Christine | Sierra Boggess' vibrato in the final bars of the song makes the scene a lot more dramatic. | Lily Kerhoas uses little to no vibrato during this number, but her buttery smooth voice still sounds stunningly angelic. |
+| The Phantom | Karimloo's portrayal of the Phantom sounds more authoritative and commanding with a persistent hint of emotional vulnerability. | Chisnall's portrayal of the Phantom doesn't sound as vulnerable, but is certainly more hypnotizing and gentle. |
+| Christine | Boggess' vibrato in the final bars of the song makes the scene a lot more dramatic. | Kerhoas uses little to no vibrato during this number, but her buttery smooth voice still sounds stunningly angelic. |
 
 At the end of this extraordinary number, the Phantom declares why he needs Christine to be with him:
 
@@ -408,16 +408,87 @@ Overwhelmed with sympathy, Christine gives the mask back to the Phantom, who bri
 
 | Differences | On screen | On stage |
 | :---: | :---: | :---: |
-| The Phantom's outburst | There's a caveat here: After the performance was recorded on the night, some lines in this scene were ADR'ed for the film as they were deemed too frightening (see [this Reddit post](https://www.reddit.com/r/box5/comments/153f573/did_they_reshoot_stranger_than_you_dreamt_it_for/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button){:target="_blank"}). In short, [Ramin Karimloo's original rendition](https://www.youtube.com/watch?v=_ZOVFEkbY7g){:target="_blank"} was composed almost entirely of screams and screeches, which is horrific and frankly quite amazing; the ADR'ed version was less petrifying but nonetheless emotionally heavy. | There was a mix of words being spoken, shouted and sung. Here, Dean Chisnall chooses to have the word "viper" shouted with emphasis. |
-| Stranger than You Dreamt It | In both versions, Ramin Karimloo delivered the line "dreams of beauty" in a falsetto, highlighting how far-fetched the mere idea of beauty is to the Phantom. | This line is entirely sung, which is a fresh angle for me because I never really thought about what melody it's actually supposed to be sung to before. |
+| The Phantom's outburst | There's a caveat here: After the performance was recorded on the night, some lines in this scene were ADR'ed for the film as they were deemed too frightening (see [this Reddit post](https://www.reddit.com/r/box5/comments/153f573/did_they_reshoot_stranger_than_you_dreamt_it_for/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button){:target="_blank"}). In short, [Karimloo's original rendition](https://www.youtube.com/watch?v=_ZOVFEkbY7g){:target="_blank"} was composed almost entirely of screams and screeches, which is horrific and frankly quite amazing; the ADR'ed version was less petrifying but nonetheless emotionally heavy. | There was a mix of words being spoken, shouted and sung. Here, Chisnall chooses to have the word "viper" shouted with emphasis. |
+| Stranger than You Dreamt It | In both versions, Karimloo delivered the line "dreams of beauty" in a falsetto, highlighting how far-fetched the mere idea of beauty is to the Phantom. | This line is entirely sung, which is a fresh angle for me because I never really thought about what melody it's actually supposed to be sung to before. |
 
 
-### Magical Lasso / Notes / Prima Donna
+### Magical Lasso
+
+Back in the main part of the Opera House, Buquet, the chief of the flies, petrifies the ballet girls with a screech (which is so unbelievably intense in person) and a vividly haunting description of the rumoured Phantom of the Opera. Furthermore, he tells the dancers to be vigilant at all times, or else the Phantom will catch them "with his magical lasso". Upon hearing this, Madame Giry instructs Buquet to hold his tongue and stop his fearmongering, for "those who speak of what they know find too late that prudent silence is wise". This is a relatively short scene, but is an excellent demonstration of Chekhov's gun.
+
+
+### Notes / Prima Donna
+
+In the managers' office, Andre worries about Carlotta's scandalous departure but Firmin argues that this attracts "free publicity" and that "gossip's worth its weight in gold". All of a sudden, Raoul and Carlotta burst into the room as they discover that all four of them have each received letters from the Opera Ghost himself. This includes a letter of demand, a letter of feedback, and two notes stating that Christine will soon replace Carlotta in all future operatic productions. Understandably, these enigmatic letters send everyone into unprecedented chaos, and we see this play out in a patter-esque group number packed with some of the most delicious rhymes in the entire show (underlined):
+
+> **FIRMIN AND ANDRE:** Who would have the gall to send this? Someone with a puerile <u>brain</u>!
+>
+> **FIRMIN:** These are both signed "O.G."
+> 
+> **ANDRE:** Who the hell is he?
+>
+> **BOTH:** Opera Ghost!
+> 
+> **FIRMIN:** It's really not <u>amusing</u>...
+> 
+> **ANDRE:** He's <u>abusing</u> our <u>position</u>...
+>
+> **FIRMIN:** In <u>addition</u> he wants <u>money</u>...
+>
+> **ANDRE:** He's a <u>funny</u> sort of <u>spectre</u>...
+>
+> **BOTH:** ...to <u>expect a</u> large <u>retainer</u> --- nothing <u>plainer</u> --- he is clearly quite <u>insane</u>!
+
+I know I keep rambling on the lighting, but I am genuinely smitten with the lighting and staging in this scene, perhaps more than any other scene in the show. In the Royal Albert Hall version, Andre, Raoul and Carlotta "enter" the managers' office by simply walking onto the stage. On the contrary, the live show features an invisible door that apparently leads from a brightly lit room outside to the relatively dark office, masterfully creating the illusion that the characters are quite literally appearing out of nowhere.
+
+Again, the live show places more emphasis on its comedic elements, such as Firmin's realization of his grammatical mistake:
+
+> **RAOUL:** Monsieur, don't argue; isn't this the letter you wrote?
+>
+> **FIRMIN:** And what is it that we're meant to have wrote? _(Pauses awkwardly)_ ...written?
+
+The same applies to the managers' sarcastic comment regarding the overwhelming number of notes received.
+
+> **ANDRE AND FIRMIN:** Far too many notes for my taste, and most of them about Christine! All we've heard since we came
+is Miss Daaé's name...!
+
+Ironically, this is also when Madame Giry chimes in with a fifth letter, in which the Phantom threatens the managers to cast Christine and Carlotta as leading and silent roles in the house's upcoming production of Il Muto respectively. In addition to this, he asks that his "normal seat in Box Five" be kept empty for him.
+
+Rebelliously, the four ultimately decide to ignore the Phantom's orders, and instead cast Carlotta as the protagonist of Il Muto. This transitions nicely into the next number Prima Donna, where literally everyone in the office somewhat reluctantly
+ingratiates Carlotta. Again, I don't have a lot to say about this number, but I thoroughly enjoyed how the managers keep giving each other the side-eye amidst their insincere sycophancy.
+
+The scene ends with the voice of an enraged Phantom, who declares that "it is to be war between us" and threatens to create "a disaster beyond imagination".
 
 
 ### Poor Fool, He Makes Me Laugh
 
 
-### Why Have You Brought Me Here / All I Ask of You
+
+
+
+
+
+
+
+
+
+
+
+
+| Differences | On screen | On stage |
+| :---: | :---: | :---: |
+| Boxes |  | Boxes moving in |
+| The managers' dialogue at the start of Il Muto | | Added dialogue from the managers at start of Poor Fool (nothing quite like going to the theatre. The old…) + Pre-recorded dialogue (“wise monsieur? … other than box 5”) |
+| The details of Il Muto | | Kissing and vomitting during Poor Fool + The smallness of the Pageboy is really demonstrated, with the dusting of the house, butt shaking (?), and “serving” Carlotta. |
+| How Carlotta tells the conductor to restart the scene |  | Por favor: from Carlotta to conductor during Poor Fool (?) |
+| The Phantom's threat | | The chandelier shakes slightly when the Phantom declares “she is singing to bring down the chandelier” |
+| The ballet | | The impromptu part (Poor Fool) is well-acted, with a significant delay for ballet dancers entering (“the ballet… now!”, Andres collision with ballet dancers), After repeatiny whispering “ballet” to the conductor, Andre still tries to please the audience, mouthing “ballet” multiple times |
+| The climax and Buquet's death | | Shadows of Phantom and his lasso during Poor Fool + The reveal of Buquet’s death is totally unexpected and shocking |
+
+
+### Why Have You Brought Me Here / Raoul I've Been There / All I Ask of You
+
+
+
 
 ### All I Ask of You (Reprise)
