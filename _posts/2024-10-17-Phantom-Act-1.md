@@ -2,7 +2,7 @@
 layout: post
 title:  "From Screen to Stage: Thoughts on Seeing The Phantom of the Opera Live at the West End (Act 1)"
 date:   2024-10-17 21:30:00 +0100
-description: A very, very long post in which a first-time theatregoer pretends to be more knowledgeable than he actually is.
+description: A very, very long post in which a first-time theatregoer pretends to be way more knowledgeable than he actually is.
 tags: theatre-trip review
 ---
 
@@ -36,7 +36,7 @@ And this is that document.
 
 Just kidding. But I _do_ want to paint a picture what I'll be talking about in this article.
 
-Mostly, I'll be comparing what I saw in the 2011 concert film to what I saw on stage, occassionally providing my own analysis of the storyline. I'll be discussing how the proshot shaped my expectations of what's in the musical, and how the live performance met, exceeded or differed from them.
+Mostly, I'll be comparing what I saw in the 2011 concert film to what I saw on stage. I'll be discussing how the proshot shaped my expectations of what's in the musical, and how the live performance met, exceeded or differed from them.
 
 Note how there's a gap in both time and space between these two performances. I know that the 2011 proshot may not be an accurate representation of the show pre-COVID, and that the script has evolved considerably during the last 13 years. Nevertheless, I will _only_ be comparing these two specific performances that I saw --- no more and no less.
 
@@ -63,7 +63,7 @@ Now, in order for me to dive deep into the nitty-gritty of each scene, I'll have
 <div style="text-align: center; border: 3px solid var(--theme-color); border-radius: 5px; background: var(--theme-color-light); padding: 15px; margin: 10px;">
 <b>SPOILER ALERT!</b>
 <br>
-In this article, I'll be going through pretty much every scene in <i>The Phantom of the Opera</i> from start to finish. I'll frequently reference the various plot points of the story, often including excerpts from the show.
+In this article, I'll be going through pretty much every scene in Act 1 of <i>The Phantom of the Opera</i> from start to finish. I'll frequently reference various plot points from the story, often including excerpts from the show.
 </div>
 
 With that formality done, let's start with the opening scene: the prologue.
@@ -83,7 +83,7 @@ The opening scene of Phantom is proleptic: rather than presenting the plot event
 >
 > **AUCTIONEER:** May I commence at 20 francs? _(No bids are placed.)_ Oh, come come, ladies and gentlemen. Fifteen, then?
 
-To me, the bidders' reluctance plays a big part in demonstrating how monetarily and materially worthless the musical box is. The box, which proved unfamiliar to almost all the bidders, was eventually sold to an old man by the name of Raoul, Vicomte de Chagny. This begs the question: Why would Raoul want such a valueless trinket?
+The almost materially worthless musical box, which proved unfamiliar to virtually all the bidders, was eventually sold to an old man by the name of Raoul, Vicomte de Chagny. This brings us to the next auctioned item:
 
 > **AUCTIONEER:** Lot 666 then: A chandelier in pieces. Some of you may recall the strange affair of The Phantom of the Opera, a mystery never fully explained. We are told, ladies and gentlemen, that this is the very chandelier that figures in that famous disaster. Our workshops have restored it and fitted parts of it with wiring for the new electric light, so that we may get a hint of how it may look when reassembled. Perhaps we may even frighten away the ghost of so many years ago, with a little illumination, gentlemen!
 
@@ -412,12 +412,9 @@ Overwhelmed with sympathy, Christine gives the mask back to the Phantom, who bri
 | Stranger than You Dreamt It | In both versions, Karimloo delivered the line "dreams of beauty" in a falsetto, highlighting how far-fetched the mere idea of beauty is to the Phantom. | This line is entirely sung, which is a fresh angle for me because I never really thought about what melody it's actually supposed to be sung to before. |
 
 
-### Magical Lasso
+### Magical Lasso / Notes / Prima Donna
 
 Back in the main part of the Opera House, Buquet, the chief of the flies, petrifies the ballet girls with a screech (which is so unbelievably intense in person) and a vividly haunting description of the rumoured Phantom of the Opera. Furthermore, he tells the dancers to be vigilant at all times, or else the Phantom will catch them "with his magical lasso". Upon hearing this, Madame Giry instructs Buquet to hold his tongue and stop his fearmongering, for "those who speak of what they know find too late that prudent silence is wise". This is a relatively short scene, but is an excellent demonstration of Chekhov's gun.
-
-
-### Notes / Prima Donna
 
 In the managers' office, Andre worries about Carlotta's scandalous departure but Firmin argues that this attracts "free publicity" and that "gossip's worth its weight in gold". All of a sudden, Raoul and Carlotta burst into the room as they discover that all four of them have each received letters from the Opera Ghost himself. This includes a letter of demand, a letter of feedback, and two notes stating that Christine will soon replace Carlotta in all future operatic productions. Understandably, these enigmatic letters send everyone into unprecedented chaos, and we see this play out in a patter-esque group number packed with some of the most delicious rhymes in the entire show (underlined):
 
@@ -447,48 +444,83 @@ Again, the live show places more emphasis on its comedic elements, such as Firmi
 >
 > **FIRMIN:** And what is it that we're meant to have wrote? _(Pauses awkwardly)_ ...written?
 
-The same applies to the managers' sarcastic comment regarding the overwhelming number of notes received.
+and the managers' somewhat sarcastic comment regarding the overwhelming number of notes received:
 
 > **ANDRE AND FIRMIN:** Far too many notes for my taste, and most of them about Christine! All we've heard since we came
 is Miss Daaé's name...!
 
-Ironically, this is also when Madame Giry chimes in with a fifth letter, in which the Phantom threatens the managers to cast Christine and Carlotta as leading and silent roles in the house's upcoming production of Il Muto respectively. In addition to this, he asks that his "normal seat in Box Five" be kept empty for him.
-
-Rebelliously, the four ultimately decide to ignore the Phantom's orders, and instead cast Carlotta as the protagonist of Il Muto. This transitions nicely into the next number Prima Donna, where literally everyone in the office somewhat reluctantly
-ingratiates Carlotta. Again, I don't have a lot to say about this number, but I thoroughly enjoyed how the managers keep giving each other the side-eye amidst their insincere sycophancy.
+Here, Madame Giry chimes in with a fifth letter, in which the Phantom threatens the managers to let Christine star in the house's upcoming production of Il Muto, as well as to keep his "normal seat in Box 5" empty for him during the performance. Rebelliously, the four ultimately decide to ignore the Phantom's orders, and instead give the leading role to Carlotta. This transitions nicely into the next number Prima Donna, where literally everyone in the office decides to ingratiate Carlotta against their better judgement. Again, I don't have a lot to say about this number, but I thoroughly enjoyed how the managers keep giving each other the side-eye amidst their insincere sycophancy.
 
 The scene ends with the voice of an enraged Phantom, who declares that "it is to be war between us" and threatens to create "a disaster beyond imagination".
 
 
 ### Poor Fool, He Makes Me Laugh
 
-
-
-
-
-
-
-
-
-
-
-
-
+We are then presented in this scene the premiere of Il Muto. The opera boxes gradually moves inwards the stage, where Raoul is shown sitting in Box 5.
 
 | Differences | On screen | On stage |
 | :---: | :---: | :---: |
-| Boxes |  | Boxes moving in |
-| The managers' dialogue at the start of Il Muto | | Added dialogue from the managers at start of Poor Fool (nothing quite like going to the theatre. The old…) + Pre-recorded dialogue (“wise monsieur? … other than box 5”) |
-| The details of Il Muto | | Kissing and vomitting during Poor Fool + The smallness of the Pageboy is really demonstrated, with the dusting of the house, butt shaking (?), and “serving” Carlotta. |
-| How Carlotta tells the conductor to restart the scene |  | Por favor: from Carlotta to conductor during Poor Fool (?) |
-| The Phantom's threat | | The chandelier shakes slightly when the Phantom declares “she is singing to bring down the chandelier” |
-| The ballet | | The impromptu part (Poor Fool) is well-acted, with a significant delay for ballet dancers entering (“the ballet… now!”, Andres collision with ballet dancers), After repeatiny whispering “ballet” to the conductor, Andre still tries to please the audience, mouthing “ballet” multiple times |
-| The climax and Buquet's death | | Shadows of Phantom and his lasso during Poor Fool + The reveal of Buquet’s death is totally unexpected and shocking |
+| Boxes | In the 2011 performance, the "opera boxes" are represented by the actual boxes in the Royal Albert Hall. | In the live show, the boxes, represented by set props, are moved onto the stage as Il Muto begins. |
+| Dialogue at the start of Il Muto | As the boxes move in, we hear Andre ask Raoul whether he is sure he wants to sit in Box 5. Raoul replies by saying that there are no other seats available. | In addition to this pre-recorded dialogue from Andre and Raoul, we also hear the managers discuss how there's "nothing quite like going to the theatre". |
+
+As expected, Carlotta is given the leading role of "the Countess", while Christine is forced to play the silent role of "the Pageboy". The smallness nature of the latter role is very clearly demonstrated, with the pageboy having to shake his butt at one point.
+
+The performance, which comedically involves a bit of kissing and vomiting, is quickly interrupted by the Phantom's outcry as he realizes that Box Five is occupied by Raoul. Offended, the Phantom reduces Carlotta's voice to the croaking sound of a toad, rendering her unable to finish her song. The Phantom then declares that Carlotta "is singing to bring down the chandelier". (I'm not sure if this is intended or simply a coincidence, but I'm pretty sure I saw the chandelier shaking gently as the Phantom delivers this line.)
+
+Petrified, the managers stop the show immediately, announcing that the performance will continue shortly with the Countess played by Christine. In the meantime, the ballet girls are instructed to essentially do a bit of filler.
+
+The managers' announcement, and the thirty seconds that follow, are a hilarious intertwining between unscripted improvisation and mild incompetence. Andre whispers the words "the ballet... now!" and repeatedly mouths the word "ballet", the dancers hastily enter the stage after a significant delay, and Firmin keeps disrupting their choreography by awkwardly bumping into the dancers.
+
+Despite the managers' last-minute fix, the damage has been done. While the dancers perform to a Mozart-esque tune, an enormous shadow of the Phantom with his lasso is repeatedly flashed onto the fly. Suddenly, Buquet's garotted body suddenly falls onto the stage, once again leading to mayhem among the cast and the managers.
+
+I think the build-up to this climatic moment is incredibly well-crafted. The Phantom's increasingly ominous silhouette, the crescendoing melody from the string section, and the ballet dancers slowly panicking as they start to realise what's happening --- all of this leads up to the unexpected reveal of Buquet's death, which apparently is still scary enough to give me a figurative heart attack, even though I knew it was coming.
+
 
 
 ### Why Have You Brought Me Here / Raoul I've Been There / All I Ask of You
 
+Amid the commotion, Christine escapes with Raoul to the roof of the Opera House, where she basically has a mental breakdown, afraid that she will never break free from the nameless, possessive yet somewhat piteous Phantom that Raoul insists is nonexistent.
+
+> **CHRISTINE/RAOUL:** The Phantom of the Opera is here inside my/your mind!
+>
+> **RAOUL:** There is no Phantom of the Opera! _(...)_
+>
+> **CHRISTINE:**<br>
+> Raoul, I've seen him!<br>
+> Can I ever forget that sight?<br>
+> Can I ever escape from that face<br>
+> So distorted, deformed<br>
+> It was hardly a face in that darkness
+>
+> But his voice filled my spirit with a strange sweet sound<br>
+> In that night there was music in my mind<br>
+> And through music my soul began to soar<br>
+> And I heard as I'd never heard before _(...)_<br>
+> Yet in his eyes --- all the sadness of the world<br>
+> Those pleading eyes that both threaten and adore
+
+| Differences | On screen | On stage |
+| :---: | :---: | :---: |
+| The roof of the Opera House | In the Royal Albert Hall production, the actors enter the "roof" by simply walking onto the stage. The enormous screen display behind shows the exterior of a dome-like structure. | The actors enter the "roof" by walking upstairs from what I believe is a trap door. The back half of the stage is predominantly occupied by a gigantic Pegasus statue. |
+
+Seeing this, Raoul cheers Christine up by declaring his love to her and vowing to be her guide and guardian.
+
+> **RAOUL:**<br>
+> Let me be your shelter<br>
+> Let me be your light<br>
+> You're safe, no one will find you<br>
+> Your fears are far behind you _(...)_<br>
+> Say you'll share with me one love, one lifetime<br>
+> Let me lead you from your solitude<br>
+
+This song, All I Ask of You, is such a heartwarming number that provides some much-needed calm amidst the chaos. Another thing that falls within the "I don't know if it's intended or not" category is the fact that a spotlight briefly shines on the pair as Raoul sings “let me be your light”. I have no clue whether this is a coincidence, but it's certainly a nice detail.
 
 
 
 ### All I Ask of You (Reprise)
+
+
+
+
+
+### Conclusion
