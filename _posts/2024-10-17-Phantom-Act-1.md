@@ -12,7 +12,7 @@ Sometime around November 2023, YouTube recommended to me a video with a rather i
 
 That video, posted by the channel _The Shows Must Go On!_, was in fact a proshot of _The Phantom of the Opera_, the second longest-running West End musical of all time (after _Les Misérables_). Released in 2011, the concert film marked the musical's 25th anniversary, and was officially titled _The Phantom of the Opera at the Royal Albert Hall_. During the COVID-19 epidemic, the full recording was released on YouTube free of charge amid theatre closures.
 
-Now, I'm not typically a fan of fictional media, so when I do discover something that I really enjoy, I tend to become quite obsessed with it (in a healthy way), and this one was no exception. Hooked by the show's enigmatic and captivating premise, I binged through all 2 hours and 41 minutes of the show on my phone (albeit in multiple sittings). Over the past year, I've rewatched the film countless times*, the proshot's soundtrack became my most-streamed album of 2023, and I've even learnt to play the title number on piano.
+Now, I'm not typically a fan of fictional media, so when I discover a story that I really enjoy, I tend to become quite obsessed with it (in a healthy way), and this one was no exception. Hooked by the show's enigmatic and captivating premise, I binged through all 2 hours and 41 minutes of the show on my phone (albeit in multiple sittings). Over the past year, I've rewatched the film countless times*, the proshot's soundtrack became my most-streamed album of 2023, and I've even learnt to play the title number on piano.
 
 (*Unfortunately, [the video](https://www.youtube.com/watch?v=nINQjT7Zr9w){:target="_blank"} got taken down from YouTube at some point and is to this day not accessible to the public, at least not for free. Instead, only [snippets from the show](https://youtube.com/playlist?list=PLRImnjFIgJIWRMkXEoKmaUgW8qihGyRnm&si=CICqYVnIZOYwz_j9){:target="_blank"} are available. That was the day I realized how useful [the Internet Archive](https://archive.org/details/The_Phantom_of_The_Opera_Full_Stage_Show){:target="_blank"} and [Wayback Machine video downloaders](https://www.waybackyt.download){:target="_blank"} were.)
 
@@ -23,24 +23,24 @@ I can neither confirm nor deny whether my ever-growing desire to see this master
 
 ![His Majesty's Theatre at London's West End.]({{ site.baseurl }}/assets/2024-10-17/His-Majestys-Theatre.jpeg){: width="60%" style="display:block; margin-left:auto; margin-right:auto"}
 
-Full disclosure: Prior to this theatre trip, I spent literal weeks repeatedly telling myself to lower my expectations, that it was going to be nothing like the 2011 proshot, and that it would be an utter trainwreck of a show. And I did this for good reason. When theatres were forced to shut down due to COVID restrictions in 2020, the production company behind Phantom took the opportunity to modify the scenic design, staging, orchestrations and many other aspects of the show. Apparently, not everyone was happy with these changes, and if you browsed through the comment sections of some then-recent [slime tutorials](https://www.urbandictionary.com/define.php?term=slime+tutorial){:target="_blank"} like [this one](https://www.youtube.com/watch?v=8gKVuKpaCPA){:target="_blank"} or [this one](https://www.youtube.com/watch?v=kpkE3haNRQk){:target="_blank"}, you'd occasionally find a fair number of negative remarks regarding the musical's post-COVID revival: actors rushing through their lines, underwhelming orchestrations and oversimplified staging, to name but a few.
+Full disclosure: Prior to this theatre trip, I spent literal weeks repeatedly telling myself to lower my expectations, that it was going to be nothing like the 2011 proshot, and that it would be an utter trainwreck of a show. And I did this for good reason. When theatres were forced to shut down due to COVID restrictions in 2020, the production company behind Phantom took the opportunity to modify the scenic design, staging, orchestrations and many other aspects of the show. Apparently, not everyone was happy with these changes, and if you browsed through the comment sections of some then-recent [slime tutorials](https://www.urbandictionary.com/define.php?term=slime+tutorial){:target="_blank"} like [this one](https://www.youtube.com/watch?v=8gKVuKpaCPA){:target="_blank"} or [this one](https://www.youtube.com/watch?v=kpkE3haNRQk){:target="_blank"}, you'd find a fair number of negative remarks regarding the musical's post-COVID revival: actors rushing through their lines, underwhelming orchestrations and oversimplified staging, to name but a few.
 
-Having now seen the show myself, I will have to respectfully disagree with some of these commenters' opinions. Without giving too much away, the performance I witnessed that night might be without exaggeration the best thing I've ever seen: the entrancingly stunning set design, the thrilling yet touching score, and the realistic but nonetheless emotive acting, together amalgamating to give a brilliantly executed rendition of a heartbreakingly beautiful romantic tragedy. It truly was one of those really memorable experiences where you'll probably never forget it for the rest of your life, but it's so good you still want to document it somewhere just in case.
+Having now seen the show myself, I will have to respectfully disagree with some of these commenters' opinions. Without giving too much away, the performance I witnessed that night might be without exaggeration the best thing I've ever seen: the entrancingly stunning set design, the thrilling yet touching score, and the realistic but nonetheless emotive acting, together amalgamating to give a brilliantly executed rendition of a heartbreakingly beautiful romantic tragedy. It was truly one of those unforgettable experiences --- so remarkable that, even though you'll never forget it, you still want to document it just in case.
 
 And this is that document.
 
 
 ### Before we begin...
 
-...please switch off or set your phone to silent. Cameras and recording devices are not permitted here.
+...please switch off or set your phone to silent. Cameras and recording devices are not permitted inside the theatre.
 
-Just kidding. But I _do_ want to paint a picture what I'll be talking about in this article.
+Just kidding. But I _do_ want to paint a picture of what this article is about.
 
 Mostly, I'll be comparing what I saw in the 2011 concert film to what I saw on stage. I'll be discussing how the proshot shaped my expectations of what's in the musical, and how the live performance met, exceeded or differed from them.
 
 Note how there's a gap in both time and space between these two performances. I know that the 2011 proshot may not be an accurate representation of the show pre-COVID, and that the script has evolved considerably during the last 13 years. Nevertheless, I will _only_ be comparing these two specific performances that I saw --- no more and no less.
 
-![There's a gap in both time and space between the two performances.]({{ site.baseurl }}/assets/2024-10-17/Time-space-graph.jpg){: width="95%" style="display:block; margin-left:auto; margin-right:auto"}
+![There's a gap in both time and space between the two performances.]({{ site.baseurl }}/assets/2024-10-17/Time-space-graph.jpeg){: width="95%" style="display:block; margin-left:auto; margin-right:auto"}
 
 | Cast list | _The Phantom of the Opera <br> at the Royal Albert Hall_ <br> (2011 concert film) | _The Phantom of the Opera_ <br> (18 Sep 2024, <br> His Majesty's Theatre) |
 | :---: | :---: | :---: |
@@ -49,8 +49,8 @@ Note how there's a gap in both time and space between these two performances. I 
 | Raoul, Vicomte de Chagny | Hadley Fraser | Joe Griffiths-Brown |
 | Carlotta Giudicelli | Wendy Ferguson | Zoe Vallee |
 | Monsieur Richard Firmin | Barry James | Martin Ball |
-| Monsieur Gilles André | Gareth Snook | Samuel Haughton|
-| Madame Giry | Liz Robertson | Helen Hobson|
+| Monsieur Gilles André | Gareth Snook | Samuel Haughton |
+| Madame Giry | Liz Robertson | Helen Hobson |
 | Meg Giry | Daisy Maywood | Millie Lyon |
 | Ubaldo Piangi | Wynne Evans | David Kristopher-Brown |
 | Monsieur Reyer | Philip Griffiths | George Arvidson |
@@ -63,7 +63,7 @@ Now, in order for me to dive deep into the nitty-gritty of each scene, I'll have
 <div style="text-align: center; border: 3px solid var(--theme-color); border-radius: 5px; background: var(--theme-color-light); padding: 15px; margin: 10px;">
 <b>SPOILER ALERT!</b>
 <br>
-In this article, I'll be going through pretty much every scene in Act 1 of <i>The Phantom of the Opera</i> from start to finish. I'll frequently reference various plot points from the story, often including excerpts from the show.
+In this article, I'll be going through pretty much every scene in Act 1 of <i>The Phantom of the Opera</i> from start to finish, often including excerpts from the show.
 </div>
 
 With that formality done, let's start with the opening scene: the prologue.
@@ -71,7 +71,7 @@ With that formality done, let's start with the opening scene: the prologue.
 
 ### Prologue / Overture
 
-The opening scene of Phantom is proleptic: rather than presenting the plot events in completely chronological order, the play begins by introducing us to the ending of the story. As the audience arrive and are seated at the auditorium, we are greeted by a series of mystifying props placed across the stage, each covered with a sizeable piece of fabric. All of a sudden, a wave of silence comes over the crowd as the lights are dimmed and the actors swiftly take the stage. A bang from the auctioneer's gavel is heard, marking the commencement of the play and transporting us to the stage of the Paris Opera House (a.k.a. the Opera Populaire) in 1905.
+The opening scene of Phantom is proleptic: rather than presenting the plot events in completely chronological order, the play begins by introducing us to the story's ending (or rather, an event that happens decades after the story's ending). As the audience arrive and are seated at the auditorium, they are greeted by a series of mystifying props placed across the stage, each covered with a sizeable piece of fabric. A wave of silence slowly comes over the crowd as the lights are dimmed and the actors swiftly take the stage. A bang from the auctioneer's gavel is heard, marking the commencement of the play and transporting us to the stage of the Paris Opera House (a.k.a. the Opera Populaire) in 1905.
 
 ![The stage setup as viewed before the opening scene begins.]({{ site.baseurl }}/assets/2024-10-17/Prologue.jpeg){: width="60%" style="display:block; margin-left:auto; margin-right:auto"}
 
@@ -87,16 +87,16 @@ The almost materially worthless musical box, which proved unfamiliar to virtuall
 
 > **AUCTIONEER:** Lot 666 then: A chandelier in pieces. Some of you may recall the strange affair of The Phantom of the Opera, a mystery never fully explained. We are told, ladies and gentlemen, that this is the very chandelier that figures in that famous disaster. Our workshops have restored it and fitted parts of it with wiring for the new electric light, so that we may get a hint of how it may look when reassembled. Perhaps we may even frighten away the ghost of so many years ago, with a little illumination, gentlemen!
 
-Just like the musical box, this monologue is somehow even more sensational when viewed in person. Every time I watch the 2011 recording, I'm totally blown away by the auctioneer's delivery in his introduction to the iconic chandelier, especially the way he projects his voice when authoritatively ordering the "gentlemen" to uncover and light up the chandelier in the final line. Seeing this scene in the flesh is equally if not more astonishing; it definitely lives up to what was shown in the Royal Albert Hall performance.
+Just like the musical box, this monologue is somehow even more sensational when viewed in person. Every time I watch the 2011 recording, I'm totally blown away by the auctioneer's delivery in his introduction to the iconic chandelier, especially the way he projects his voice when authoritatively ordering the men to uncover and light up the chandelier in the final line. Seeing this scene in the flesh is equally if not more astonishing, and it definitely lives up to what was shown in the Royal Albert Hall performance.
 
 Immediately after the end of this dramatic monologue, the chandelier is revealed with flashing fulminations, the stage is once again brightly lit, and the theatre is filled with the hair-raising sound of the famous pipe organ. Energized by the overture's grandiloquent melody, the audience is taken further back in time, to a point where the Opera House is as yet in its prime. (In the film, opening credits are displayed on screen as the overture plays, which is a shame because viewers can't really experience this wondrous multidimensional back-in-time transition in full.)
 
-I cannot overstate how exhilarating it is to listen to the overture performed by an actual orchestra, especially the roaring blast of the organ when it plays the spine-chilling B-flat minor chord at the beginning. You can genuinely feel it in your bones. It was so electrifyingly powerful that --- I wish this was a hyperbole --- I literally could not feel my fingers for the first half of Act 1. Listening to the overture with headphones is one thing; experiencing it in person is undoubtedly another.
+I cannot overstate how exhilarating it is to listen to the overture performed by an actual orchestra, especially the roaring blast of the organ when it plays the spine-chilling B-flat minor chord at the beginning. You can genuinely feel it in your bones. It was so electrifyingly powerful that --- and I wish this was a hyperbole --- I literally could not feel my fingers for the first half of Act 1. Listening to the overture with headphones is one thing; experiencing it in person is undoubtedly another.
 
 
 ### Hannibal Rehearsal
 
-Following the end of our time-travelling journey, the first note we hear is from the Opera House's leading soprano Carlotta, in a rehearsal for an upcoming production of the opera Hannibal. Carlotta's performance is supported by, among others, the occassionally inept but stubborn tenor Piangi, who at one point mispronounces his lyrics and is corrected by the Opera House's maestro Monsieur Reyer:
+Following the end of our time-travelling journey, the first note we hear comes from the Opera House's leading soprano Carlotta, in a rehearsal for an upcoming production of the opera Hannibal. Carlotta's performance is supported by, among others, the occassionally inept but stubborn tenor Piangi, who at one point mispronounces his lyrics and is corrected by the Opera House's maestro Monsieur Reyer:
 
 > **PIANGI (as Hannibal):**
 > Sad to return to find the land we love, threatened once more by _Roma's_ far-reaching grasp...
@@ -116,7 +116,7 @@ Piangi's debate with Reyer provides an illustration of his obstinacy: He knows g
 | How Piangi's reluctance is exhibited | Piangi switches from ```/ˈro.ma/``` to ```/ɹəʊm/``` with a slightly patronizing undertone. | Piangi hardly conceals his patronization, comedically pronouncing "Rome" as ```/ɹəʊmːː/``` with a mockingly long ```/mːː/``` sound at the end. |
 | How the rehearsal ends | Piangi is unable to unsheathe his sword from his scabbard, giving us the impression that this is indeed merely a rehearsal, with a couple of places that are yet to be perfected. | The live show really upped their schadenfreude game: Here, Piangi attempts but fails to mount an enormous prop elephant, which is a hilarious sight to behold. (Throughout the play, Piangi seems to be main source of comic relief, which I'll come back to later on.) |
 
-After the rehearsal, Monsieur Lefevre, the owner of the Opera Populaire, announces his retirement and introduces the new managers Monsieur Firmin and Monsieur André. Firmin then requests whether Carlotta could perform for him an aria from Hannibal (titled "Think of Me") as a personal favor, to which Carlotta promptly accedes. One verse into the aria though, this happens:
+After the rehearsal, Monsieur Lefevre, the owner of the Opera Populaire, announces his retirement and introduces the new managers Monsieur Firmin and Monsieur André. Firmin then requests whether Carlotta could perform for him an aria from Hannibal as a personal favor, to which Carlotta promptly accedes. One verse into the aria though, this happens:
 
 > _(The scenic backdrop on stage falls from the flies unexpectedly, seemingly without explanation.)_
 >
@@ -136,15 +136,15 @@ After the rehearsal, Monsieur Lefevre, the owner of the Opera Populaire, announc
 
 In an attempt to trivialize this apparent accident, Firmin comments that "these things do happen", but is rebutted by Carlotta, who is angered by the fact that the Opera House has long been jinxed by these inexplicable mishaps, and that no one has done anything to stop them. Both Carlotta and Piangi furiously storm offstage (with the latter amusingly calling the managers "amateurs"). 
 
-In response to this, both the ballet mistress Madame Giry and her daughter/ballet girl Meg Giry propose that Christine Daaé, a chorus girl who also happens to be the daughter of a well-known violinist, replace Carlotta in Hannibal.
+In response to this, both the ballet mistress Madame Giry and her daughter/ballet girl Meg Giry propose that Christine Daaé, a dancer who also happens to be the daughter of a well-known violinist, replace Carlotta in Hannibal.
 
 > **MEG:** Christine Daaé could sing it, sir.
 >
-> **ANDRE:** A ballet girl?
+> **ANDRÉ:** A ballet girl?
 >
 > **MEG:** Well, she's been taking lessons from a great teacher.
 >
-> **ANDRE:** Oh, from whom?
+> **ANDRÉ:** Oh, from whom?
 >
 > **CHRISTINE:** I don't know, sir.
 >
@@ -156,7 +156,7 @@ In response to this, both the ballet mistress Madame Giry and her daughter/balle
 >
 > **MADAME GIRY:** Let her sing for you, monsieur. She has been well-taught.
 
-You would expect that this scene is the one where we are first introduced to the story's protagonist --- Christine Daaé. While this is true for the 2011 version, that's not exactly how that conversation went in the live performance, which brings me to my first criticism of the stage show. Remember the delightful ballet section from earlier? Apparently someone decided to insert an additional piece of dialogue _during_ the ballet rehearsal:
+You would expect that this scene is the one where we are first introduced to the story's protagonist --- Christine Daaé. While this is true for the 2011 version, that's not exactly how that conversation went in the live performance, which brings me to my first criticism of the stage show. Remember the delightful ballet section from earlier? Apparently there is now an additional piece of dialogue _during_ the ballet rehearsal:
 
 > **PIANGI (as Hannibal):** Tonight, rejoice: your army has come home. _(Ballet section begins.)_
 >
@@ -170,9 +170,9 @@ You would expect that this scene is the one where we are first introduced to the
 >
 > **LEFEVRE:** _(pauses, ignoring question)_ We take a particular pride here in the excellence of our ballets.
 >
-> **ANDRE:** _(pointing to Meg Giry)_ Who's that girl, Lefevre?
+> **ANDRÉ:** _(pointing to Meg Giry)_ Who's that girl, Lefevre?
 >
-> **LEFEVRE:** Her? Meg Giry, Madame Giry's daughter. Promising dancer, Monsieur Andre, most promising.
+> **LEFEVRE:** Her? Meg Giry, Madame Giry's daughter. Promising dancer, Monsieur André, most promising.
 >
 > _(Ballet continues, with Christine messing up the choregraphy a few seconds later)_
 >
@@ -184,7 +184,7 @@ You would expect that this scene is the one where we are first introduced to the
 >
 > **LEFEVRE:** Swedish.
 >
-> **ANDRE:** Any relation to the violinist?
+> **ANDRÉ:** Any relation to the violinist?
 >
 > **LEFEVRE:** His daughter, I believe. Always has her head in the clouds, I'm afraid. _(Ballet section ends.)_
 
@@ -197,9 +197,9 @@ The dialogue itself is fine, but I still find this decision fairly problematic f
 
 ### Think of Me / Angel of Music
 
-Now, where was I? Oh right: Carlotta storms off and Madame Giry recommends Christine as a stand-in soprano. As a ballet girl, Christine isn't necessarily familiar with the lyrics and melody for Think of Me, which is why Monsieur Reyer, quite hysterically, offered her a very brief one-second glimpse at the sheet music, before promptly taking it away. This part wasn't featured in the 2011 proshot, so I certainly did not see that gag coming --- it's hilarious.
+Anyway, Carlotta storms off and Madame Giry recommends Christine as a stand-in soprano. As a ballet girl, Christine isn't necessarily familiar with the lyrics and melody for Think of Me, which is why Monsieur Reyer, quite hysterically, offered her a very brief one-second glimpse at the sheet music, before promptly taking it away. This part wasn't featured in the 2011 proshot, so I certainly did not see that gag coming --- it's hilarious.
 
-In spite of her initial nervousness (which is portrayed incredibly in both productions), Christine manages to deliver a stunning rendition of Think of Me, be it during the rehearsal or in the live performance of Hannibal. Midway through the aria, we are also introduced to Raoul, Vicomte de Chagny, who as the Opera House's patron is watching Christine, her childhood friend, from an opera box. The song ends with a short, _a capella_ cadenza for which, while Kerhoas' singing is undeniably impressive, I personally prefer Boggess' performance in the 25th anniversary proshot due to the vibrancy of her voice.
+In spite of her initial nervousness (which is portrayed incredibly in both productions), Christine manages to deliver a stunning rendition of Think of Me, be it during the rehearsal or in the live performance of Hannibal. Midway through the aria, we are also introduced to Raoul, who as the Opera House's patron is watching Christine, her childhood friend, from an opera box. The song ends with a short _a capella_ cadenza for which, while Kerhoas' singing is undeniably impressive, I personally prefer Boggess' performance in the 25th anniversary proshot due to the vibrancy of her voice.
 
 Following her opera debut, Christine is reunited with her fellow dancers and is complimented by Madame Giry:
 
@@ -219,7 +219,7 @@ As Christine meanders backstage, she hears a mysterious voice praising her perfo
 
 | Differences | On screen | On stage |
 | :---: | :---: | :---: |
-| What the mysterious voice says | "Brava. Brava. Bravissima."<br> In Italian, "brava" is the feminine form of "bravo", meaning that the compliment is specifically directed at Christine. Personally, I prefer the use of "brava" instead of "bravi" because it fits better with the rest of the storyline, as we will see later. | "Bravi. Bravi. Bravissimi."<br> In Italian, "bravi" is the plural form of "bravo", so the compliment is directed to not just Christine, but the entire cast as well. To me, using "bravi" doesn't really make sense as it contradicts Madame Giry's previous comment that the dancers "were a disgrace". |
+| What the voice says | "Brava. Brava. Bravissima."<br> In Italian, "brava" is the feminine form of "bravo", meaning that the compliment is specifically directed at Christine. Personally, I prefer the use of "brava" instead of "bravi" because it fits better with the rest of the storyline, as we will see later. | "Bravi. Bravi. Bravissimi."<br> In Italian, "bravi" is the plural form of "bravo", so the compliment is directed to not just Christine, but the entire cast as well. To me, using "bravi" doesn't really make sense as it contradicts Madame Giry's previous comment that the dancers "were a disgrace". |
 
 Afterwards, Christine is approached by Meg, who curiously asks how Christine is able to sing so well.
 
@@ -292,7 +292,7 @@ Following a brief drumroll, we hear the mysterious voice return, irately critici
 
 To put it briefly, the lighting for the mirror here is amazing, and the pale illumination therein sells ghost-in-the-mirror effect really well. In the Royal Albert Hall performance, the mirror is represented by a huge vertical screen, which _works_ but is definitely not as realistic. (The half-mask on the screen display is also placed on the wrong half of the face, but it's not really that noticeable --- I didn't spot it until someone pointed it out online.)
 
-The figure in the mirror subsequently hypontizes Christine, seemingly trying to convince Christine that he _is_ her Angel of Music. At the same time, Raoul attempts to open the dressing room door in vain. It wasn't until the ghostlike figure invites Christine to enter the mirror, that the door rapidly springs open, leaving Raoul confused as to where Christine went.
+The figure in the mirror subsequently hypontizes Christine, seemingly trying to convince Christine that he _is_ her Angel of Music. At the same time, Raoul attempts to open the dressing room door, but in vain. It wasn't until the ghostlike figure invites Christine to enter the mirror that the door rapidly springs open, leaving Raoul confused as to where Christine went.
 
 | Differences | On screen | On stage |
 | :---: | :---: | :---: |
@@ -320,21 +320,21 @@ Immediately we hear the organ resound, signifying the start of the musical's tit
 >
 > **CHRISTINE:** ...were both in you!
 
-Rhyming "he's there" with "beware" is genius. Honestly, the whole number is just so sensational I would've included all of its lyrics here if I could.
+Rhyming "he's there" with "beware" is genius. Honestly, the whole number is so flawlessly written I would've included all of its lyrics here if I could.
 
-It's also worth noting how their underground journey is depicted on stage. In the Royal Albert Hall performance, Christine and the Phantom traverse across a vertically descending platform, like this:
+It's worth noting how their underground journey is depicted on stage. In the Royal Albert Hall performance, Christine and the Phantom traverse across a vertically descending platform, like this:
 
-![In the 2011 Royal Albert Hall performance, Christine and the Phantom traverse across a vertically descending platform.]({{ site.baseurl }}/assets/2024-10-17/POTO-Vertically-descending.jpg){: width="60%" style="display:block; margin-left:auto; margin-right:auto"}
+![In the 2011 Royal Albert Hall performance, Christine and the Phantom traverse across a vertically descending platform.]({{ site.baseurl }}/assets/2024-10-17/POTO-Vertically-descending.jpg){: width="70%" style="display:block; margin-left:auto; margin-right:auto"}
 
 In the West End performance, the platform moves in a zigzag manner, as if the actors are actually walking down a long, elaborate staircase:
 
-![In the West End performance, Christine and the Phantom traverse across a vertically descending platform.]({{ site.baseurl }}/assets/2024-10-17/POTO-Zigzag.jpg){: width="60%" style="display:block; margin-left:auto; margin-right:auto"}
+![In the West End performance, Christine and the Phantom traverse across a vertically descending platform.]({{ site.baseurl }}/assets/2024-10-17/POTO-Zigzag.jpeg){: width="50%" style="display:block; margin-left:auto; margin-right:auto"}
 
 After crossing a subterranean lake by boat, the two finally reaches the Phantom's hidden, candlelit lair. There, the Phantom commands Christine to sing for him, referring to her as _his_ Angel of Music. Entranced, Christine finishes the number by belting an absolutely breathtaking E6, the highest note ever sung in the entire show.
 
 | Differences | On screen | On stage |
 | :---: | :---: | :---: |
-| The Phantom | Karimloo's portrayal of the Phantom sounds more authoritative and commanding with a persistent hint of emotional vulnerability. | Chisnall's portrayal of the Phantom doesn't sound as vulnerable, but is certainly more hypnotizing and gentle. |
+| The Phantom | Karimloo's portrayal of the Phantom sounds more authoritative and commanding, with a persistent hint of emotional vulnerability, which I think is a key element of the Phantom's character. | Chisnall's portrayal of the Phantom doesn't sound as vulnerable, but is certainly more hypnotizing and gentle. |
 | Christine | Boggess' vibrato in the final bars of the song makes the scene a lot more dramatic. | Kerhoas uses little to no vibrato during this number, but her buttery smooth voice still sounds stunningly angelic. |
 
 At the end of this extraordinary number, the Phantom declares why he needs Christine to be with him:
@@ -346,9 +346,9 @@ At the end of this extraordinary number, the Phantom declares why he needs Chris
 > I have needed you with me<br>
 > To serve me --- to sing for my music... my music...
 
-This part is slightly sped up in the West End show, although I prefer the slower pacing in the 2011 performance more.
+This part is slightly sped up in the West End show, and frankly I prefer the slower pacing in the 2011 performance more.
 
-Seated on his throne, the Phantom continues to hypontize and seduce Christine, with a touching rendition of The Music of the Night. I don't have a lot to say about this number apart from the fact that both of the versions I've seen are equally touching. It's rare for a song to move me to tears, but this brilliantly soothing serenade, be it performed in a recording or live on stage, is certainly an exception.
+Seated on his throne, the Phantom continues to hypontize and seduce Christine, with a moving rendition of The Music of the Night. I don't have a lot to say about this number apart from the fact that both of the versions I've seen are equally touching. It's rare for a song to move me to tears, but this brilliantly soothing serenade, be it performed in a recording or live on stage, is certainly an exception.
 
 > **PHANTOM:**<br>
 > Softly, deftly, music shall caress you<br>
@@ -363,7 +363,7 @@ Seated on his throne, the Phantom continues to hypontize and seduce Christine, w
 > Let your soul take you where you long to be<br>
 > Only then can you belong to me
 
-(Before seeing the show live, I've seen many comments online criticizing how the lyrics in italics are sung much faster than the rest of the song, which doesn't seem to align with the lulling nature of the song. And while I had the same problem with [some recent recordings of the show](https://www.youtube.com/watch?v=M9u8IoID85M){:target="_blank"}, this tempo change was barely noticeable when viewed live --- at least for me.)
+(Before seeing the show live, I've seen many comments online criticizing how the lyrics in italics are sung much faster than the rest of the song, which doesn't seem to align with its lulling nature. And while I had the same problem with [some recent recordings of the show](https://www.youtube.com/watch?v=M9u8IoID85M){:target="_blank"}, this tempo change was barely noticeable when viewed live --- at least for me.)
 
 
 | Differences | On screen | On stage |
@@ -373,13 +373,13 @@ Seated on his throne, the Phantom continues to hypontize and seduce Christine, w
 
 ### I Remember There Was Mist / Stranger than You Dreamt It
 
-The next morning, Christine awakes to the sound of musical box: the same one we saw in the auction at the start of the show. The monkey on the musical box plays its cymbals, as a playful, innocent melody resounds through the Phantom's lair. Bewildered, Christine attempts to recollect what had happened before she fainted. She looks up and sees the Phantom composing music, and wonders what his true identity is.
+The next morning, Christine awakes to the sound of the same musical box we saw in the auction at the start of the show. The monkey on the musical box plays its cymbals, as a playful, innocent melody resounds through the Phantom's lair. Bewildered, Christine attempts to recollect what had happened before she fainted. She looks up to see the Phantom composing music, and wonders what his true identity is.
 
 | Differences | On screen | On stage |
 | :---: | :---: | :---: |
 | The Phantom during I Remember There Was Mist | The Phantom doesn't wear anything on his head (apart from his mask, of course) during this sequence. | The Phantom wears a red fez as he composes his music, which is a nice detail. |
 
-Curiously, Christine sneaks up behind the Phantom to remove his mask, but is aghast as she discovers the Phantom is severely and hideously disfigured on the right half of his face. The Phantom instinctively rises to his feet, furiously berates Christine and even throws her on the floor.
+Curiously, Christine sneaks up behind the Phantom to remove his mask, but is aghast as she discovers the right half of the Phantom's face is severely and hideously disfigured. The Phantom instinctively rises to his feet, furiously berates Christine and even throws her on the floor.
 
 > **PHANTOM:** _(lets out a scream)_ <br>
 > Damn you! You little prying Pandora!<br>
@@ -404,39 +404,39 @@ If only real-life outbursts are this poetic as well. Covering the unsightly half
 > Who seems a beast, but secretly dreams of beauty...<br>
 > Secretly, secretly...
 
-Overwhelmed with sympathy, Christine gives the mask back to the Phantom, who brings Christine back overground.
+Overwhelmed with sympathy, Christine returns the mask to the Phantom, who brings Christine back overground.
 
 | Differences | On screen | On stage |
 | :---: | :---: | :---: |
-| The Phantom's outburst | There's a caveat here: After the performance was recorded on the night, some lines in this scene were ADR'ed for the film as they were deemed too frightening (see [this Reddit post](https://www.reddit.com/r/box5/comments/153f573/did_they_reshoot_stranger_than_you_dreamt_it_for/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button){:target="_blank"}). In short, [Karimloo's original rendition](https://www.youtube.com/watch?v=_ZOVFEkbY7g){:target="_blank"} was composed almost entirely of screams and screeches, which is horrific and frankly quite amazing; the ADR'ed version was less petrifying but nonetheless emotionally heavy. | There was a mix of words being spoken, shouted and sung. Here, Chisnall chooses to have the word "viper" shouted with emphasis. |
-| Stranger than You Dreamt It | In both versions, Karimloo delivered the line "dreams of beauty" in a falsetto, highlighting how far-fetched the mere idea of beauty is to the Phantom. | This line is entirely sung, which is a fresh angle for me because I never really thought about what melody it's actually supposed to be sung to before. |
+| The Phantom's outburst | There's a caveat here: After the performance was recorded on the night, some lines in this scene were ADR'ed for the film as they were deemed too frightening (see [this Reddit post](https://www.reddit.com/r/box5/comments/153f573/did_they_reshoot_stranger_than_you_dreamt_it_for/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button){:target="_blank"}). In short, [Karimloo's original rendition](https://www.youtube.com/watch?v=_ZOVFEkbY7g){:target="_blank"} was composed almost entirely of screams and screeches, which is horrific and frankly quite astounding; the ADR'ed version was less frightening but nonetheless emotionally heavy. | There was a mix of words being spoken, shouted and sung. Here, Chisnall chooses to place the most emphasis on the words "viper" and "bear" --- the former is shouted while the latter is stressed. |
+| Stranger than You Dreamt It | In both versions, Karimloo delivered the line "dreams of beauty" in a falsetto, highlighting how far-fetched the mere idea of beauty is to the Phantom. | This line is entirely sung, which offers a fresh perspective for me because I never really considered the melody it was meant to follow before. |
 
 
 ### Magical Lasso / Notes / Prima Donna
 
-Back in the main part of the Opera House, Buquet, the chief of the flies, petrifies the ballet girls with a screech (which is so unbelievably intense in person) and a vividly haunting description of the rumoured Phantom of the Opera. Furthermore, he tells the dancers to be vigilant at all times, or else the Phantom will catch them "with his magical lasso". Upon hearing this, Madame Giry instructs Buquet to hold his tongue and stop his fearmongering, for "those who speak of what they know find too late that prudent silence is wise". This is a relatively short scene, but is an excellent demonstration of Chekhov's gun.
+Back in the main part of the Opera House, Buquet petrifies the ballet girls with a screech (which is so unbelievably intense in person) and a vividly haunting description of the rumoured Phantom of the Opera. Furthermore, he tells the dancers to be vigilant at all times, or else the Phantom will catch them "with his magical lasso". Upon hearing this, Madame Giry instructs Buquet to stop fearmongering and to hold his tongue, for "those who speak of what they know find too late that prudent silence is wise". This is a relatively short scene, but is an excellent demonstration of Chekhov's gun.
 
-In the managers' office, Andre worries about Carlotta's scandalous departure but Firmin argues that this attracts "free publicity" and that "gossip's worth its weight in gold". All of a sudden, Raoul and Carlotta burst into the room as they discover that all four of them have each received letters from the Opera Ghost himself. This includes a letter of demand, a letter of feedback, and two notes stating that Christine will soon replace Carlotta in all future operatic productions. Understandably, these enigmatic letters send everyone into unprecedented chaos, and we see this play out in a patter-esque group number packed with some of the most delicious rhymes in the entire show (underlined):
+In the managers' office, André worries about Carlotta's scandalous departure but Firmin argues that this attracts "free publicity" and that "gossip's worth its weight in gold". All of a sudden, Raoul and Carlotta burst into the room as they discover that all four of them have each received letters from the Opera Ghost himself. This includes a letter of demand, a letter of feedback, and two notes stating that Christine will soon replace Carlotta in all future operatic productions. Understandably, these enigmatic letters send everyone into unprecedented chaos, and we see this play out in a patter-esque group number packed with some of the most delicious rhymes in the entire show (underlined):
 
-> **FIRMIN AND ANDRE:** Who would have the gall to send this? Someone with a puerile <u>brain</u>!
+> **FIRMIN AND ANDRÉ:** Who would have the gall to send this? Someone with a puerile <u>brain</u>!
 >
 > **FIRMIN:** These are both signed "O.G."
 > 
-> **ANDRE:** Who the hell is he?
+> **ANDRÉ:** Who the hell is he?
 >
 > **BOTH:** Opera Ghost!
 > 
 > **FIRMIN:** It's really not <u>amusing</u>...
 > 
-> **ANDRE:** He's <u>abusing</u> our <u>position</u>...
+> **ANDRÉ:** He's <u>abusing</u> our <u>position</u>...
 >
 > **FIRMIN:** In <u>addition</u> he wants <u>money</u>...
 >
-> **ANDRE:** He's a <u>funny</u> sort of <u>spectre</u>...
+> **ANDRÉ:** He's a <u>funny</u> sort of <u>spectre</u>...
 >
 > **BOTH:** ...to <u>expect a</u> large <u>retainer</u> --- nothing <u>plainer</u> --- he is clearly quite <u>insane</u>!
 
-I know I keep rambling on the lighting, but I am genuinely smitten with the lighting and staging in this scene, perhaps more than any other scene in the show. In the Royal Albert Hall version, Andre, Raoul and Carlotta "enter" the managers' office by simply walking onto the stage. On the contrary, the live show features an invisible door that apparently leads from a brightly lit room outside to the relatively dark office, masterfully creating the illusion that the characters are quite literally appearing out of nowhere.
+I know I keep rambling on the lighting, but I am genuinely smitten with the lighting and staging in this scene, perhaps more than any other scene in the show. In the Royal Albert Hall version, André, Raoul and Carlotta "enter" the managers' office by simply walking onto the stage. On the contrary, the live show features an invisible door that apparently leads from a brightly lit room outside to the relatively dark office, thereby creating the illusion that the characters are quite literally appearing out of nowhere.
 
 Again, the live show places more emphasis on its comedic elements, such as Firmin's realization of his grammatical mistake:
 
@@ -446,40 +446,37 @@ Again, the live show places more emphasis on its comedic elements, such as Firmi
 
 and the managers' somewhat sarcastic comment regarding the overwhelming number of notes received:
 
-> **ANDRE AND FIRMIN:** Far too many notes for my taste, and most of them about Christine! All we've heard since we came
-is Miss Daaé's name...!
+> **ANDRÉ AND FIRMIN:** Far too many notes for my taste, and most of them about Christine!
 
-Here, Madame Giry chimes in with a fifth letter, in which the Phantom threatens the managers to let Christine star in the house's upcoming production of Il Muto, as well as to keep his "normal seat in Box 5" empty for him during the performance. Rebelliously, the four ultimately decide to ignore the Phantom's orders, and instead give the leading role to Carlotta. This transitions nicely into the next number Prima Donna, where literally everyone in the office decides to ingratiate Carlotta against their better judgement. Again, I don't have a lot to say about this number, but I thoroughly enjoyed how the managers keep giving each other the side-eye amidst their insincere sycophancy.
+Here, Madame Giry chimes in with a fifth letter, in which the Phantom threatens the managers to let Christine star in the house's upcoming production of Il Muto, as well as to keep his "normal seat in Box 5" empty for him during the performance. Rebelliously, the four ultimately decide to ignore these orders, and instead give the leading role to Carlotta. This transitions nicely into the next number Prima Donna, where literally everyone in the office decides to ingratiate Carlotta against their better judgement. Again, I don't have a lot to say about this number, but I thoroughly enjoyed how the managers keep giving each other the side-eye amidst their insincere sycophancy.
 
 The scene ends with the voice of an enraged Phantom, who declares that "it is to be war between us" and threatens to create "a disaster beyond imagination".
 
 
 ### Poor Fool, He Makes Me Laugh
 
-We are then presented in this scene the premiere of Il Muto. The opera boxes gradually moves inwards the stage, where Raoul is shown sitting in Box 5.
+We are then presented in this scene the premiere of Il Muto. The opera boxes gradually moves inwards onto the stage, where Raoul is shown sitting in Box 5.
 
 | Differences | On screen | On stage |
 | :---: | :---: | :---: |
 | Boxes | In the 2011 performance, the "opera boxes" are represented by the actual boxes in the Royal Albert Hall. | In the live show, the boxes, represented by set props, are moved onto the stage as Il Muto begins. |
-| Dialogue at the start of Il Muto | As the boxes move in, we hear Andre ask Raoul whether he is sure he wants to sit in Box 5. Raoul replies by saying that there are no other seats available. | In addition to this pre-recorded dialogue from Andre and Raoul, we also hear the managers discuss how there's "nothing quite like going to the theatre". |
+| Dialogue at the start of Il Muto | As the boxes move in, we hear André ask Raoul whether he is sure he wants to sit in Box 5. Raoul replies by saying that there are no other seats available. | In addition to this pre-recorded dialogue from André and Raoul, we also hear the managers discuss how there's "nothing quite like going to the theatre". |
 
-As expected, Carlotta is given the leading role of "the Countess", while Christine is forced to play the silent role of "the Pageboy". The smallness nature of the latter role is very clearly demonstrated, with the pageboy having to shake his butt at one point.
+As expected, Carlotta is given the leading role of "the Countess", while Christine is forced to play the silent role of "the Pageboy". The smallness of the latter role is very clearly demonstrated, with the pageboy having to semi-vigorously shake his butt at one point.
 
-The performance, which comedically involves a bit of kissing and vomiting, is quickly interrupted by the Phantom's outcry as he realizes that Box Five is occupied by Raoul. Offended, the Phantom reduces Carlotta's voice to the croaking sound of a toad, rendering her unable to finish her song. The Phantom then declares that Carlotta "is singing to bring down the chandelier". (I'm not sure if this is intended or simply a coincidence, but I'm pretty sure I saw the chandelier shaking gently as the Phantom delivers this line.)
+The performance, which comedically involves a bit of kissing and pretend vomiting, is quickly interrupted by the Phantom's outcry as he realizes that Box Five is occupied by Raoul. Offended, he reduces Carlotta's voice to the croaking sound of a toad, rendering her unable to finish her song. The Phantom then declares that Carlotta "is singing to bring down the chandelier". Now, I'm not sure if this is intentional or simply a coincidence, but I'm pretty sure I saw the chandelier shaking gently as this line is delivered.
 
-Petrified, the managers stop the show immediately, announcing that the performance will continue shortly with the Countess played by Christine. In the meantime, the ballet girls are instructed to essentially do a bit of filler.
+Startled, the managers immediately interrupt the show and announce that the performance will continue shortly with the Countess played by Christine. In the meantime, the ballet girls are instructed to essentially do a bit of filler. The managers' announcement, and the thirty seconds that follow, are a hilarious intertwining between unscripted improvisation and mild incompetence: André whispers the words "the ballet... now!" and repeatedly mouths the word "ballet", the dancers hastily enter the stage after a significant delay, and Firmin keeps disrupting their choreography by awkwardly bumping into them.
 
-The managers' announcement, and the thirty seconds that follow, are a hilarious intertwining between unscripted improvisation and mild incompetence. Andre whispers the words "the ballet... now!" and repeatedly mouths the word "ballet", the dancers hastily enter the stage after a significant delay, and Firmin keeps disrupting their choreography by awkwardly bumping into the dancers.
+Despite the managers' last-minute fix, the damage has been done. While the dancers perform to a Mozart-esque tune, an enormous shadow of the Phantom with his lasso is repeatedly flashed onto the fly. Suddenly, Buquet's garotted body falls and dangles from the top of the stage, once again leading to mayhem among the cast and the managers.
 
-Despite the managers' last-minute fix, the damage has been done. While the dancers perform to a Mozart-esque tune, an enormous shadow of the Phantom with his lasso is repeatedly flashed onto the fly. Suddenly, Buquet's garotted body suddenly falls onto the stage, once again leading to mayhem among the cast and the managers.
-
-I think the build-up to this climatic moment is incredibly well-crafted. The Phantom's increasingly ominous silhouette, the crescendoing melody from the string section, and the ballet dancers slowly panicking as they start to realise what's happening --- all of this leads up to the unexpected reveal of Buquet's death, which apparently is still scary enough to give me a figurative heart attack, even though I knew it was coming.
+I think the build-up to this climatic moment is incredibly well-crafted. The Phantom's increasingly ominous silhouette, the crescendoing and accelerating melody from the string section, and the ballet dancers slowly panicking as they start to realise what's happening --- all of this leads up to the unexpected reveal of Buquet's death, which apparently is still scary enough to give me a figurative heart attack, even though I knew it was coming.
 
 
 
-### Why Have You Brought Me Here / Raoul I've Been There / All I Ask of You
+### Why Have You Brought Me Here / Raoul I've Been There
 
-Amid the commotion, Christine escapes with Raoul to the roof of the Opera House, where she basically has a mental breakdown, afraid that she will never break free from the nameless, possessive yet somewhat piteous Phantom that Raoul insists is nonexistent.
+Amid the commotion, Christine escapes with Raoul to the roof of the Opera House, where she basically has a mental breakdown, overwhelmed by the fear that she will never escape the grip of the nameless, possessive yet piteous Phantom that Raoul insists is nonexistent.
 
 > **CHRISTINE/RAOUL:** The Phantom of the Opera is here inside my/your mind!
 >
@@ -499,28 +496,95 @@ Amid the commotion, Christine escapes with Raoul to the roof of the Opera House,
 > Yet in his eyes --- all the sadness of the world<br>
 > Those pleading eyes that both threaten and adore
 
+I love when a lyric is reused across multiple numbers in a musical and yet takes on a whole new meaning every time. A prime example of this is "the Phantom of the Opera is here inside my/your mind", of which meaning varies depending on who's singing it:
+
+- When sung by the Phantom, this line describes his process of hypnotising Christine. Over the past few years, he has been attempting to create intimacy with Christine by disguising as her Angel of Music, and he does this by getting into Christine's head, thus being "inside her mind".
+- When sung by Christine, it tells us how her mind is constantly preoccupied by the Angel of Music. Under the guise of her Angel, the Phantom's power and control over Christine's life has greatly enhanced over time, to the extent that he's not just _on_ her mind, but fully _inside_ her mind.
+- When sung by Raoul, the line becomes an illustration of his scepticism. Unlike Christine, Raoul doubts the very existence of an Angel of Music. He tries to convince Christine that she is merely imagining things, that the Angel is not real, and that everything she's seeing or hearing is all "inside her mind".
+
+It's a very cleverly constructed triple entendre that has the effect of heightening the scene with every repetition.
+
 | Differences | On screen | On stage |
 | :---: | :---: | :---: |
-| The roof of the Opera House | In the Royal Albert Hall production, the actors enter the "roof" by simply walking onto the stage. The enormous screen display behind shows the exterior of a dome-like structure. | The actors enter the "roof" by walking upstairs from what I believe is a trap door. The back half of the stage is predominantly occupied by a gigantic Pegasus statue. |
+| The roof of the Opera House | In the Royal Albert Hall production, the actors enter the "roof" by simply walking onto the stage. The enormous screen display behind shows the exterior of a dome-like structure. | The actors enter the "roof" by walking upstairs from what I believe is a trap door. The back half of the stage is predominantly occupied by a gigantic Pegasus statue*. |
 
-Seeing this, Raoul cheers Christine up by declaring his love to her and vowing to be her guide and guardian.
+(*To be more specific, it's a replica of [La Renommée retenant Pégase](https://commons.wikimedia.org/wiki/File:Pegasus_Lequesne_Palais_Garnier.jpg){:target="_blank"}, a statue that can be found on the roof of Palais Garnier, which is the opera house on which the setting of the musical is based.)
 
-> **RAOUL:**<br>
-> Let me be your shelter<br>
-> Let me be your light<br>
-> You're safe, no one will find you<br>
-> Your fears are far behind you _(...)_<br>
+
+
+### All I Ask of You (and Reprise)
+
+In an effort to cheer Christine up, Raoul vows to be her guide and guardian, offering to be her shelter at all times. This happens in a heartwarming number called All I Ask of You, and it's heartwarming because it provides some much-needed calm amidst the chaos. This song acts as a sort of breather or cooling-off moment for both Christine and the audience, and in my opinion, both productions executed it to perfection.
+
+If I had to be _extremely_ nitpicky, I'd say that Griffiths-Brown's portrayal of Raoul felt just ever-so-slightly more heartfelt and sincere than Fraser's. Nonetheless, I don't really have any sensible reason to back that up with, other than maybe this?
+
+> **Fraser:** People have a natural assumption that I know an awful lot about _Phantom_ because of the 25th \[anniversary performances\]. Dude, I only did those three shows, and I didn't remember half of that!
+>
+> **Karimloo:** How much of that time do you remember?
+>
+> **Fraser:** Very little, because we only had two weeks to rehearse. _(...)_ I've told this story before, but I'm sure if you look on the DVD --- the split second before we start singing the duet _All I Ask of You_ --- I was convinced I didn't know the next line.
+>
+> <div style="text-align: right">(from <i>The Hang with Ramin Karimloo</i>, Episode 3)</div>
+
+
+Still, it's entirely vibe-based and subjective. Another thing that falls within the "I don't know if it's intended or not" category is the fact that a spotlight briefly shines on the pair as Raoul sings “let me be your light”. I have no clue whether this is a coincidence, but it's certainly a nice detail.
+
+After declaring his love to her, Raoul gleefully hurries off the roof with Christine, who returns to the stage to finish off Il Muto as the Countess. The roof, however, isn't exactly empty. The Pegasus sculpture at the back steadily inches forward, revealing the Phantom atop the statue. Feeling betrayed by Christine, the heartbroken Phantom is overcome with a mix of emotions, which he expresses in a reprise of All I Ask of You.
+
+> **PHANTOM:** _(falsetto)_<br>
+> I gave you my music<br>
+> Made your song take wing<br>
+> And now, how you've repaid me:<br>
+> Denied me and betrayed me<br>
+> He was bound to love you<br>
+> When he heard you sing...<br>
+>
+> _(The Phantom aches deep in his core as he hears Raoul's and Christine's voices from afar. He tries to suppress his sorrows by covering his ears, but in vain.)_
+>
+> **RAOUL AND CHRISTINE:** <br>
 > Say you'll share with me one love, one lifetime<br>
-> Let me lead you from your solitude<br>
+> Say the word and I will follow you<br>
+> Share each day with me, each night, each morning...
+>
+> **PHANTOM:** _(furiously, with chest voice)_<br>
+> You will curse the day you did not do<br>
+> All that the Phantom asked of you!
 
-This song, All I Ask of You, is such a heartwarming number that provides some much-needed calm amidst the chaos. Another thing that falls within the "I don't know if it's intended or not" category is the fact that a spotlight briefly shines on the pair as Raoul sings “let me be your light”. I have no clue whether this is a coincidence, but it's certainly a nice detail.
+| Differences | On screen | On stage |
+| :---: | :---: | :---: |
+| Where the Phantom sings the reprise | The Phantom reveals himself from behind the dome's apex. When he sings the reprise, he is at the same level as the orchestra. | The Phantom appears and sings on top of the unfathomably huge Pegasus statue. |
+
+This section is really well-written and skilfully performed in the sense that the lyrics very clearly lay out the Phantom's thought process, with his emotions morphing from disillusionment to denial, to depression and finally to vengeful anger. The explosion of anger is made even more prominent by the fact that the Phantom switches his vocal register from a sobbing-like falsetto to a full, almost growling chest voice.
+
+And speaking of vengeful anger, Act 1 ends by showing us the curtain call for Il Muto, where we see Christine takes her bow in her Countess costume. We also see the Phantom standing above the stage. He sets off a bunch of explosives in his hand, and at a great cry from him, the chandelier above the audience begins to flicker, quakes unstably, plummets towards the audience and crashes onto the stage.
+
+Despite it being left out of the 2011 production, the chandelier crash is perhaps one of if not the most iconic moment in the entire musical, and there are just so many things to love about it: the Phantom's pyrotechnic sparks, the chandlier's heading directly towards me from the top of the auditorium, and --- the cherry on the cake for me --- the fact that Raoul heroically pulls Christine away from the center of the stage, thus narrowly saving her from being struck by the descending chandelier. This sequence happens relatively quickly but is intensely high-octane, so being able to not only experience the chandelier crash live but also sit directly underneath it as it happens is quite the memorable experience.
 
 
 
-### All I Ask of You (Reprise)
 
+### Conclusion (and intermission!)
 
+I started writing this post in September, and let's just say that it was a little bit longer than I expected. (And it's just Act 1!)
 
+In all seriousness, _The Phantom of the Opera_ is truly a spectacular musical, and while watching it on a screen is quite an exhilerating emotional rollercoaster in itself, nothing beats seeing the show live. Sure, there are tons of comments online pointing out
 
+- The thinner-sounding orchestra
+- The rushed singing
+- The out-of-place Pegasus statue
 
-### Conclusion
+and so many other changes made in the post-pandemic production; but from the perspective of a first-time theatregoer such as myself:
+
+- The 14-musician orchestra is more than enough to give me chills
+- The rushing is barely perceptible half of the time
+- The chalk white statue in the nighttime setting produces a monochromatic background that contrasts nicely with Christine's and Raoul's more colourful costumes in the foreground. It also matches with the Phantom's black-and-white outfit, further accentuating the symbolic imagery where the Phantom personifies the enigmatic tenebrosity that is nighttime, while Raoul epitomises the liberating freedom that is daylight.
+
+(By the way, I absolutely loved the period costumes in the live show, especially the ones worn by Monsieur André and Reyer. They're just so classy.)
+
+All that is to say: seeing _The Phantom of the Opera_ live was truly a magical experience, and no one can convince me otherwise.
+
+And with all that said and Act 1 complete, it's time for an intermission. Feel free to whip out your phone, head to the bathroom, or maybe just stay in your seats. It'll likely be a while before my review for Act 2 comes along, so I'll probably be posting something else in the meantime.
+
+<video width='70%' preload='auto' style="display:block; margin-left:auto; margin-right:auto;" controls>
+    <source src="{{ site.baseurl }}/assets/2024-10-17/Intermission.MOV" type="video/mp4">
+</video>
