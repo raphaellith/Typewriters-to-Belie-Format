@@ -19,7 +19,7 @@ Now, I'm not typically a fan of fictional media, so when I discover a story that
 
 ### Seeing Phantom live on stage
 
-I can neither confirm nor deny whether my ever-growing desire to see this masterpiece of a show in person constituted a tiny part of my motivation to secure an offer to study in the UK. Either way, last month --- almost an entire year after I clicked on that alluring thumbnail --- I finally got to see the musical chef-d'œuvre that is _The Phantom of the Opera_ at His Majesty's Theatre, where the show first premiered 38 years ago.
+I can neither confirm nor deny whether my ever-growing desire to see this masterpiece of a show in person constituted a tiny part of my motivation to secure an offer to study in the UK. Either way, last month --- almost a full year after I clicked on that alluring thumbnail --- I finally got to see the musical chef-d'œuvre that is _The Phantom of the Opera_ at His Majesty's Theatre, where the show first premiered 38 years ago.
 
 ![His Majesty's Theatre at London's West End.]({{ site.baseurl }}/assets/2024-12-08/His-Majestys-Theatre.jpeg){: width="60%" style="display:block; margin-left:auto; margin-right:auto"}
 
@@ -219,7 +219,7 @@ As Christine meanders backstage, she hears a mysterious voice praising her perfo
 
 | Differences | On screen | On stage |
 | :---: | :---: | :---: |
-| What the voice says | "Brava. Brava. Bravissima."<br> In Italian, "brava" is the feminine form of "bravo", meaning that the compliment is specifically directed at Christine. Personally, I prefer the use of "brava" instead of "bravi" because it fits better with the rest of the storyline, as we will see later. | "Bravi. Bravi. Bravissimi."<br> In Italian, "bravi" is the plural form of "bravo", so the compliment is directed to not just Christine, but the entire cast as well. To me, using "bravi" doesn't really make sense as it contradicts Madame Giry's previous comment that the dancers "were a disgrace". |
+| What the voice says | "Brava. Brava. Bravissima."<br> In Italian, "brava" is the feminine form of "bravo", meaning that the compliment is specifically directed at Christine. Personally, I prefer the use of "brava" instead of "bravi" because it fits better with the rest of the storyline, as we will see later. | "Bravi. Bravi. Bravissimi."<br> In Italian, "bravi" is the plural form of "bravo", so the compliment is directed to not just Christine, but all other members of the cast as well. To me, using "bravi" doesn't really make sense as it contradicts Madame Giry's previous comment that the dancers "were a disgrace". |
 
 Afterwards, Christine is approached by Meg, who curiously asks how Christine is able to sing so well.
 
@@ -409,7 +409,7 @@ Overwhelmed with sympathy, Christine returns the mask to the Phantom, who brings
 | Differences | On screen | On stage |
 | :---: | :---: | :---: |
 | The Phantom's outburst | There's a caveat here: After the performance was recorded on the night, some lines in this scene were ADR'ed for the film as they were deemed too frightening (see [this Reddit post](https://www.reddit.com/r/box5/comments/153f573/did_they_reshoot_stranger_than_you_dreamt_it_for/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button){:target="_blank"}). In short, [Karimloo's original rendition](https://www.youtube.com/watch?v=_ZOVFEkbY7g){:target="_blank"} was composed almost entirely of screams and screeches, which is horrific and frankly quite astounding; the ADR'ed version was less frightening but nonetheless emotionally heavy. | There was a mix of words being spoken, shouted and sung. Here, Chisnall chooses to place the most emphasis on the words "viper" and "bear" --- the former is shouted while the latter is stressed. |
-| Stranger than You Dreamt It | In both versions, Karimloo delivered the line "dreams of beauty" in a falsetto, highlighting how far-fetched the mere idea of beauty is to the Phantom. | This line is entirely sung, which offers a fresh perspective for me because I never really considered the melody it was meant to follow before. |
+| Stranger than You Dreamt It | In both versions, Karimloo delivered the line "dreams of beauty" in a falsetto, highlighting how far-fetched the mere idea of beauty is to the Phantom. | This line is sung all the way through, which offers a fresh perspective for me because I never really considered the melody it was meant to follow before. |
 
 
 ### Magical Lasso / Notes / Prima Donna
