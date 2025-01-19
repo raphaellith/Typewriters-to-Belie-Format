@@ -3,7 +3,7 @@ layout: post
 title:  "I Wrote a Themed Cryptic Crossword"
 date:   2024-11-16 19:30:00 +0000
 description: It's themed around... certain events and experiences in past few years related to public transport.
-tags: puzzle
+tags: puzzles
 ---
 
 The title says it all: I wrote a cryptic crossword themed around public transport in Hong Kong, and certain related incidents that may or may not have happened within my friend group. I'm really bad at solving cryptic crosswords myself, but I thought I'd try setting one anyway.
