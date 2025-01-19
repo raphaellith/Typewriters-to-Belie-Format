@@ -44,7 +44,7 @@ Another example might be
 > 1. <span class="ff-din"> IVY = 4 </span>
 > <div style="text-align: right">(from <i>Only Connect</i>, Series 2, Episode 7)</div>
 
-which have the connection that the words are all **Roman numeral homophones**. The words on the left, when read out, all sound like Roman numerals that correspond to the values shown on the right (DL, CD, MC and IV).
+which have the connection that the words are all **Roman numeral homophones**. The words on the left, when read out, all sound like Roman numerals that correspond to the values shown on the right (DL, CD, MC and IV). Note that "Dalziel", a Scottish surname, is pronounced as "dee-EL".
 
 Have fun with the ones below!
 
