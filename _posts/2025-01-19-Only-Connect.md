@@ -65,5 +65,11 @@ Have fun with the ones below!
 <div id="connectionPuzzles">
 </div>
 
+&nbsp;
+<details>
+	<summary><b>Click here to reveal the answer to the puzzle given in this post's description...</b></summary>
+	They are all New York Times Games, with the names converted into singular form. The original names are Tiles, Strands and Connections.
+</details>
+
 <script src="{{ site.baseurl }}/assets/2025-01-19/index.js"></script>
 
