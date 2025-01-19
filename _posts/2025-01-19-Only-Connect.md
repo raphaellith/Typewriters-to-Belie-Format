@@ -34,7 +34,7 @@ For instance, a puzzle may have the clues
 > 1. <span class="ff-din"> NaCl </span>
 > <div style="text-align: right">(from <i>Only Connect</i>, Series 1, Episode 9)</div>
 
-which are linked by the fact that they are all **table additives** (vinegar, sugar, black pepper and table salt).
+which are linked by the fact that they are all **condiments** (vinegar, sugar, black pepper and table salt).
 
 Another example might be
 
