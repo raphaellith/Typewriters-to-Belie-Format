@@ -48,9 +48,16 @@ which have the connection that the words are all **Roman numeral homophones**. T
 
 Have fun with the ones below!
 
-A couple of technical notes:
-- If you're reading this on your phone, tilt your device sideways for the best experience!
-- I'm not entirely sure why, but Google Chrome simply refuses to perform the CSS styling and formatting in this post properly. It works on other browsers (Safari, Firefox, Opera, etc.) though!
+&nbsp;
+<div style="border: 2.5px solid; padding: 10px;">
+	<b>A couple of technical notes</b>
+
+	<ul>
+		<li> If you're reading this on your phone, tilt your device sideways for the best experience! </li>
+		<li> I'm not entirely sure why, but it appears that Google Chrome simply refuses to perform the CSS styling and formatting for the puzzles properly. It works on most other browsers (Safari, Firefox, Opera, etc.) though! </li>
+	</ul>
+</div>
+&nbsp;
 
 &nbsp;
 <hr>
