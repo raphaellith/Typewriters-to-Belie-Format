@@ -19,7 +19,7 @@ tags: puzzles
 
 The puzzles in this post are inspired by (and have the same format as) the BBC quiz show Only Connect, or at least the first round thereof.
 
-Below, you'll find six puzzles to solve. Each puzzle consists of four apparently random clues that share a hidden connection. Your goal is to work out the connection between these seemingly unrelated clues. 
+Below, you'll find six puzzles to solve. Each puzzle consists of four apparently random clues that share a hidden connection. Your goal is to work out the connection between these seemingly unrelated items. 
 
 - In each puzzle, the first of four clues is automatically shown.
 - Click on any of the currently displayed clues to reveal the next one.
