@@ -48,7 +48,9 @@ which have the connection that the words are all **Roman numeral homophones**. T
 
 Have fun with the ones below!
 
-Technical note: I'm not entirely sure why, but Google Chrome simply refuses to perform the CSS styling and formatting in this post properly. It works on other browsers (Safari, Firefox, Opera, etc.) though!
+A couple of technical notes:
+- If you're reading this on your phone, tilt your device sideways for the best experience!
+- I'm not entirely sure why, but Google Chrome simply refuses to perform the CSS styling and formatting in this post properly. It works on other browsers (Safari, Firefox, Opera, etc.) though!
 
 &nbsp;
 <hr>
