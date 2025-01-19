@@ -46,18 +46,7 @@ Another example might be
 
 which have the connection that the words are all **Roman numeral homophones**. The words on the left, when read out, all sound like Roman numerals that correspond to the values shown on the right (DL, CD, MC and IV). Note that "Dalziel", a Scottish surname, is pronounced as "dee-EL".
 
-Have fun with the ones below!
-
-&nbsp;
-<div style="border: 2.5px solid; padding: 10px;">
-	<b>A couple of technical notes</b>
-
-	<ul>
-		<li> If you're reading this on your phone, tilt your device sideways for the best experience! </li>
-		<li> I'm not entirely sure why, but it appears that Google Chrome simply refuses to perform the CSS styling and formatting for the puzzles properly. It works on most other browsers (Safari, Firefox, Opera, etc.) though! </li>
-	</ul>
-</div>
-&nbsp;
+Have fun with the ones below! (And if you're reading this on your phone, tilt your device sideways for the best experience!)
 
 &nbsp;
 <hr>
