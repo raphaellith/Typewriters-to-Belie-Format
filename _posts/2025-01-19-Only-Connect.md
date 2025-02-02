@@ -9,7 +9,7 @@ tags: puzzles
 <style>
 @font-face {
 	font-family: "FF Din";
-	src: url("{{ site.baseurl }}/assets/2025-01-19/din-medium-regular.ttf");
+	src: url("{{ site.baseurl }}/assets/fonts/din-medium-regular.ttf");
 }
 
 .ff-din {
@@ -53,12 +53,6 @@ Have fun with the ones below! (And if you're reading this on your phone, tilt yo
 
 <div id="connectionPuzzles">
 </div>
-
-&nbsp;
-<details>
-	<summary><b>Click here to reveal the answer to the puzzle given in this post's description...</b></summary>
-	They are all New York Times Games, with the names converted into singular form. The original names are Tiles, Strands and Connections.
-</details>
 
 <script src="{{ site.baseurl }}/assets/2025-01-19/index.js"></script>
 

@@ -15,7 +15,7 @@ I started this blog and published its first post on my 18th birthday, on 3rd Nov
 
 In the meantime though, here are some questions I _do_ know the answer to.
 
-{% include custom/hline.html %}
+<hr style="color: lightgrey;">
 <br>
 
 

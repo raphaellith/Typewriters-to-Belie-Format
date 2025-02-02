@@ -149,7 +149,14 @@ function main() {
             }
 
             if (i === 4) {
-                answerDiv.style.opacity = "1";
+                if (answerDiv.style.opacity === "0") {
+                    answerDiv.style.opacity = "1";
+                } else {  // Reset the puzzle
+                    for (let j = 1; j < 4; j++) {
+                        clues[j].style.opacity = "0";
+                    }
+                    answerDiv.style.opacity = "0";
+                }
             }
         }
 

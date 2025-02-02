@@ -7,9 +7,7 @@ appear-in-top-right: true
 
 Here is a list of posts on this site, classified by tags.
 
-<div style="margin-bottom: 1em">
-{% include custom/hline.html %}
-</div>
+<hr style="color: lightgrey; margin-bottom: 1em">
 
 {% assign sitetags = site.tags | sort %}
 

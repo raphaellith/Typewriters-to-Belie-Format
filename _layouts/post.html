@@ -7,24 +7,37 @@ layout: default
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
 
-    <!-- Tag feature -->
-    {%- if page.tags -%}
-      <div style="padding-bottom: 8px; font-size: small;">
-        <b>Tags:</b> &nbsp;
-        {% include custom/tags.html tags=page.tags with_link=true %}
-      </div>
-    {%- endif -%}
-
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+    <p class="post-meta" style="">
+      <!-- Post's description -->
+      {%- if page.description -%}
+        <p class="post-description" itemprop="description" style="color: gray">{{ page.description }}</p>
       {%- endif -%}
+
+      <div style="width: 100%; display: table;">
+        <div style="display: table-row">
+            <div style="width: 600px; display: table-cell;">
+              {%- if page.tags -%}
+                <div style="font-size: 14px;">
+                  <b>Tags:</b> &nbsp;
+                  {% include custom/tags.html tags=page.tags with_link=true %}
+                </div>
+              {%- endif -%}
+            </div>
+            <div style="display: table-cell; text-align: right;">
+              <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" style="font-size: 14px; font-weight: bold;">
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                {{ page.date | date: date_format }}
+              </time>
+            </div>
+        </div>
+      </div>
+      <!-- {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%} -->
     </p>
-    {% include custom/hline.html %}
+
+    <!-- Grey line -->
+    <hr style="border: none; background-color: #007acc; height: 3px; margin-top: -3px; margin-bottom: 35px;">
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
