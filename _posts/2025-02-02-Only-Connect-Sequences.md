@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fire, Radiation and the Twelfth Ember: Some Only Connect-esque sequences"
-date:   2025-01-20 09:00:00 +0100
+date:   2025-02-02 15:00:00 +0100
 description: "
 <b>Fill in the blank:</b><br>
 <span style='display: inline-block; width: 160pt;'> B, C, M, P</span> = 3 points (8 out of 100 tiles).<br>
@@ -81,4 +81,4 @@ Good luck and have fun with the ones below! (And if you're reading this on your 
 <div id="sequencePuzzles">
 </div>
 
-<script src="{{ site.baseurl }}/assets/2025-01-20/index.js"></script>
+<script src="{{ site.baseurl }}/assets/2025-02-02/index.js"></script>
