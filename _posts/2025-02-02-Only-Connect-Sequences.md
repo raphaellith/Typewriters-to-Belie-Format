@@ -4,10 +4,12 @@ title:  "Fire, Radiation and the Twelfth Ember: Some Only Connect-esque sequence
 date:   2025-02-02 15:00:00 +0100
 description: "
 <b>Fill in the blank:</b><br>
-<span style='display: inline-block; width: 160pt;'> B, C, M, P</span> = 3 points (8 out of 100 tiles).<br>
-<span style='display: inline-block; width: 160pt;'> D, G</span> = 2 points (7 out of 100 tiles).<br>
-<span style='display: inline-block; width: 160pt;'> A, E, I, L, N, O, R, S, T, U</span> = 1 point (68 out of 100 tiles).<br>
-<span style='display: inline-block; width: 160pt;'> ????? </span> = 0 points (2 out of 100 tiles).<br>
+<pre style='font-size: 11pt;'>
+B, C, M, P                   = 3 points (8 out of 100 tiles)<br>
+D, G                         = 2 points (7 out of 100 tiles)<br>
+A, E, I, L, N, O, R, S, T, U = 1 point (68 out of 100 tiles)<br>
+?????                        = 0 points (2 out of 100 tiles)
+</pre>
 "
 tags: puzzles
 ---
