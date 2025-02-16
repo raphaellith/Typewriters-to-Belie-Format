@@ -26,7 +26,7 @@ tags: puzzles
 </style>
 
 
-Like the ones presented in the previous post, the puzzles in this post are inspired by (and have the same format as) the BBC quiz show Only Connect. This time, however, the puzzles are based on the show's second round: Sequences.
+Like the ones presented in the [previous post]({{ site.baseurl }}/2025/01/19/Only-Connect/), the puzzles in this post are inspired by (and have the same format as) the BBC quiz show Only Connect. This time, however, the puzzles are based on the show's second round: Sequences.
 
 Like last time, below are six puzzles waiting for you to solve. Each puzzle consists of four clues that form some sort of sequence, but you may only see up to three of them. Your goal is to work out what the fourth and final item is.
 
