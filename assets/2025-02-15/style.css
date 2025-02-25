@@ -1,0 +1,23 @@
+.indent {
+    margin-left: 1em;
+}
+
+.highlight-block {
+    background: var(--theme-color-light); padding: 15px; border-left: 3px solid var(--theme-color);
+}
+
+#translation-button {
+    background: var(--theme-color);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#translation-button:hover {
+    filter: brightness(110%);
+}

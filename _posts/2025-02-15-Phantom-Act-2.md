@@ -12,11 +12,11 @@ This is a follow-up post! In a [previous post]({{ site.baseurl }}/2024/12/08/Pha
 
 Like the last post, this will be a relatively detailed review, which, as always, comes with a...
 
-<div style="text-align: center; border: 3px solid var(--theme-color); border-radius: 5px; background: var(--theme-color-light); padding: 15px; margin: 10px;">
-<b>SPOILER ALERT!</b>
-<br>
-In this article, I'll be going through pretty much every scene in Act 2 of <i>The Phantom of the Opera</i> from start to finish, often including excerpts from the show.
-</div>
+<p class="highlight-block">
+    <b>SPOILER ALERT!</b>
+    <br>
+    In this article, I'll be going through pretty much every scene in Act 2 of <i>The Phantom of the Opera</i> from start to finish, often including excerpts from the show.
+</p>
 
 With that said, let Act Two begin!
 
@@ -154,7 +154,7 @@ The next part is perhaps one of the most beautiful moments of the show: Raoul em
 >
 > **PHANTOM/CHRISTINE:** ...yet your/my soul obeys!
 
-What follows is a beautiful three-part polyphony, with three streams of melody fluctuating between attraction and repulsion, as if they're making every effort to resist intertwining but are ultimately interwoven regardless.
+What follows is a beautiful polyphony with three streams of melody fluctuating between attraction and repulsion, as if they're making every effort to resist intertwining but are ultimately interwoven regardless.
 
 The Phantom continues his hypnosis as the gates guarding the grave magically open. Raoul repeatedly interrupts him, pulling Christine out of her trance. Wrathful (and perhaps covetous), the Phantom hurls streaks of fire at the couple, calling himself the Angel of Death. The pair dodges the fireballs and narrowly escapes, leaving the Phantom to exclaim in rage:
 
@@ -185,29 +185,7 @@ We are then shown the night of the premiere of Don Juan Triumphant, where Raoul 
 
 Anyways, the cast soon begins their performance of Don Juan Triumphant. But first...
 
-<style>
-    .indent {
-        margin-left: 1em;
-    }
-
-    #translation-button {
-        background: var(--theme-color);
-        border: none;
-        border-radius: 3px;
-        color: white;
-        padding: 10px 15px;
-        text-align: center;
-        display: inline-block;
-        font-size: 14px;
-        font-weight: 700;
-    }
-
-    #translation-button:hover {
-        filter: brightness(110%);
-    }
-</style>
-
-<aside style="background: var(--theme-color-light); padding: 15px; border-left: 3px solid var(--theme-color); margin-bottom: 1em;">
+<aside class="highlight-block" style="margin-bottom: 1em;">
 <p>
     <span style="font-weight: 700;">We interrupt this broadcast to bring you this tangent:</span>
     <span style="font-weight: 900;">Who is Don Juan?</span>
@@ -276,9 +254,9 @@ Anyways, the cast soon begins their performance of Don Juan Triumphant. But firs
     </p>
 </div>
 
-<p style="text-align: right;">
+<div style="text-align: right;">
     <button id="translation-button"></button>
-</p>
+</div>
 </aside>
 
 Now back to our scheduled programming. Like in Mozart's opera, the Phantom's Don Juan Triumphant sees the protagonist disguise as his servant Passarino in an attempt to seduce a maid he invited for dinner. Here, Don Juan is played by Piangi and the maid is played by Christine.
@@ -289,7 +267,33 @@ Sure enough, Don Juan goes offstage to swap clothes with Passarino. By the time 
 
 ### The Point of No Return
 
-The devastation in the Bridge is crossed
+Playing Don Juan, the Phantom sings with Christine a duet that he wrote himself: The Point of No Return. This might be my favourite number from the entire musical because the music and lyrics are just... perfection.
+
+> **PHANTOM (as Don Juan):** <br>
+> Past the point of no return<br>
+> No backward glances --- our games of make-believe are at an end!<br>
+> Past all thought of "if" or "when"<br>
+> No use resisting --- abandon thought and let the dream descend!<br>
+> What raging fire shall flood the soul; what rich desire unlocks its door?<br>
+> What sweet seduction lies before us? _(...)_
+>
+> **CHRISTINE (as maid):**<br>
+> Past the point of no return<br>
+> No going back now --- our passion play has now at last begun!<br>
+> Past all thought of right or wrong<br>
+> One final question --- how long should we two wait before we're one?<br>
+> When will the blood begin to race; the sleeping bud burst into bloom?<br>
+> When will the flames at last consume us?
+>
+> **BOTH:**<br>
+> Past the point of no return<br>
+> The final threshold --- the bridge is crossed, so stand and watch it burn!
+
+
+
+
+The devastation in "the Bridge is crossed"
+
 Towards the end of PONR, the Phantom is confronted by a couple of shooters. He tries to leave the stage, but is surrounded by Raoul and the managers. Christine gestures with her hand not to shoot the Phantom, before Phantom sings All I Ask of You and Christine his ring, which shines in the spotlight.
 
 
@@ -299,5 +303,5 @@ Towards the end of PONR, the Phantom is confronted by a couple of shooters. He t
 
 
 
-
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/2025-02-15/style.css">
 <script src="{{ site.baseurl }}/assets/2025-02-15/index.js"></script>
