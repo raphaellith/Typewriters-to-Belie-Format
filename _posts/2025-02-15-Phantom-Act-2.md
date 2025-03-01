@@ -277,7 +277,7 @@ Playing Don Juan, the Phantom sings with Christine a duet that he wrote himself:
 > What raging fire shall flood the soul; what rich desire unlocks its door?<br>
 > What sweet seduction lies before us? _(...)_
 >
-> **CHRISTINE (as maid):**<br>
+> **CHRISTINE (as unnamed lady):**<br>
 > Past the point of no return<br>
 > No going back now --- our passion play has now at last begun!<br>
 > Past all thought of right or wrong<br>
@@ -289,17 +289,115 @@ Playing Don Juan, the Phantom sings with Christine a duet that he wrote himself:
 > Past the point of no return<br>
 > The final threshold --- the bridge is crossed, so stand and watch it burn!
 
+It's perfect in so many ways and on so many levels:
+
+1. **The style of the music is noticeably distinctive.** This is the only part of the musical where we get to experience the Phantom's musical talent firsthand. Compared to the other numbers in the show, The Point of No Return is noticeably less cheery. The productions put up by the Opera Populaire typically create a joyous or light-hearted atmosphere (see Hannibal and Il Muto from Act 1), but Don Juan Triumphant stands out by having a more melancholic tone. The music makes repeated use of the whole tone scale and non-diatonic notes, not unlike how Mozart's music and operas became arguably darker as he matured. Like the beginning of Mozart's Dissonance Quartet, The Point of No Return features a lot of chromaticism and dissonance. The majority of Act 1's operatic tunes are unnuanced, one-dimensional and almost always optimistic, but this is different. This is a song that symbolises the incessant swinging between fear and fearlessness and hope and hopelessness --- four qualities that appear to oppose one another but nonetheless all seem to meet at one, single devastating point of intersection.
+
+1. **The lyrics fit the story of Don Juan.** This can be easily inferred from the lyrics. Here, Don Juan attempts to seduce a woman he had just met moments ago, so he tries to convince her to "abondon thought and let the dream descend" in what can only be described as a battle between sense and senselessness.
+
+1. **The lyrics embed the Phantom's message to Christine.** Remember that The Point of No Return is entirely written by the Phantom. Though Christine may be simply sticking to the script, the Phantom is using this opportunity to present himself as he truly is, using literally his own words. The Phantom knows his guise as the "Opera Ghost" or as Christine's "Angel of Music" has long been worn off, so their "games of make-believe are at an end". The only remaining means for him to declare his love to Christine is to do so authentically, as the one true human behind the illusionary mask. This, inevitably, requires a determined and passionate leap of faith --- one that forbids any "backward glances" and is inherently a "point of no return". Whether to take this leap is once again a quandary between sense and senselessness, in which the Phantom opts for the latter. Of course, he isn't just convincing _himself_ to transcend beyond sensibility, he's convincing Christine to do so as well. This is a desperate but ambitious leap, after which the bridge will be crossed and all they can do is to watch as it burns and fades into irreversible nothingness.
+
+The line
+
+> **BOTH:** The bridge is crossed, so stand and watch it burn!
+
+might be my favorite throughout the entire musical. The sentence itself is such a visually vivid metaphor for the status quo, and the delivery of this line has so much desparation and devastation packed into it.
+
+At the end of The Point of No Return, to everyone's shock, Christine goes off script and uncloaks the Phantom. Surrounded immediately by a couple of shooters, He tries to leave the stage, but is further confronted by Raoul and the managers. However, Christine instinctively motions with her hand to stop them from shooting him. Despite being just a few seconds long, this sequence (which was absent in the proshot) is incredibly phenomenal to watch as it offers a glimpse into what everyone on stage is thinking at this present moment.
+
+The Phantom then sings to Christine a heartbreaking reprise of All I Ask of You. He gives her a ring which --- at least from my viewing angle --- shines shimmeringly in the spotlight. Nevertheless, Christine decides to remove his mask, exposing his deformed face to everyone in the theatre. The Phantom flees rapidly, Piangi's garotted corpse is shown backstage, and the Opera Populaire descends into chaos, with some determined to hunt down this wicked murderer.
 
 
 
-The devastation in "the Bridge is crossed"
+### Down Once More
 
-Towards the end of PONR, the Phantom is confronted by a couple of shooters. He tries to leave the stage, but is surrounded by Raoul and the managers. Christine gestures with her hand not to shoot the Phantom, before Phantom sings All I Ask of You and Christine his ring, which shines in the spotlight.
+Admist the mayhem, Madame Giry offers to give Raoul a helping hand.
+
+> **MADAME GIRY:** Monsieur le Vicomte, come with me! I know where they are!
+>
+> **RAOUL:** But can I trust you?
+>
+> **MADAME GIRY:** You must. But remember: your hand at the level of your eyes!
+>
+> **RAOUL:** But why?
+>
+> **MADAME GIRY:** The Punjab lasso, monsieur: First Buquet, now Piangi. _(...)_ Come with me, monsieur --- hurry, or we shall be too late!
+
+Underground, the Phantom leads Christine to his lair, during which his laments his past experience of being outcast and shamed into solitude. The pair is followed by an enraged mob led by Raoul, which cries:
+
+> **MOB:**<br>
+> Track down this murderer --- he must be found!<br>
+> Hunt out this animal who runs to ground!<br>
+> Too long he's preyed on us, but now we know<br>
+> The Phantom of the Opera is here deep down below...<br>
+> ...he's here: the Phantom of the Opera!
+
+Here, the mob is seen on a raised platform, directly below which we can see Christine and the Phantom crossing the subterranean lake by boat. This is a juxtaposition that I did not see coming: it's depressing in terms of the plot, beautiful from a poetic point of view, and awesome from the perspective of staging.
+
+
+
+### Final Lair
+
+Before I dive into this final scene of the musical, I just want to add that if there is one bit of the live performance that I actively disliked, it's this one. Of course, this is just my personal, subjective opinion, and I still want to end this review on a high note. So, what follows will be a sort of compliment sandwich: I'll summarise the ultimate part of the plot, highlight the details that I didn't enjoy, and finish by pointing out the ones I _did_ appreciate.
+
+> _(The pair reaches the lair, and the Phantom forces Christine to put on a wedding dress.)_
+>
+> **PHANTOM:**<br>
+> This face, which earned a mother's fear and loathing<br>
+> A mask, my first unfeeling scrap of clothing<br>
+> Pity comes too late, turn around and face your fate:<br>
+> An eternity of _this_ before your eyes!
+>
+> **CHRISTINE:** This haunted face holds no horror for me now; it's in your soul that the true distortion lies!
+>
+> **PHANTOM:** Wait! I think, my dear, we have a guest!
+
+Raoul enters the lair, but forgot to hold his hand at the level of his eyes. Consequently, he falls victim to the Phantom's Punjab lasso. The Phantom poses to Christine a dilemma: if she chooses to keep company with the Phantom, Raoul will be freed; if not, Raoul will be killed.
+
+> **CHRISTINE:** The tears I might have shed for your dark fate grow cold, and turn to tears of hate! _(...)_ Farewell my fallen idol and false friend... We had such hopes and now such hopes are shattered!
+>
+> **PHANTOM:**<br>
+> Too late for turning back, too late for prayers and useless pity!<br>
+> Past all hope of cries for help<br>
+> No point in fighting, for either way you choose you cannot win!<br>
+> So do you end your days with me, or do you send him to his grave?
+>
+> **RAOUL:** _(to Phantom)_ Why make her lie to you, to save me?
+>
+> **PHANTOM/CHRISTINE:**<br>
+> Past the point of no return / Angel of Music<br>
+> The final threshold / Who deserves this?<br>
+> His life is now the prize which you must earn! / Why do you curse mercy?<br>
+> You've passed the point of no return / Angel of Music, you've deceived me; I gave my mind blindly!
+>
+> **PHANTOM:** You try my patience --- make your choice.
+>
+> **CHRISTINE:** Pitiful creature of darkness, what kind of life have you known? God give me courage
+to show you you are not alone! _(She kisses and embraces the Phantom fully and extensively.)_
+
+This is the first time the Phantom is on the receiving end of any form of affection and sympathy. Broken, he frees Raoul and vehemently tells him to leave with Christine and to swear "never to tell of the secret" they know. As the mob gradually nears, the Phantom ends up sobbing on the floor. The papier-mâché musical box in his lair begins playing the melody of Masquerade, to which he sorrows over spending his entire life hiding his face from the world. He looks back and is relieved to see Christine reentering his lair, but is defeated as he learns that Christine is back only because she wants to return his ring to him. As Christine leaves the lair with Raoul, Phantom utters that he loves her and declares that "it's over now --- the music of the night".
+
+The Phantom perches on his throne, tucking his legs beneath him and covering himself with his cloak seconds before the mob enters. The first to make her way into the Phantom's lair is Meg, who walks towards the throne and pulls away the cloak, only to find a single, white, porcelain half-mask.
 
 
 
 
-### Down Once More / Final Lair
+
+
+The fact that Meg was the only one small enough to, after climbing down, crawl through the portcullis thing to the lair
+The fact that we can see Raoul and Christine leave the lair by boat as Phantom utters “Christine I love you”
+The lighting is in such a way that the mask (held by Meg) is the last thing we see in the entire musical
+In Final Lair, when Raoul arrives, the Phantom throws away the Christine mannequin (which at this point has been completely undressed) while Christine throws away the bouquet the Phantom gave her.
+
+
+
+
+Phantom’s lines in Final Lair appears forced and unnatural
+
+Phantom’s disfigurement on his right half of his face looks oddly brightly coloured - that half is significantly paler than liferally every other part of his face 
+
+Phantom just sits on the throne as he shouts “Go! Swear to me never to tell of the secret you know… Leave me!”. The lack of eye contact to Christine and Raoul makes it a bit weird
+
 
 
 
