@@ -338,7 +338,7 @@ Here, the mob is seen on a raised platform, directly below which we can see Chri
 
 ### Final Lair
 
-Before I dive into this final scene of the musical, I just want to add that if there is one bit of the live performance that I actively disliked, it's this one. Of course, this is just my personal, subjective opinion, and I still want to end this review on a high note. So, what follows will be a sort of compliment sandwich: I'll summarise the ultimate part of the plot, highlight the details that I didn't enjoy, and finish by pointing out the ones I _did_ appreciate.
+Before I dive into this final scene of the musical, I just want to add that if there is one bit of the live performance that I actively disliked, it's this one. Obviously, this is just my personal, subjective opinion, and I still want to end this review on a high note. So, what follows will be a sort of compliment sandwich: I'll summarise the ultimate part of the plot, highlight the details that I didn't enjoy, and finish by pointing out the ones I _did_ appreciate.
 
 > _(The pair reaches the lair, and the Phantom forces Christine to put on a wedding dress.)_
 >
@@ -352,17 +352,16 @@ Before I dive into this final scene of the musical, I just want to add that if t
 >
 > **PHANTOM:** Wait! I think, my dear, we have a guest!
 
-Raoul enters the lair, but forgot to hold his hand at the level of his eyes. Consequently, he falls victim to the Phantom's Punjab lasso. The Phantom poses to Christine a dilemma: if she chooses to keep company with the Phantom, Raoul will be freed; if not, Raoul will be killed.
+Raoul enters the lair, but forgets to hold his hand at the level of his eyes. Consequently, he falls victim to the Phantom's lasso. The Phantom poses to Christine a dilemma: if she chooses to keep company with the Phantom, Raoul will be freed; if not, Raoul will be killed.
 
-> **CHRISTINE:** The tears I might have shed for your dark fate grow cold, and turn to tears of hate! _(...)_ Farewell my fallen idol and false friend... We had such hopes and now such hopes are shattered!
+> **CHRISTINE:** _(to herself, but looking at the Phantom)_ The tears I might have shed for your dark fate grow cold, and turn to tears of hate! _(...)_ Farewell my fallen idol and false friend... We had such hopes and now such hopes are shattered!
 >
-> **PHANTOM:**<br>
-> Too late for turning back, too late for prayers and useless pity!<br>
+> **PHANTOM:** _(...)_<br>
 > Past all hope of cries for help<br>
 > No point in fighting, for either way you choose you cannot win!<br>
 > So do you end your days with me, or do you send him to his grave?
 >
-> **RAOUL:** _(to Phantom)_ Why make her lie to you, to save me?
+> **RAOUL:** _(to the Phantom)_ Why make her lie to you to save me?
 >
 > **PHANTOM/CHRISTINE:**<br>
 > Past the point of no return / Angel of Music<br>
@@ -379,6 +378,13 @@ This is the first time the Phantom is on the receiving end of any form of affect
 
 The Phantom perches on his throne, tucking his legs beneath him and covering himself with his cloak seconds before the mob enters. The first to make her way into the Phantom's lair is Meg, who walks towards the throne and pulls away the cloak, only to find a single, white, porcelain half-mask.
 
+So, what didn't I like about this scene? To keep it brief, Chisnall's performance as the Phantom comes across as quite forced and unnatural in this scene, with a sudden lack of chemistry with Christine that wasn't seen in other scenes. And when he delivers the line:
+
+> **PHANTOM:** _(He screams to Christine and Raoul)_ Go now, don't let them find you! Take the boat --- swear to me never to tell of the secret you know... of this Angel of Hell! Go! Go now and leave me!
+
+he is simply sitting on his throne facing the audience, with no eye contact to either Christine or Raoul, which renders the whole interaction rather awkward and weird. Moreover, the deformed right half of the Phantom's face was so unbelievably (and unnecessarily) brightly coloured, and the overhead spotlight certainly didn't help. That half is literally several times paler than any other part of his face, he might as well have kept his white mask on. Of course, one could argue that the non-skinlike appearance was completely intentional, that the abnormal pallor was exactly what was intended, and that the unrealistic and unhuman-looking disfigurement is precisely what made the Phantom so hated and rejected by society. But... I'm not convinced. To me, it was just an annoying distraction from the rest of the scene's action.
+
+With all that said, what _did_ I like about this scene? 
 
 
 
@@ -392,11 +398,7 @@ In Final Lair, when Raoul arrives, the Phantom throws away the Christine mannequ
 
 
 
-Phantom’s lines in Final Lair appears forced and unnatural
 
-Phantom’s disfigurement on his right half of his face looks oddly brightly coloured - that half is significantly paler than liferally every other part of his face 
-
-Phantom just sits on the throne as he shouts “Go! Swear to me never to tell of the secret you know… Leave me!”. The lack of eye contact to Christine and Raoul makes it a bit weird
 
 
 
