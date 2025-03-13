@@ -15,7 +15,7 @@ With that said, let's approximate $$\pi$$ using the Tau Manifesto. Why, you ask?
 
 ### The three puzzle pieces
 
-Accomplishing this ridiculous approximation requires three apparently unconnected concepts: the Basel problem, the Tau Manifesto, and the Zipf-Mandelbrot law.
+Accomplishing this requires three apparently unconnected concepts: the Basel problem, the Tau Manifesto, and the Zipf-Mandelbrot law.
 
 
 #### The first piece of the puzzle: The Basel Problem
@@ -26,11 +26,12 @@ $$
 \sum^{\infty}_{n=1} \frac{1}{n^2} = 1 + \frac{1}{2^2} + \frac{1}{3^2}  + \frac{1}{4^2} \cdots =\; ?
 $$
 
-In 1734, Leonard Euler showed that this infinite sum converges exactly to $$\pi^2 / 6$$, which makes it a great candidate for $$\pi$$ approximation. We can rewrite this formula by replacing the _reciprocals of squares_ with _squares of reciprocals_:
+In 1734, Leonard Euler showed that this infinite sum converges to exactly $$\pi^2 / 6$$, which makes it a great candidate for $$\pi$$ approximation. We can rewrite this formula by replacing _reciprocals of squares_ with _squares of reciprocals_:
 
 $$
 \begin{alignat*}{3}
     \sum^{\infty}_{n=1} \frac{1}{n^2} &= 1 + \frac{1}{2^2} + \frac{1}{3^2} + \frac{1}{4^2} + \cdots &= \frac{\pi^2}{6}\\
+    &\Downarrow\\
     \sum^{\infty}_{n=1} \left(\frac{1}{n}\right)^2 &= 1 + \left(\frac{1}{2}\right)^2 + \left(\frac{1}{3}\right)^2 + \left(\frac{1}{4}\right)^2 + \cdots &= \frac{\pi^2}{6} \label{eq:basel}\tag{1}
 \end{alignat*}
 $$
@@ -38,7 +39,12 @@ $$
 
 #### The second piece of the puzzle: The Tau Manifesto
 
-In June 2010, American physicist Michael Hartl published the famous [Tau Manifesto](https://tauday.com/tau-manifesto){:target="_blank"}. There, he claims that "the natural choice for the circle constant is the ratio of a circle's circumference not to its diameter, but to its radius". In other words, Hartl argues that it is more reasonable to use the constant
+In June 2010, American physicist Michael Hartl published the famous [Tau Manifesto](https://tauday.com/tau-manifesto){:target="_blank"}, in which he claims the following:
+
+> The natural choice for the circle constant is the ratio of a circle's circumference not to its diameter, but to its radius.
+> <div style="text-align: right">(from <i>The Tau Manifesto</i>)</div>
+
+In other words, Hartl argues that it is more reasonable to use the constant
 
 $$
 \tau = \frac{\text{circumference}}{\text{radius}} = 6.28318\cdots
@@ -47,10 +53,12 @@ $$
 than the more familiar
 
 $$
-\pi = \frac{\text{circumference}}{\text{diameter}} = 3.14159\cdots\text{.}
+\pi = \frac{\text{circumference}}{\text{diameter}} = 3.14159\cdots
 $$
 
-I won't delve too deep into the $$\pi$$ versus $$\tau$$ debate, although the manifesto itself is quite an entertaining and fascinating read. Its [PDF version](https://tauday.com/tau_manifesto.pdf){:target="_blank"} spans a total of 53 pages, and its contents have been revised multiple times since its original publication. In this post, I will be using the latest version of the version, last updated on Tau Day 2023.
+when working with geometry, analysis, physics, and just mathematics in general.
+
+I won't delve too deep into the unbelievably controversial (and [surprisingly still relevant](https://xkcd.com/1292){:target="_blank"}) $$\pi$$ versus $$\tau$$ debate, although the manifesto itself is quite an entertaining and fascinating read. Its [PDF version](https://tauday.com/tau_manifesto.pdf){:target="_blank"} spans a total of 53 pages, and its contents have been revised multiple times since its original publication. In this post, I will be using the latest version of the document, last updated on Tau Day 2023.
 
 
 
@@ -74,18 +82,18 @@ This means that the most commonly used letter should appear approximately...
 - four times as often as the fourth most common letter,
 - and so on.
 
-It should be noted that in reality, Zipf's law applies to not just letter frequencies, but word frequencies as well! This [Wolfram demonstration](https://www.wolframcloud.com/objects/demonstrations/ZipfsLawAppliedToWordAndLetterFrequencies-source.nb){:target="_blank"}, for example, uses logarithmic plots to illustrate how the word and letter frequencies of various literary works follow --- or deviate --- from Zipf's law.
+It should be noted that in reality, Zipf's law applies to not just letter frequencies, but word frequencies as well. This [Wolfram demonstration](https://www.wolframcloud.com/objects/demonstrations/ZipfsLawAppliedToWordAndLetterFrequencies-source.nb){:target="_blank"}, for example, uses logarithmic plots to illustrate how the word and letter frequencies of various literary works follow --- or deviate from --- Zipf's law.
 
-Being merely empirical, Zipf's law is never entirely accurate. Real-world data usually deviate from its predictions, making it challenging to model language usage based on the law. To improve modelling accuracy, a [1953 paper by Benoit Mandelbrot](http://pdodds.w3.uvm.edu/research/papers/others/1953/mandelbrot1953a.pdf){:target="_blank"} proposes what is now called the Zipf-Mandelbrot law, as follows:
+Being merely empirical, Zipf's law is never entirely accurate. Real-world data may not always match its predictions, making it challenging to model language usage based on the law. To improve modelling accuracy, a [1953 paper by Benoit Mandelbrot](http://pdodds.w3.uvm.edu/research/papers/others/1953/mandelbrot1953a.pdf){:target="_blank"} proposes what is now called the Zipf-Mandelbrot law:
 
 $$f(r) \propto \frac{1}{(r+\beta)^\alpha} \label{eq:zipf-mandelbrot}\tag{2}$$
 
 where $$\alpha$$ and $$\beta$$ are constants that can be adjusted based on the specific language and text in question. For instance:
 
 - Setting $$\alpha = 1$$ and $$\beta = 0$$ gives the original Zipf's law.
-- [It is suggested](https://pmc.ncbi.nlm.nih.gov/articles/PMC4176592/){:target="_blank"} that setting $$\alpha = 1$$ and $$\beta = 2.73$$ yields the best fit for modelling word frequencies.
+- [It is suggested](https://pmc.ncbi.nlm.nih.gov/articles/PMC4176592/){:target="_blank"} that setting $$\alpha = 1$$ and $$\beta = 2.73$$ yields the best fit for modelling word frequencies in American English.
 
-Now, I can't find any sources mentioning the ideal parameter values for modelling letter frequencies, but for the purposes of this post we will assume that the second set of parameters mentioned above, i.e. $$(\alpha, \beta) = (1,\; 2.73)$$, will work just as well for letter frequencies.
+I can't find any sources mentioning the ideal parameter values for modelling the frequencies of English letters, but for the purposes of this post we will assume that the second set of parameters mentioned above, i.e. $$(\alpha, \beta) = (1,\; 2.73)$$, will work just as well for letter frequencies.
 
 
 
@@ -101,9 +109,9 @@ which we can rewrite as
 
 $$f(r) = \frac{k}{r+\beta} \tag{3}\label{eq:freq-func-def}$$
 
-for some nonzero constant $$k$$. We will leave $$\beta = 2.73$$ unspecified for now.
+for some nonzero constant $$k$$. We'll leave $$\beta = 2.73$$ unsubstituted for now.
 
-Substituting $$r = 1$$ gives us
+Setting $$r = 1$$ gives us
 
 $$
 \begin{align*}
@@ -129,7 +137,9 @@ $$
 R_{\text{est}}(r) := \frac{f(r - \beta)}{(1 + \beta) \cdot f(1)} \tag{4}\label{eq:reciprocal-approx}
 $$
 
-There's just one slight issue. Recall that $$r$$, which stands for the rank of a certain letter, is an integer. On the left-hand side, $$r$$ is used as the argument of the function $$R_{\text{est}}$$, which is fine since the domain of $$R_{\text{est}}$$'s is the set of real numbers. The right-hand side, however, applies the frequency function $$f$$ to a non-integer value $$r - \beta = r - 2.73$$. Since $$f$$ is defined only on positive integers, this is an invalid operation.
+($$R_{\text{est}}$$ stands for "**est**imate of **r**eciprocal".)
+
+There's just one slight issue. Recall that $$r$$, which stands for the rank of a certain letter, is an integer. On the left-hand side, $$r$$ is used as the argument of the function $$R_{\text{est}}$$, which is fine since the domain of $$R_{\text{est}}$$ is the set of real numbers. The right-hand side, however, applies the frequency function $$f$$ to a non-integer value $$r - \beta = r - 2.73$$. Since $$f$$ is defined only on positive integers, this is an invalid operation.
 
 We can fix this by extending the domain of $$f$$. Suppose we know the values of $$f(r_0)$$ and $$f(r_0 + 1)$$ for some integer $$r_0$$. How can we infer from this the value of $$f(r_0 + t)$$ for any $$0 \leq t \leq 1$$?
 
@@ -170,7 +180,7 @@ $$
 \end{align*}
 $$
 
-We can simplify this equation using the formula for [linear interpolation](https://en.wikipedia.org/wiki/Linear_interpolation){:target="_blank"} (LERP).
+We can simplify this equation using the [linear interpolation](https://en.wikipedia.org/wiki/Linear_interpolation){:target="_blank"} (LERP) formula.
 
 $$
 f(r_0 + t) = \frac{1}{\text{lerp}\left(\frac{1}{f(r_0)},\; \frac{1}{f(r_0 + 1)},\; t\right)}
@@ -188,7 +198,7 @@ f(r) =
 \tag{5}\label{eq:freq-func-def-extended}
 $$
 
-This also restricts the domain of $$R_{\text{est}}(r)$$, defined in $$\eqref{eq:reciprocal-approx}$$ to $$\{r \in \mathbb{R} \;\vert\; r \geq 1 + \beta\}$$.
+This also restricts the domain of $$R_{\text{est}}(r)$$, as defined in $$\eqref{eq:reciprocal-approx}$$, to $$\{r \in \mathbb{R} \;\vert\; r \geq 1 + \beta\}$$.
 
 With all that done, it's time to finally derive the formula we will use for our $$\pi$$ approximation.
 
@@ -220,7 +230,7 @@ where $$\beta = 2.73$$ and $$f$$ is defined in accordance with $$\eqref{eq:freq-
     </p>
 
     <p>
-        While this might be partially true, I would argue that this does not count as cheating whatsoever. To see why this is, let us attempt to estimate the value of \(\pi\) using only the first three terms of the infinite sum.
+        While this might be partially true, I would argue that this doesn't count as cheating whatsoever. To see why this is, let us attempt to estimate the value of \(\pi\) using only the first three terms of the infinite sum.
     </p>
 
     $$
@@ -240,7 +250,7 @@ where $$\beta = 2.73$$ and $$f$$ is defined in accordance with $$\eqref{eq:freq-
 
 ### The estimation
 
-Now to actually evaluate this formula with regard to The Tau Manifesto! To do this, we can extract the contents of the manifesto by [scraping](https://en.wikipedia.org/wiki/Web_scraping){:target="_blank"} and parsing its official website's HTML source code. This gives us a bunch of raw text that looks a bit like this. (Below shows the raw text corresponding to the opening lines of the manifesto's first subsection.)
+Now to actually evaluate this formula with regard to The Tau Manifesto! To do this, we can extract the contents of the document by [scraping](https://en.wikipedia.org/wiki/Web_scraping){:target="_blank"} and parsing its official website's HTML source code. This gives us a bunch of raw text that looks a bit like this. (Below shows the raw text corresponding to the opening lines of the manifesto's first subsection.)
 
 <pre class="scraped-text">
 1.1 An immodest proposal
@@ -293,9 +303,9 @@ and --- for the finale --- rearrange the equation to get:
 
 $$\pi = 3.154008020315814 \cdots$$
 
-Honestly, that's a whole lot closer than I expected. Happy $$\pi$$ day everyone!
+Honestly, with a percentage error of merely $$0.395\%$$, that is a whole lot closer than I expected. Happy $$\pi$$ day everyone!
 
 
 <div class="highlight-block">
-    All the code used for scraping the website, approximating \(\pi\), and rendering the graphs in this post is available on GitHub.
+    All the code used for scraping the website, approximating \(\pi\), and rendering the graphs in this post is available on <a href="https://github.com/raphaellith/Estimating-Pi-with-Tau-Manifesto" target="_blank">GitHub</a>.
 </div>
