@@ -1,0 +1,14 @@
+code, pre {
+    white-space : pre-wrap !important;
+}
+
+.scraped-text {
+    font-size: small;
+}
+
+.highlight-block {
+    background: var(--theme-color-light);
+    padding: 15px;
+    border-left: 3px solid var(--theme-color);
+    margin-bottom: 1.5em;
+}
