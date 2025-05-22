@@ -21,3 +21,21 @@
 #translation-button:hover {
     filter: brightness(110%);
 }
+
+.text-overlay-on-image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.darkened-image {
+    filter: brightness(60%);
+}
+
+#the-end-text-on-image {
+    position: absolute;
+    bottom: 15%;
+    right: 8%;
+    text-align: right;
+    width: 40%;
+}
