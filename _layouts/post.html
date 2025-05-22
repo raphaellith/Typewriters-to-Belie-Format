@@ -10,7 +10,7 @@ layout: default
     <p class="post-meta" style="">
       <!-- Post's description -->
       {%- if page.description -%}
-        <p class="post-description" itemprop="description" style="color: gray">{{ page.description }}</p>
+        <p class="post-description" itemprop="description">{{ page.description }}</p>
       {%- endif -%}
 
       <div style="width: 100%; display: table;">
@@ -37,7 +37,7 @@ layout: default
     </p>
 
     <!-- Grey line -->
-    <hr style="border: none; background-color: #007acc; height: 3px; margin-top: -3px; margin-bottom: 35px;">
+    <hr style="border: none; background-color: var(--theme-color); height: 3px; margin-top: -3px; margin-bottom: 35px;">
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

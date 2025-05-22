@@ -1,8 +1,12 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 // Define defaults for each variable.
 
-$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+// $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-font-family: "PT Serif", Helvetica !default;
+
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -10,19 +14,16 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-// $brand-color:      #2a7ae2 !default;  // for links
-$brand-color: #15a5FF !default;
+// https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529
+// $text-color:       #111 !default;
+// $background-color: #fdfdfd !default;
+$text-color:       #f8f9fa !default;
+$background-color: #212529 !default;
 
 // Custom added colors:
-$theme-color:      #007acc !default;
-$theme-color-dark: #0062A3 !default;
-$theme-color-light:#D6EFFF !default;
- 
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$theme-color:      #15a5FF !default;
+$grey-color:       #bbbbbb !default;
+// $light-grey-color:       #bbbbbb !default;
 
 $table-text-align: left !default;
 
