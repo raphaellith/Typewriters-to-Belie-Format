@@ -2,10 +2,6 @@
     margin-left: 1em;
 }
 
-.highlight-block {
-    background: var(--theme-color-light); padding: 15px; border-left: 3px solid var(--theme-color);
-}
-
 #translation-button {
     background: var(--theme-color);
     border: none;

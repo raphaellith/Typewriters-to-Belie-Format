@@ -41,6 +41,12 @@ ul, ol, dl, figure,
 }
 
 
+// Custom: Headings inside post should be preceded by some vertical space
+h3, h4, h5, h6 {
+  margin-top: 1.25em;
+}
+
+
 
 /**
  * `main` element
