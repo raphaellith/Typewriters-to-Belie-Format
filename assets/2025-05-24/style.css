@@ -7,7 +7,7 @@
     text-align: center;
     display: inline-block;
     font-size: 14px;
-    font-weight: 700;
+    font-family: inherit;
 }
 
 #translation-button:hover {
