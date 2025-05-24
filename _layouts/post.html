@@ -13,17 +13,17 @@ layout: default
         <p class="post-description" itemprop="description">{{ page.description }}</p>
       {%- endif -%}
 
-      <div style="width: 100%; display: table;">
+      <div style="width: 100%; display: table; table-layout: auto;">
         <div style="display: table-row">
-            <div style="width: 75%; display: table-cell;">
+            <div style=" display: table-cell;">
               {%- if page.tags -%}
-                <div style="font-size: 14px;">
+                <div style="font-size: 14px; line-height: 2.2">
                   <b>Tags:</b> &nbsp;
                   {% include custom/tags.html tags=page.tags with_link=true %}
                 </div>
               {%- endif -%}
             </div>
-            <div style="display: table-cell; text-align: right;">
+            <div style="display: table-cell; text-align: right; white-space: nowrap; vertical-align: bottom;">
               <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" style="font-size: 14px; font-weight: bold;">
                 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                 {{ page.date | date: date_format }}
