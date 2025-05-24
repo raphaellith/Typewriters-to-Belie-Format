@@ -3,7 +3,7 @@ layout: post
 title:  "Fire, Radiation and the Twelfth Ember: Some Only Connect-esque sequences"
 date:   2025-02-02 15:00:00 +0100
 description: "
-<b>Fill in the blank:</b><br>
+Fill in the blank:<br><br>
 <pre style='font-size: 11pt;'>
 B, C, M, P                   = 3 points (8 out of 100 tiles)<br>
 D, G                         = 2 points (7 out of 100 tiles)<br>
