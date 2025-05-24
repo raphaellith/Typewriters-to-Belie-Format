@@ -1,3 +1,13 @@
+.tag {
+    font-size: small;
+    font-weight: bold;
+    background: lightgrey;
+    color: black;
+    padding: 0.3em;
+    border-radius: 0.3em;
+    margin-right: 0.6em;
+}
+
 .highlight-block {
     background: var(--theme-color-light); padding-left: 15px; 
     padding-top: 5px;
