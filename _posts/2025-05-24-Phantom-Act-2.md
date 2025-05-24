@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "From Screen to Stage: Thoughts on Seeing The Phantom of the Opera Live at the West End (Act 2)"
-date:   2025-05-24 10:00:00 +0800
+date:   2025-05-24 9:30:00 +0800
 description: "\"So — there is to be <i>more</i> between us!\""
 tags: theatre-trip review
 ---
