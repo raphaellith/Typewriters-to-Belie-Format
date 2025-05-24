@@ -26,7 +26,7 @@ function addExtraTags() {
     let tagListDiv = document.getElementById("tag-list");
     for (let i = 0; i < extraTags.length; i++) {
         let tagText = extraTags[i];
-        tagListDiv.innerHTML += "\n<span class='tag'>" + tagText + "</span>";
+        tagListDiv.innerHTML += "\n<span class='tag extra-tag'>" + tagText + "</span>";
     }
 }
 

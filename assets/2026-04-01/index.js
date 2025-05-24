@@ -8,11 +8,13 @@ let ballRadius = 7;
 let paddle = document.getElementById("paddle");
 let paddlePos = {};
 let paddleSize = {};
-let paddleSpeed = 20;
+let paddleSpeed = 30;
+
+let points = 0;
 
 const speedInc = 0.025;
 
-function init() {
+function startGame() {
     addExtraTags();
 
     updatePlayingAreaCoords();
@@ -32,9 +34,6 @@ function init() {
 
     paddle.style.width = paddleSize.width + "px";
     paddle.style.height = paddleSize.height + "px";
-    // paddle.style.borderRadius = paddleSize.height / 2 + "px";
-
-    addEventListener("keydown", handleKeyPress);
 }
 
 function updatePlayingAreaCoords() {
@@ -138,6 +137,15 @@ function loop() {
 
             if (collisionOccurred) {
                 tagElement.style.visibility = "hidden";
+                
+                let tagLen;
+                if (tagElement.classList.contains("extra-tag")) {
+                    tagLen = tagElement.innerHTML.length;
+                } else {
+                    tagLen = tagElement.children[0].innerHTML.length
+                }
+                points += tagLen;
+
                 ballVel.x += ballVel.x > 0 ? speedInc : -speedInc;
                 ballVel.y += ballVel.y > 0 ? speedInc : -speedInc;
             }
@@ -147,7 +155,10 @@ function loop() {
     handleCollisionsWithRect(paddle.getBoundingClientRect());
 
     limitPaddlePos();
+
+    document.getElementsByClassName("post-description")[0].innerHTML = "April's Fools Day 2026. Your current score: " + points + ".";
 }
 
-init();
+addEventListener("keydown", handleKeyPress);
+startGame();
 setInterval(loop, 5);
