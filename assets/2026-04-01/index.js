@@ -167,7 +167,7 @@ function loop() {
 
     limitPaddlePos();
 
-    document.getElementsByClassName("post-description")[0].innerHTML = "April's Fools Day 2026. Your current score is <b>" + score + "</b>.";
+    document.getElementsByClassName("post-description")[0].innerHTML = "April Fool's Day 2026. Your current score is <b>" + score + "</b>.";
 
     if (!gameInProgress) {  // Using top instead of display to facilitate transition
         overlay.style.top = "0";

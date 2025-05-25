@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "This Post Has Too Many Tags"
-date:   2025-05-24 12:30:00 +0800
-description: "April Fools 2026."
+date:   2026-04-01 12:30:00 +0000
+description: "April Fool's Day 2026."
 tags: april-fools games
 ---
 
-<span id="article-content">Use left and right arrow keys to control the paddle. Longer tags are worth more points.</span>
+<span id="article-content">Use left and right arrow keys to control the paddle. Longer tags are worth more points. Cookies are used to store your high score.</span>
 
 <span id="ball"></span>
 
