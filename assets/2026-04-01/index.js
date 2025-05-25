@@ -25,7 +25,7 @@ function startGame() {
 
     ballPos.x = playingArea.left + playingArea.width * 0.5;
     ballPos.y = playingArea.top + playingArea.height * 0.85;
-    ballVel.x = 1 + randomFloat(-0.15, 0.15);
+    ballVel.x = (1 - Math.round(Math.random()) * 2) + randomFloat(-0.15, 0.15);
     ballVel.y = -1 + randomFloat(-0.15, 0.15);
 
     ball.style.width = ballRadius * 2 + "px";
@@ -205,14 +205,18 @@ function endGame() {
     }
 }
 
+function hasKeyboard() {
+    return typeof window !== 'undefined' && window.matchMedia("(pointer: fine)").matches;
+}
+
 function main() {
-    if (!'keyboard' in navigator) {
+    if (hasKeyboard()) {
         // Device has keyboard
         addEventListener("keydown", handleKeyPress);
         startGame();
         loop();
 
-        setTimeout(() => setInterval(loop, 5), 5000);
+        setTimeout(() => setInterval(loop, 5), 2000);
     } else {
         addExtraTags();
 
