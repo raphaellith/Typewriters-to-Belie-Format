@@ -10,9 +10,13 @@ let paddlePos = {};
 let paddleSize = {};
 let paddleSpeed = 30;
 
-let points = 0;
+let overlay = document.getElementById("overlay");
 
 const speedInc = 0.025;
+
+let gameInProgress = false;
+let score = 0;
+let maxPossibleScore;
 
 function startGame() {
     addExtraTags();
@@ -34,6 +38,10 @@ function startGame() {
 
     paddle.style.width = paddleSize.width + "px";
     paddle.style.height = paddleSize.height + "px";
+
+    gameInProgress = true;
+
+    maxPossibleScore = getMaxPossibleScore();
 }
 
 function updatePlayingAreaCoords() {
@@ -63,6 +71,7 @@ function handleCollisionsWithPlayingAreaBorder() {
     } else if (ballPos.y + ballRadius > playingArea.bottom) {
         ballPos.y = playingArea.bottom - ballRadius;
         ballVel.y *= -1;
+        endGame();
     }
 }
 
@@ -94,13 +103,15 @@ function handleCollisionsWithRect(rect) {
 }
 
 function handleKeyPress(event) {
-    switch (event.code) {
-        case "ArrowLeft":
-            paddlePos.x -= paddleSpeed;
-            break;
-        case "ArrowRight":
-            paddlePos.x += paddleSpeed;
-            break;
+    if (gameInProgress) {
+        switch (event.code) {
+            case "ArrowLeft":
+                paddlePos.x -= paddleSpeed;
+                break;
+            case "ArrowRight":
+                paddlePos.x += paddleSpeed;
+                break;
+        }
     }
 }
 
@@ -138,14 +149,14 @@ function loop() {
             if (collisionOccurred) {
                 tagElement.style.visibility = "hidden";
                 
-                let tagLen;
-                if (tagElement.classList.contains("extra-tag")) {
-                    tagLen = tagElement.innerHTML.length;
-                } else {
-                    tagLen = tagElement.children[0].innerHTML.length
-                }
-                points += tagLen;
+                if (gameInProgress) {
+                    score += scoreBehindTag(tagElement);
 
+                    if (score == maxPossibleScore) {
+                        endGame();
+                    }
+                }
+                
                 ballVel.x += ballVel.x > 0 ? speedInc : -speedInc;
                 ballVel.y += ballVel.y > 0 ? speedInc : -speedInc;
             }
@@ -156,9 +167,63 @@ function loop() {
 
     limitPaddlePos();
 
-    document.getElementsByClassName("post-description")[0].innerHTML = "April's Fools Day 2026. Your current score: " + points + ".";
+    document.getElementsByClassName("post-description")[0].innerHTML = "April's Fools Day 2026. Your current score is <b>" + score + "</b>.";
+
+    if (!gameInProgress) {  // Using top instead of display to facilitate transition
+        overlay.style.top = "0";
+    } else {
+        overlay.style.top = "-100%";
+    }
 }
 
-addEventListener("keydown", handleKeyPress);
-startGame();
-setInterval(loop, 5);
+function getHScoreMessage() {
+    let currentHighScore = -1;
+
+    if (document.cookie.startsWith("hscore=")) {
+        currentHighScore = parseInt(document.cookie.slice(7));
+        if (score < currentHighScore) {
+            return "Your high score was " + currentHighScore + ".";
+        }
+    }
+
+    document.cookie = "hscore=" + score;
+    return "This is your new high score!";
+}
+
+function endGame() {
+    gameInProgress = false;
+    if (score == maxPossibleScore) {
+        document.getElementById("win-ending").style.display = "block";
+        document.getElementById("game-over-ending").style.display = "none";
+        document.getElementById("max-score").innerHTML = maxPossibleScore;
+        document.getElementById("overlay").style.backgroundColor = "rgba(27, 67, 50, 0.85);";
+    } else {
+        document.getElementById("win-ending").style.display = "none";
+        document.getElementById("game-over-ending").style.display = "block";
+        document.getElementById("final-score").innerHTML = score;
+        document.getElementById("hscore-message").innerHTML = getHScoreMessage();
+    }
+}
+
+function main() {
+    if (!'keyboard' in navigator) {
+        // Device has keyboard
+        addEventListener("keydown", handleKeyPress);
+        startGame();
+        loop();
+
+        setTimeout(() => setInterval(loop, 5), 5000);
+    } else {
+        addExtraTags();
+
+        document.getElementById("article-content").innerHTML = [
+            "There once was a blog with a post",
+            "Whose number of tags proved utmost",
+            "Should you wish to read it",
+            "A keyboard is needed",
+            "So use another device &mdash; diagnosed!"
+        ].join('<br>');
+    }   
+}
+
+main();
