@@ -106,9 +106,11 @@ function handleKeyPress(event) {
     if (gameInProgress) {
         switch (event.code) {
             case "ArrowLeft":
+            case "KeyA":
                 paddlePos.x -= paddleSpeed;
                 break;
             case "ArrowRight":
+            case "KeyD":
                 paddlePos.x += paddleSpeed;
                 break;
         }
