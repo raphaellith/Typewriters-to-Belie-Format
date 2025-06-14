@@ -1,0 +1,67 @@
+.crossword-grid {
+    /* Top left corner */
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+    /* Amount of horizontal space taken up by the whole grid */
+    width: 80%;
+    margin-left: auto;  /* Center grid */
+    margin-right: auto;
+    margin-bottom: 15px;
+
+    /* Use CSS grid for cell layout (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) with 5 columns of equal width */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    color: black;
+}
+
+.crossword-grid-cell {
+    /* Center contents (as long as their position is not absolute) */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Each cell has a width of 1 column and has 1:1 aspect ratio */
+    width: 1fr;
+    aspect-ratio: 1;
+
+    border: solid black 1px;
+}
+
+.crossword-grid-black-cell {
+    background-color: dimgrey;
+}
+
+.crossword-grid-white-cell {
+    background-color: white;
+}
+
+/* .crossword-grid-white-cell:hover {
+    background-color: lightblue;
+    transition: background-color 0.1s;
+} */
+
+.crossword-solution-letter {
+    /* Centered */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    font-size: 30px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.crossword-numbering {
+    /* Position is not absolute, so not centered */
+    position: absolute;
+    top: 3%;
+    left: 3%;
+
+    font-size: 13px;
+    /* font-weight: bold; */
+}
