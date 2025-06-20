@@ -127,7 +127,7 @@ As you probably know, this slider is also featured in many other software applic
 
 On the number line, 100% is nowhere near the midpoint between 10% and 500%, which means this magnification slider is --- you guessed it --- non-linear.
 
-But non-linear how? After all, there are infinitely many ways for us to draw a strictly increasing curve that connects these three data points. [This Stack Overflow answer](https://stackoverflow.com/a/17102320){:target="_blank"}, for example, outlines a method for finding an exponential function $$y = a + b \cdot e^{cx}$$ whose graph passes through any three given points. The same exponential approach is echoed by responses like [this one](https://stackoverflow.com/a/51347673){:target="_blank"} and [this one](https://stackoverflow.com/a/68570759){:target="_blank"}.
+But non-linear how? After all, there are infinitely many ways for us to draw a strictly increasing curve that connects these three data points. [This Stack Overflow answer](https://stackoverflow.com/a/17102320), for example, outlines a method for finding an exponential function $$y = a + b \cdot e^{cx}$$ whose graph passes through any three given points. The same exponential approach is echoed by responses like [this one](https://stackoverflow.com/a/51347673) and [this one](https://stackoverflow.com/a/68570759).
 
 So _maybe_ the same is done in Microsoft Office? We can't be sure --- the only way to gather more information as to what this curve looks like is by sampling more data points. To do this, I can either
 

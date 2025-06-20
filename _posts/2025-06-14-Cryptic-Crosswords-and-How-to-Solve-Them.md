@@ -165,7 +165,7 @@ Unlike vanilla crosswords, where each clue may correspond to a whole host of pos
     </p>
 </div>
 
-At this point, you might be wondering how exactly the wordplay is tied to the answer. After all, how in the world could the phrase "awful desecration" possibly be related to any synonym of "kind"? We'll cover this in detail in the coming sections, but for now just remember that part of the enjoyment in solving cryptic crosswords lies in discerning between the definition and the wordplay. Identifying where the definition is can be tricky owing to misleading "surface readings", i.e. what the clue appears to mean when read as a normal ordinary sentence. For example, consider the following clue from [one of The Guardian's Everyman crosswords](https://www.theguardian.com/crosswords/everyman/3588){:target="_blank"}:
+At this point, you might be wondering how exactly the wordplay is tied to the answer. After all, how in the world could the phrase "awful desecration" possibly be related to any synonym of "kind"? We'll cover this in detail in the coming sections, but for now just remember that part of the enjoyment in solving cryptic crosswords lies in discerning between the definition and the wordplay. Identifying where the definition is can be tricky owing to misleading "surface readings", i.e. what the clue appears to mean when read as a normal ordinary sentence. For example, consider the following clue from [one of The Guardian's Everyman crosswords](https://www.theguardian.com/crosswords/everyman/3588):
 
 <div class="newspaper-cutout">
     <div class="newspaper-cutout-row">
@@ -201,7 +201,7 @@ Here, we'll briefly go through each of these clue types, explaining how they wor
 
 ### Double definitions
 
-In a double definition clue, the wordplay part of the clue gives an alternative definition of the answer word. For example, this clue from [a Quick Cryptic crossword](https://www.theguardian.com/crosswords/quick-cryptic/52){:target="_blank"}
+In a double definition clue, the wordplay part of the clue gives an alternative definition of the answer word. For example, this clue from [a Quick Cryptic crossword](https://www.theguardian.com/crosswords/quick-cryptic/52)
 
 <div class="newspaper-cutout">
     <div class="newspaper-cutout-row">
@@ -219,7 +219,7 @@ gives the answer ENTERPRISE, which can mean either a "bold undertaking" or a "bu
     </div>
 </div>
 
-which provides a pair of different definitions for SPY. Trickier examples from [this Quiptic crossword](https://www.theguardian.com/crosswords/quiptic/1301){:target="_blank"} include
+which provides a pair of different definitions for SPY. Trickier examples from [this Quiptic crossword](https://www.theguardian.com/crosswords/quiptic/1301) include
 
 <div class="newspaper-cutout">
     <div class="newspaper-cutout-row">
@@ -236,7 +236,7 @@ which provides a pair of different definitions for SPY. Trickier examples from [
     </div>
 </div>
 
-with the answers FAST, WELL DONE and FLAT TYRE. In the last clue, "boring" serves as a synonym for FLAT, while TYRE is the name of [a Lebanese city](https://en.wikipedia.org/wiki/Tyre,_Lebanon){:target="_blank"}, one of the oldest in the world.
+with the answers FAST, WELL DONE and FLAT TYRE. In the last clue, "boring" serves as a synonym for FLAT, while TYRE is the name of [a Lebanese city](https://en.wikipedia.org/wiki/Tyre,_Lebanon), one of the oldest in the world.
 
 Setters that feeling particularly crafty may at times sneak in a triple definition clue, although this happens very rarely.
 
@@ -267,7 +267,7 @@ Here, the word "manipulation" acts as an anagram indicator (or "anagrind") which
 | Chaos and insanity | revolution, lunatic, messy, wild |
 | Novelty and unfamiliarity | new, novel, special, different |
 
-[This Quick Cryptic](https://www.theguardian.com/crosswords/quick-cryptic/48){:target="_blank"} includes examples like
+[This Quick Cryptic](https://www.theguardian.com/crosswords/quick-cryptic/48) includes examples like
 
 <div class="newspaper-cutout">
     <div class="newspaper-cutout-row">
@@ -282,7 +282,7 @@ Here, the word "manipulation" acts as an anagram indicator (or "anagrind") which
 
 where the letters in PETES and RAPTOR can be mixed up to give the answers STEEP and PARROT respectively. "Wrong" and "attacked" act as anagram indicators.
 
-Now consider this pair of clues, one from [an Everyman](https://www.theguardian.com/crosswords/everyman/4015){:target="_blank"} and one from [a Quiptic](https://www.theguardian.com/crosswords/quiptic/1301){:target="_blank"}.
+Now consider this pair of clues, one from [an Everyman](https://www.theguardian.com/crosswords/everyman/4015) and one from [a Quiptic](https://www.theguardian.com/crosswords/quiptic/1301).
 
 <div class="newspaper-cutout">
     <div class="newspaper-cutout-row">
@@ -303,7 +303,7 @@ In the second clue, one might quickly spot that "troubled" is an anagram indicat
 
 ### Abbreviations and charades
 
-Cryptic crossword clues utilise [an enormous number of abbreviations](https://en.wikipedia.org/wiki/Crossword_abbreviations){:target="_blank"} from such diverse disciplines as Roman numerals, chess notation, country codes, noble ranks, scientific terminology and the NATO phonetic alphabet. In a charades clue, abbreviations and/or words are merged and concatenated to form the answer. [This Quick Cryptic](https://www.theguardian.com/crosswords/quick-cryptic/61){:target="_blank"}, for example, has the following clues.
+Cryptic crossword clues utilise [an enormous number of abbreviations](https://en.wikipedia.org/wiki/Crossword_abbreviations) from such diverse disciplines as Roman numerals, chess notation, country codes, noble ranks, scientific terminology and the NATO phonetic alphabet. In a charades clue, abbreviations and/or words are merged and concatenated to form the answer. [This Quick Cryptic](https://www.theguardian.com/crosswords/quick-cryptic/61), for example, has the following clues.
 
 <div class="newspaper-cutout">
     <div class="newspaper-cutout-row">
@@ -328,11 +328,11 @@ In the first clue,
 
 Putting everything together, we get DRAG + ON + S = DRAGONS, which are mythical beasts.
 
-Likewise, the second clue produces the word FORES ([golfers' cries](https://en.wikipedia.org/wiki/Fore_(golf)){:target="_blank"}) + HAD + OW (sound of pain) = FORESHADOW, which means to give a sign of things to come.
+Likewise, the second clue produces the word FORES ([golfers' cries](https://en.wikipedia.org/wiki/Fore_(golf))) + HAD + OW (sound of pain) = FORESHADOW, which means to give a sign of things to come.
 
-Finally, in the last clue, each of the first three words can be abbreviated as [O](https://chambers.co.uk/search/?query=o&title=21st){:target="_blank"}, [U](https://chambers.co.uk/search/?query=u&title=21st){:target="_blank"} and [T](https://chambers.co.uk/search/?query=t&title=21st){:target="_blank"} (as in a T-shirt), which spell the answer OUT, meaning "unfashionable".
+Finally, in the last clue, each of the first three words can be abbreviated as [O](https://chambers.co.uk/search/?query=o&title=21st), [U](https://chambers.co.uk/search/?query=u&title=21st) and [T](https://chambers.co.uk/search/?query=t&title=21st) (as in a T-shirt), which spell the answer OUT, meaning "unfashionable".
 
-A cryptic crossword clue may involve any number of wordplay techniques. For example, solving the following [clue](https://www.theguardian.com/crosswords/quiptic/862){:target="_blank"} requires both anagramming and charades.
+A cryptic crossword clue may involve any number of wordplay techniques. For example, solving the following [clue](https://www.theguardian.com/crosswords/quiptic/862) requires both anagramming and charades.
 
 <div class="newspaper-cutout">
     <div class="newspaper-cutout-row">
@@ -352,7 +352,7 @@ Reversals are quite straightforward (or rather, straight-backward). Reversal ind
 - For an across clue, "westwards" and "from the east" act as reversal indicators by implying that letters should be written from right to left.
 - For a down clue, "brought up" and "elevated" act as reversal indicators by implying that letters should be written from bottom to top.
 
-Have a look at these clues from [a Quick Cryptic](https://www.theguardian.com/crosswords/quick-cryptic/58){:target="_blank"}:
+Have a look at these clues from [a Quick Cryptic](https://www.theguardian.com/crosswords/quick-cryptic/58):
 
 <div class="newspaper-cutout">
     <div class="newspaper-cutout-row">
@@ -371,7 +371,7 @@ Have a look at these clues from [a Quick Cryptic](https://www.theguardian.com/cr
 
 with answers WAS (reversal of SAW), REVEL (reversal of LEVER) and REVILED (reversal of DELIVER).
 
-This can once again be mixed with other clue types, as seen in this [Everyman](https://www.theguardian.com/crosswords/everyman/4015){:target="_blank"} clue:
+This can once again be mixed with other clue types, as seen in this [Everyman](https://www.theguardian.com/crosswords/everyman/4015) clue:
 
 <div class="newspaper-cutout">
     <div class="newspaper-cutout-row">
@@ -405,7 +405,7 @@ Some clues require us to place words inside other words:
 
 In the first clue, "the French" refers to the French translation of "the" --- LE. If we put this inside an unruly anagram of SIEGE, we get E(LE)GIES = ELEGIES, a synonym of "laments".
 
-To tackle the second clue, we start by replacing "number" with the number ONE. Since "day" can be replaced by [D](https://en.wikipedia.org/wiki/D_(disambiguation)#Time){:target="_blank"}, putting "day" by "day" would give us the digram DD. Lastly, we introduce the string ONE + DD into the urban area of TOWN to get T(ONE + DD)OWN = TONED DOWN, which means to be subdued.
+To tackle the second clue, we start by replacing "number" with the number ONE. Since "day" can be replaced by [D](https://en.wikipedia.org/wiki/D_(disambiguation)#Time), putting "day" by "day" would give us the digram DD. Lastly, we introduce the string ONE + DD into the urban area of TOWN to get T(ONE + DD)OWN = TONED DOWN, which means to be subdued.
 
 In the third clue, the words "give" and "urge" are synonymous to LEND and SPUR respectively. In tennis, the term "love" is used to represent a score of zero, which looks like an "O". Hence, if LEND + O is seized by SPUR, we would have SP(LEND + O)UR = SPLENDOUR, a synonym of "glory".
 
@@ -428,7 +428,7 @@ In a hidden word clue, the answer is concealed within the clue itself. For insta
 
 are the answers PASTE and AGHAST. Hidden word indicators are often descriptions of secrecy, disguises or partiality.
 
-Hidden word and reversal indicators can be used together to clue words that are camouflaged in reverse. This is illustrated by [this Quick Cryptic](https://www.theguardian.com/crosswords/quick-cryptic/21){:target="_blank"} which has the clues
+Hidden word and reversal indicators can be used together to clue words that are camouflaged in reverse. This is illustrated by [this Quick Cryptic](https://www.theguardian.com/crosswords/quick-cryptic/21) which has the clues
 
 <div class="newspaper-cutout">
     <div class="newspaper-cutout-row">
@@ -463,7 +463,7 @@ Some clues require extracting letters from one or more words. Various indicators
 
 <p style="width: 60%; text-align: right; margin-left: 40%;">*"At odds", "oddly" and "evens out" refer to the extraction of letters at odd-numbered positions of a word; whereas "evenly" refer to the extraction of letters at even-numbered positions.</p>
 
-Here are three extraction clues. The second one comes from [this Quiptic crossword](https://www.theguardian.com/crosswords/quiptic/1329){:target="_blank"}.
+Here are three extraction clues. The second one comes from [this Quiptic crossword](https://www.theguardian.com/crosswords/quiptic/1329).
 
 <div class="newspaper-cutout">
     <div class="newspaper-cutout-row">
@@ -527,7 +527,7 @@ In the final clue, an "uncontrolled slide" can be represented by SKID. Cutting S
 
 ### Homophones, voices and Spoonerisms
 
-Homophones are words that sound alike, e.g. ALLOWED and ALOUD. Cryptic crossword clues relying on these auditory coincidences are marked with homophone indicators, which are often related to the sense of hearing, verbal communication, or audio transmission. Examples from [this Quick Cryptic](https://www.theguardian.com/crosswords/quick-cryptic/23){:target="_blank"} include the following.
+Homophones are words that sound alike, e.g. ALLOWED and ALOUD. Cryptic crossword clues relying on these auditory coincidences are marked with homophone indicators, which are often related to the sense of hearing, verbal communication, or audio transmission. Examples from [this Quick Cryptic](https://www.theguardian.com/crosswords/quick-cryptic/23) include the following.
 
 <div class="newspaper-cutout">
     <div class="newspaper-cutout-row">
@@ -551,7 +551,7 @@ Perhaps surprisingly, even homophone indicators can be used together with other 
     </div>
 </div>
 
-The word "baron" can be abbreviated as [B](https://en.wiktionary.org/wiki/B.){:target="_blank"}, and prefixing this with the letter A results in AB. Since the phrase "puts to sea" is a paraphrasing of "sails", the part before the comma essentially translates to AB-SAILS, which when "told" verbally is pronounced the same as ABSEILS, defined here as "goes down by rock".
+The word "baron" can be abbreviated as [B](https://en.wiktionary.org/wiki/B.), and prefixing this with the letter A results in AB. Since the phrase "puts to sea" is a paraphrasing of "sails", the part before the comma essentially translates to AB-SAILS, which when "told" verbally is pronounced the same as ABSEILS, defined here as "goes down by rock".
 
 Like homophone clues, voice clues are constructed and deciphered based on the proununciation of various words and phrases. In addition to this, voice clues also reference the way different people are known to speak, as exemplified by this clue from [a Quick Cryptic](https://www.theguardian.com/crosswords/quick-cryptic/10){:target=_blank}.
 
@@ -564,7 +564,7 @@ Like homophone clues, voice clues are constructed and deciphered based on the pr
 
 In this clue, the word "bald" means the same thing as HAIRLESS, which when said with a Cockney accent --- dropping our /h/ sounds --- renders itself homophonous to AIRLESS, another word for "stuffy".
 
-A particularly noteworthy type of voice clue is known as Spoonerisms. Named after Reverend Spooner, Spoonerisms refer to when the leading consonants of two words or syllables are accidentally swapped, resulting in a different and sometimes humorous phrase. For example, a "crushing blow" may be mispronounced as a "blushing crow", while "well-oiled bicycles" may be mistaken as "well-boiled icicles". The same pattern is leveraged in this clue from [a Guardian Cryptic](https://www.theguardian.com/crosswords/cryptic/29680){:target="_blank"}:
+A particularly noteworthy type of voice clue is known as Spoonerisms. Named after Reverend Spooner, Spoonerisms refer to when the leading consonants of two words or syllables are accidentally swapped, resulting in a different and sometimes humorous phrase. For example, a "crushing blow" may be mispronounced as a "blushing crow", while "well-oiled bicycles" may be mistaken as "well-boiled icicles". The same pattern is leveraged in this clue from [a Guardian Cryptic](https://www.theguardian.com/crosswords/cryptic/29680):
 
 <div class="newspaper-cutout">
     <div class="newspaper-cutout-row">
@@ -630,7 +630,7 @@ Their answers:
 - THUMBS, which may be up to gesture approval;
 - RUBIK'S CUBE, a puzzle that literally requires dozens of twists and turns;
 - TEABAG, in which tea leaves are sealed for use in a teapot;
-- AUTHOR, whose work must be [bound](https://en.wikipedia.org/wiki/Bookbinding){:target="_blank"} after being printed; and
+- AUTHOR, whose work must be [bound](https://en.wikipedia.org/wiki/Bookbinding) after being printed; and
 - STAGE WHISPER, a theatrical ("dramatic") representation of someone spilling the beans ("confidence").
 
 Both &lit and cryptic definition clues are commonly (but not necessarily) indicated with a question and/or exclamation mark.
@@ -642,13 +642,13 @@ Both &lit and cryptic definition clues are commonly (but not necessarily) indica
 This brings us to the end of the guide! Below, I've listed a bunch of resources that I found (and still find) useful for learning how to solve cryptic crossword clues.
 
 
-- **For reference...**<br> A [Cryptic Clue Guide](https://puzzling.stackexchange.com/questions/45984/cryptic-clue-guide){:target="_blank"} from Puzzling Stack Exchange: "What exactly is a cryptic crossword clue, and how do I write one?"
+- **For reference...**<br> A [Cryptic Clue Guide](https://puzzling.stackexchange.com/questions/45984/cryptic-clue-guide) from Puzzling Stack Exchange: "What exactly is a cryptic crossword clue, and how do I write one?"
 
-- **For some fun daily practice...**<br> [Minute Cryptic](https://www.minutecryptic.com){:target="_blank"}, a Wordle-esque website and app that publishes new and original cryptic crossword clues every day along with explanatory YouTube videos.
+- **For some fun daily practice...**<br> [Minute Cryptic](https://www.minutecryptic.com), a Wordle-esque website and app that publishes new and original cryptic crossword clues every day along with explanatory YouTube videos.
 
-- **For the real deal...**<br> Free online cryptic crosswords published by The Guardian. Crosswords are classified into several categories, namely (in increasing level of difficulty) [Quick Cryptic](https://www.theguardian.com/crosswords/series/quick-cryptic){:target="_blank"}, [Everyman](https://www.theguardian.com/crosswords/series/everyman){:target="_blank"}\*, [Quiptic](https://www.theguardian.com/crosswords/series/quiptic){:target="_blank"}, [Cryptic](https://www.theguardian.com/crosswords/series/cryptic){:target="_blank"}, [Prize](https://www.theguardian.com/crosswords/series/prize){:target="_blank"} and [Genius](https://www.theguardian.com/crosswords/series/genius){:target="_blank"}.
+- **For the real deal...**<br> Free online cryptic crosswords published by The Guardian. Crosswords are classified into several categories, namely (in increasing level of difficulty) [Quick Cryptic](https://www.theguardian.com/crosswords/series/quick-cryptic), [Everyman](https://www.theguardian.com/crosswords/series/everyman)\*, [Quiptic](https://www.theguardian.com/crosswords/series/quiptic), [Cryptic](https://www.theguardian.com/crosswords/series/cryptic), [Prize](https://www.theguardian.com/crosswords/series/prize) and [Genius](https://www.theguardian.com/crosswords/series/genius).
 
-\*Note: The Guardian's Everyman collection includes only crosswords published [before late April 2025](https://www.theguardian.com/crosswords/crossword-blog/2025/apr/21/where-can-i-find-the-azed-everyman-and-speedy-crosswords){:target="_blank"}. Newer ones are available on [The Observer's website](https://observer.co.uk/crossword){:target="_blank"}.
+\*Note: The Guardian's Everyman collection includes only crosswords published [before late April 2025](https://www.theguardian.com/crosswords/crossword-blog/2025/apr/21/where-can-i-find-the-azed-everyman-and-speedy-crosswords). Newer ones are available on [The Observer's website](https://observer.co.uk/crossword).
 
 And just for fun, I've set my own tiny cryptic crossword below, with a few parsing hints to guide you through each clue. Good luck!
 

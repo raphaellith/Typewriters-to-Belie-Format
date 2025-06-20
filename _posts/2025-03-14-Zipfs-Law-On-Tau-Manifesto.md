@@ -39,7 +39,7 @@ $$
 
 #### The second piece of the puzzle: The Tau Manifesto
 
-In June 2010, American physicist Michael Hartl published the famous [Tau Manifesto](https://tauday.com/tau-manifesto){:target="_blank"}, in which he claims the following:
+In June 2010, American physicist Michael Hartl published the famous [Tau Manifesto](https://tauday.com/tau-manifesto), in which he claims the following:
 
 > The natural choice for the circle constant is the ratio of a circle's circumference not to its diameter, but to its radius.
 > <div style="text-align: right">(from <i>The Tau Manifesto</i>)</div>
@@ -58,7 +58,7 @@ $$
 
 when working with geometry, analysis, physics, and just mathematics in general.
 
-I won't delve too deep into the unbelievably controversial (and [surprisingly still relevant](https://xkcd.com/1292){:target="_blank"}) $$\pi$$ versus $$\tau$$ debate, although the manifesto itself is quite an entertaining and fascinating read. Its [PDF version](https://tauday.com/tau_manifesto.pdf){:target="_blank"} spans a total of 53 pages, and its contents have been revised multiple times since its original publication. In this post, I will be using the latest version of the document, last updated on Tau Day 2023.
+I won't delve too deep into the unbelievably controversial (and [surprisingly still relevant](https://xkcd.com/1292)) $$\pi$$ versus $$\tau$$ debate, although the manifesto itself is quite an entertaining and fascinating read. Its [PDF version](https://tauday.com/tau_manifesto.pdf) spans a total of 53 pages, and its contents have been revised multiple times since its original publication. In this post, I will be using the latest version of the document, last updated on Tau Day 2023.
 
 
 
@@ -82,16 +82,16 @@ This means that the most commonly used letter should appear approximately...
 - four times as often as the fourth most common letter,
 - and so on.
 
-It should be noted that in reality, Zipf's law applies to not just letter frequencies, but word frequencies as well. This [Wolfram demonstration](https://www.wolframcloud.com/objects/demonstrations/ZipfsLawAppliedToWordAndLetterFrequencies-source.nb){:target="_blank"}, for example, uses logarithmic plots to illustrate how the word and letter frequencies of various literary works follow --- or deviate from --- Zipf's law.
+It should be noted that in reality, Zipf's law applies to not just letter frequencies, but word frequencies as well. This [Wolfram demonstration](https://www.wolframcloud.com/objects/demonstrations/ZipfsLawAppliedToWordAndLetterFrequencies-source.nb), for example, uses logarithmic plots to illustrate how the word and letter frequencies of various literary works follow --- or deviate from --- Zipf's law.
 
-Being merely empirical, Zipf's law is never entirely accurate. Real-world data may not always match its predictions, making it challenging to model language usage based on the law. To improve modelling accuracy, a [1953 paper by Benoit Mandelbrot](http://pdodds.w3.uvm.edu/research/papers/others/1953/mandelbrot1953a.pdf){:target="_blank"} proposes what is now called the Zipf-Mandelbrot law:
+Being merely empirical, Zipf's law is never entirely accurate. Real-world data may not always match its predictions, making it challenging to model language usage based on the law. To improve modelling accuracy, a [1953 paper by Benoit Mandelbrot](http://pdodds.w3.uvm.edu/research/papers/others/1953/mandelbrot1953a.pdf) proposes what is now called the Zipf-Mandelbrot law:
 
 $$f(r) \propto \frac{1}{(r+\beta)^\alpha} \label{eq:zipf-mandelbrot}\tag{2}$$
 
 where $$\alpha$$ and $$\beta$$ are constants that can be adjusted based on the specific language and text in question. For instance:
 
 - Setting $$\alpha = 1$$ and $$\beta = 0$$ gives the original Zipf's law.
-- [It is suggested](https://pmc.ncbi.nlm.nih.gov/articles/PMC4176592/){:target="_blank"} that setting $$\alpha = 1$$ and $$\beta = 2.73$$ yields the best fit for modelling word frequencies in American English.
+- [It is suggested](https://pmc.ncbi.nlm.nih.gov/articles/PMC4176592/) that setting $$\alpha = 1$$ and $$\beta = 2.73$$ yields the best fit for modelling word frequencies in American English.
 
 I can't find any sources mentioning the ideal parameter values for modelling the frequencies of English letters, but for the purposes of this post we will assume that the second set of parameters mentioned above, i.e. $$(\alpha, \beta) = (1,\; 2.73)$$, will work just as well for letter frequencies.
 
@@ -180,7 +180,7 @@ $$
 \end{align*}
 $$
 
-We can simplify this equation using the [linear interpolation](https://en.wikipedia.org/wiki/Linear_interpolation){:target="_blank"} (LERP) formula.
+We can simplify this equation using the [linear interpolation](https://en.wikipedia.org/wiki/Linear_interpolation) (LERP) formula.
 
 $$
 f(r_0 + t) = \frac{1}{\text{lerp}\left(\frac{1}{f(r_0)},\; \frac{1}{f(r_0 + 1)},\; t\right)}
@@ -250,7 +250,7 @@ where $$\beta = 2.73$$ and $$f$$ is defined in accordance with $$\eqref{eq:freq-
 
 ### The estimation
 
-Now to actually evaluate this formula with regard to The Tau Manifesto! To do this, we can extract the contents of the document by [scraping](https://en.wikipedia.org/wiki/Web_scraping){:target="_blank"} and parsing its official website's HTML source code. This gives us a bunch of raw text that looks a bit like this. (Below shows the raw text corresponding to the opening lines of the manifesto's first subsection.)
+Now to actually evaluate this formula with regard to The Tau Manifesto! To do this, we can extract the contents of the document by [scraping](https://en.wikipedia.org/wiki/Web_scraping) and parsing its official website's HTML source code. This gives us a bunch of raw text that looks a bit like this. (Below shows the raw text corresponding to the opening lines of the manifesto's first subsection.)
 
 <pre class="scraped-text">
 1.1 An immodest proposal

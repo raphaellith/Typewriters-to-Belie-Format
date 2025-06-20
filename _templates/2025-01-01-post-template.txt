@@ -18,4 +18,4 @@ To link to a post, use the following:
 
 [text for link]({{site.baseurl}}{% raw %}{% link _posts/2025-01-01-Hello-World.markdown %}){% endraw %}
 
-For more info on markdown formatting, see [this Markdown guide](https://www.markdownguide.org/basic-syntax/){:target="_blank"}.
+For more info on markdown formatting, see [this Markdown guide](https://www.markdownguide.org/basic-syntax/).

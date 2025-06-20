@@ -49,4 +49,9 @@ layout: default
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+  <!-- Open all links in post in new tab -->
+  <script>
+    document.querySelectorAll(".post-content a").forEach((aTag, index, list) => {aTag.target = "_blank";});
+  </script>
 </article>

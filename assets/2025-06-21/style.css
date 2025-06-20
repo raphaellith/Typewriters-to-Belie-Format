@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+TC:wght@100..900&display=swap');
+
+:root {
+    /* https://coolors.co/palette/0d3b66-faf0ca-f4d35e-ee964b-f95738 */
+    --gridLen: 5;
+    --bingo-theme-color: #0D3B66;
+    --marked-cell-color: #FCA08E;
+    --button-color: #3376b6;
+    --bingoed-cell-color: #F4D35E;
+    --white: #f8f8ff;
+    --transition-duration: 0.3s;
+}
+
+.bingo-board {
+    display: inline-block;
+    margin: auto;
+
+    /* Square of maximum possible size without overflowing */
+    width: 98%;
+    max-width: 550px;
+    aspect-ratio: 1/1;
+
+    /* Grid layout */
+    display: grid;
+    grid-template-rows: 0.4fr 5fr;
+
+    background-color: var(--bingo-theme-color);
+    border: var(--bingo-theme-color) solid 10px;
+    border-radius: 20px;
+
+    box-sizing: border-box;
+
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.bingo-heading {
+    /* First row of bingo-board's grid */
+    grid-row: 1/2;
+
+    /* Grid layout */
+    display: grid;
+    grid-template-columns: 2fr 3fr;  /* Title + buttons */
+}
+
+.bingo-title {
+    /* First column of bingo-heading's grid */
+    grid-column: 1/2;
+
+    font-size: 50px;
+    font-weight: 800;
+    color: var(--white);
+}
+
+.bingo-content {
+    /* Second row of the bingo-board's grid */
+    grid-row: 2/3;
+    position: relative;
+
+    color: black;
+}
+
+.bingo-grid {
+    /* Take up all available space */
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+
+    /* Grid layout */
+    display: grid;
+    grid-template-columns: repeat(var(--gridLen), 1fr);
+    grid-template-rows: repeat(var(--gridLen), 1fr);
+}
+
+#board3 .bingo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.bingo-cell {
+    border: solid var(--bingo-theme-color) 2px;
+    border-radius: 5px;
+    padding: 2px;
+
+    /*
+    Create a background image like so: 
+    
+     ---
+    |   |    COLOR FOR BINGOED CELLS
+     ---
+    |   |    VERTICAL GRADIENT
+     ---
+    |   |    COLOR FOR MARKED CELLS
+     ---
+    |   |    VERTICAL GRADIENT
+     ---
+    |   |    COLOR FOR UNMARKED CELLS
+     ---
+
+    This facilitates transitions between different background colors, the choice of which is determined by background-position.
+    */
+    background-size: 100% 500%;
+    background-image: linear-gradient(to bottom, var(--bingoed-cell-color) 20%, var(--marked-cell-color) 40%, var(--marked-cell-color) 60%, var(--white) 80%);
+    background-position: bottom;
+
+    transition: background-position var(--transition-duration), filter var(--transition-duration);
+}
+
+.marked-cell {
+    background-position: center;
+}
+
+.bingoed-cell {
+    background-position: top;
+}
+
+.bingo-cell-content {
+    /* Centered vertically */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Text centered */
+    text-align: center;
+
+    font-size: 16px;
+    line-height: 95%;
+}
+
+#board3 .bingo-cell-content {
+    font-size: 20px;
+}
+
+/* ------------------------------------------------------------ */
+
+.heading-first-letter {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.heading-remaining-letters {
+    font-weight: normal;
+    opacity: 85%;
+}
+
+#bingo-logo {
+    width: 180px;
+    max-width: 60%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    border-radius: 10px;
+}
+
+#show-final-board-button {
+    margin: auto;
+    margin-top: 250px;
+    margin-bottom: 250px;
+
+    padding: 15px;
+
+    border: none;
+    border-radius: 3px;
+
+    background-color: var(--theme-color);
+    color: inherit;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: inherit;
+}
+
+#final-win, #final-loss {
+    transition: opacity 0.5s;
+}
