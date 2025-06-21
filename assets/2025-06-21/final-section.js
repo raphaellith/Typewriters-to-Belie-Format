@@ -7,8 +7,8 @@ const finalBoardCellData = [
     "You right clicked",
     "You clicked on a link in this post",
     "Your mouse left this tab",
-    "You spent over 10 minutes reading this post",
-    "Your mouse remained stationary for over 30 seconds",
+    "You spent over 5 minutes reading this post",
+    "Your mouse remained stationary for over 20 seconds",
     "You selected some text in this post",
     "You pointlessly clicked on one of the Bingo boards",
 ].map(content => [content, false]);  // List of duples, with boolean indicating whether it is marked
@@ -86,13 +86,13 @@ function addEventListeners() {
         }
     });
 
-    // 6. MORE THAN 10 MIN SINCE PAGE LOAD
+    // 6. MORE THAN 5 MIN SINCE PAGE LOAD
     // Skipped here as event listener not required;
     // Checked in onClickShowFinalBoard
 
-    // 7. MOUSE STATIONARY FOR 30s
+    // 7. MOUSE STATIONARY FOR 20s
     let mouseStationaryTimer;
-    const stationaryThreshold = 30 * 1000;
+    const stationaryThreshold = 20 * 1000;
 
     document.addEventListener('mousemove', function() {
         clearTimeout(mouseStationaryTimer); // Clear previous timer on mouse movement
@@ -120,7 +120,7 @@ function addEventListeners() {
 }
 
 function onClickShowFinalBoard() {
-    finalBoardCellData[5][1] = performance.now() > 10 * 60 * 1000;
+    finalBoardCellData[5][1] = performance.now() > 5 * 60 * 1000;
 
     document.getElementById("show-final-board-button").style.display = "none";
     document.getElementById("board3").style.display = "grid";
