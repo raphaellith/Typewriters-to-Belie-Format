@@ -8,6 +8,10 @@
     justify-content: space-evenly;
 }
 
+.side-by-side-container * {
+    width: 45%;
+}
+
 #link-button-container {
     text-align: center;
     margin-top: 3em;

@@ -13,8 +13,8 @@ Two-letter words are incredibly powerful in Scrabble. Consider, for example, a g
 The letter X in particular brings to mind such possibilities as MIX or VIXEN:
 
 <div class="side-by-side-container" style="margin-top: 1em; margin-bottom: 1em;">
-    <img style="width: 45%;" src="{{ site.baseurl }}/assets/2025-07-19/Picture2.png" alt="Playing MIX.">
-    <img style="width: 45%;" src="{{ site.baseurl }}/assets/2025-07-19/Picture3.png" alt="Playing VIXEN.">
+    <img src="{{ site.baseurl }}/assets/2025-07-19/Picture2.png" alt="Playing MIX.">
+    <img src="{{ site.baseurl }}/assets/2025-07-19/Picture3.png" alt="Playing VIXEN.">
 </div>
 
 but you also notice that these tiles can be arranged to form the seven-letter word LEXICON. This is an extremely valuable observation as Scrabble rules dictate that completely emptying your rack in one go scores you [an additional 50 points](https://en.wikipedia.org/wiki/Bingo_(Scrabble)). The question is thus: Where would you play this word?
