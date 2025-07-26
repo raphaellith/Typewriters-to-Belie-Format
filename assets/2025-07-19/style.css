@@ -19,9 +19,11 @@
 }
 
 #link-button:link, #link-button:visited, #link-button:hover {
-    /* display: inline-block; */
+    display: inline-block;
     padding: 1.5em;
     border-radius: 5px;
+
+    text-align: center;
 
     background-color: var(--link-button-color);
     border: solid 3px color-mix(in srgb, #fefae0 60%, black 40%);
