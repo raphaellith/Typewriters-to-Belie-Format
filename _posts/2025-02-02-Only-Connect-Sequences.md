@@ -11,7 +11,9 @@ A, E, I, L, N, O, R, S, T, U = 1 point (68 out of 100 tiles)<br>
 ?????                        = 0 points (2 out of 100 tiles)
 </pre>
 "
-tags: puzzles
+tags:
+- puzzle
+- game
 ---
 
 <style>

@@ -3,7 +3,10 @@ layout: post
 title:  "The Periodic Table of Two-Letter Scrabble Words"
 date:   2025-07-26 10:00:00 +0800
 description: "Periodically promoting parallel plays."
-tags: programming wordplay website
+tags:
+- programming
+- wordplay
+- website
 ---
 
 Two-letter words are incredibly powerful in Scrabble. Consider, for example, a game where your opponent opens with the word VOMIT, scoring 16 points. It's now your turn, and on your rack are the tiles C, E, I, L, N, O and X.

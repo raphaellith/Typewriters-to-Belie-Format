@@ -3,7 +3,9 @@ layout: post
 title:  "Approximating Pi using the Tau Manifesto"
 date:   2025-03-14 08:00:00 +0100
 description: "Because it's funny."
-tags: maths programming
+tags:
+- maths
+- programming
 ---
 
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/2025-03-14/style.css">
