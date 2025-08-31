@@ -8,24 +8,24 @@ tags: programming wordplay website
 
 Two-letter words are incredibly powerful in Scrabble. Consider, for example, a game where your opponent opens with the word VOMIT, scoring 16 points. It's now your turn, and on your rack are the tiles C, E, I, L, N, O and X.
 
-![Your opponent plays VOMIT, and your rack has the tiles C, E, I, L, N, O and X.]({{ site.baseurl }}/assets/2025-07-19/Picture1.png){: width="45%" style="display:block; margin-left:auto; margin-right:auto"}
+![Your opponent plays VOMIT, and your rack has the tiles C, E, I, L, N, O and X.]({{ site.baseurl }}/assets/2025-07-26/Picture1.png){: width="45%" style="display:block; margin-left:auto; margin-right:auto"}
 
 The letter X in particular brings to mind such possibilities as MIX or VIXEN:
 
 <div class="side-by-side-container" style="margin-top: 1em; margin-bottom: 1em;">
-    <img src="{{ site.baseurl }}/assets/2025-07-19/Picture2.png" alt="Playing MIX.">
-    <img src="{{ site.baseurl }}/assets/2025-07-19/Picture3.png" alt="Playing VIXEN.">
+    <img src="{{ site.baseurl }}/assets/2025-07-26/Picture2.png" alt="Playing MIX.">
+    <img src="{{ site.baseurl }}/assets/2025-07-26/Picture3.png" alt="Playing VIXEN.">
 </div>
 
 but you also notice that these tiles can be arranged to form the seven-letter word LEXICON. This is an extremely valuable observation as Scrabble rules dictate that completely emptying your rack in one go scores you [an additional 50 points](https://en.wikipedia.org/wiki/Bingo_(Scrabble)). The question is thus: Where would you play this word?
 
 A solid option is to place it vertically at I3, extending VOMIT to the more semantically specific [VOMITO](https://www.dictionary.com/browse/vomito).
 
-![Playing LEXICON and VOMITO.]({{ site.baseurl }}/assets/2025-07-19/Picture4.png){: width="45%" style="display:block; margin-left:auto; margin-right:auto"}
+![Playing LEXICON and VOMITO.]({{ site.baseurl }}/assets/2025-07-26/Picture4.png){: width="45%" style="display:block; margin-left:auto; margin-right:auto"}
 
 This is worth 82 points, but there is an even better option lurking in plain sight. If we play LEXICON horizontally at 7E, this would simultaneously form the bigrams [LO](https://www.dictionary.com/browse/lo), [EM](https://www.dictionary.com/browse/em), [XI](https://www.dictionary.com/browse/xi) and [IT](https://www.dictionary.com/browse/it), amassing a whopping 102 points.
 
-![Playing LEXICON, LO, EM, XI and IT.]({{ site.baseurl }}/assets/2025-07-19/Picture5.png){: width="45%" style="display:block; margin-left:auto; margin-right:auto"}
+![Playing LEXICON, LO, EM, XI and IT.]({{ site.baseurl }}/assets/2025-07-26/Picture5.png){: width="45%" style="display:block; margin-left:auto; margin-right:auto"}
 
 The NASPA Word List, the official word reference employed in North American and Canadian tournament play, includes 107 two-letter words that are immensely useful for stacking words adjacently. To aid memorisation and active recall, I've designed [The Periodic Table of Two-Letter Scrabble Words](https://raphaellith.github.io/Periodic-Table-of-Two-Letter-Scrabble-Words/), a website that classifies all of these words by meaning and visualises them in a handy table.
 
@@ -46,4 +46,4 @@ As always, the code for the website is accessible on <a href="https://github.com
 
 The images in this post are created using the open-source program [Quackle](https://github.com/quackle/quackle).
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/2025-07-19/style.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/2025-07-26/style.css">
