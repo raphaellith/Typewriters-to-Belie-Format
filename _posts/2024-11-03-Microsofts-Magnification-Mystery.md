@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Microsoft's Magnification Mystery"
-date:   2024-11-03 11:00:00 +0000
+date:   2024-11-03
 description: Mmm, alliteration. We start off this blog with an compelling conundrum concerning UI design, to which the answer is... almost as interesting.
 tags: programming maths
 ---

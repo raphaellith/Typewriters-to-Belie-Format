@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cryptic Crosswords and How to Solve Them"
-date:   2025-06-14 10:30:00 +0800
+date:   2025-06-14
 description: "Wordplay-ish sentence? (6)"
 tags: puzzles wordplay
 ---

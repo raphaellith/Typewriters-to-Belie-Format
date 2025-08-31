@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Periodic Table of Two-Letter Scrabble Words"
-date:   2025-07-26 10:00:00 +0800
+date:   2025-07-26
 description: "Periodically promoting parallel plays."
 tags: programming wordplay website
 ---

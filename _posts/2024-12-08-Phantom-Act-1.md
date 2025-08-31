@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "From Screen to Stage: Thoughts on Seeing The Phantom of the Opera Live at the West End (Act 1)"
-date:   2024-12-08 10:00:00 +0000
+date:   2024-12-08
 description: In which a first-time theatregoer pretends to be way more knowledgeable than he actually is.
 tags: theatre-trip review
 ---

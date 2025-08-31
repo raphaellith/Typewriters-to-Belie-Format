@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Compiler That Only Outputs CVs"
-date:   2025-08-31 8:00:00 +0800
+date:   2025-08-31
 description: "&#8220;Created a compiler that transpiles Markdown code into résumé PDFs via LaTeX.&#8221;"
 tags: programming
 ---
