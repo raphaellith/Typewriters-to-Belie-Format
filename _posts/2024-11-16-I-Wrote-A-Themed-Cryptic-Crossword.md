@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I Wrote a Themed Cryptic Crossword"
-date:   2024-11-16 19:30:00 +0000
+date:   2024-11-16
 description: It's themed around... certain events and experiences in past few years related to public transport.
 tags:
 - puzzle

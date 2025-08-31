@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fire, Radiation and the Twelfth Ember: Some Only Connect-esque sequences"
-date:   2025-02-02 15:00:00 +0100
+date:   2025-02-02
 description: "
 Fill in the blank:<br><br>
 <pre style='font-size: 11pt;'>

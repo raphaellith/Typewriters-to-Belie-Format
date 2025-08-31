@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Peter, Butterflies and KitKats: Some Only Connect-esque puzzles"
-date:   2025-01-19 09:00:00 +0100
+date:   2025-01-19
 description: "What is the connection between: <b>Tile</b>, <b>Strand</b> and <b>Connection</b>?"
 tags:
 - puzzle
