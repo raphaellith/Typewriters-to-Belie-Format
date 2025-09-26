@@ -7,7 +7,7 @@ appear-in-top-right: true
 
 Hi, I'm Raphael Li!
 
-I'm a Year 1 undergraduate studying BSc Computer Science at UCL. I previously graduated from St. Joseph's College as part of the Class of 2024.
+I'm a Year 2 undergraduate studying BSc Computer Science at UCL. I previously graduated from St. Joseph's College as part of the Class of 2024.
 
 I started this blog and published its first post on my 18th birthday, on 3rd November 2024.
 
