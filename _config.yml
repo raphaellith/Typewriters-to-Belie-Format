@@ -41,7 +41,7 @@ sass:
 
 # Remove '.html' at the end of post/page URLs
 # See https://mademistakes.com/mastering-jekyll/how-to-link/
-permalink: pretty
+permalink: /:title/
 
 
 
