@@ -6,7 +6,7 @@ description: "Thesauruses are the best."
 tags: writing
 ---
 
-_In [last week's write-up]({{ site.baseurl }}/2025/08/31/A-Compiler-That-Only-Outputs-CVs/), I introduced a [Résumé Compiler](https://github.com/raphaellith/Resume-Compiler) that I created specifically to write CVs with greater efficiency. Its opening paragraph, which offered a fairly despondent view at the notion of composing résumés, went through at least three distinct drafts with varying degrees of verbosity, before it was ultimately trimmed down lest it prove overly distracting or out of place. Here is the original version of the rant, in its unabridged entirety._
+_In [last week's write-up]({{ site.baseurl }}/A-Compiler-That-Only-Outputs-CVs/), I introduced a [Résumé Compiler](https://github.com/raphaellith/Resume-Compiler) that I created specifically to write CVs with greater efficiency. Its opening paragraph, which offered a fairly despondent view at the notion of composing résumés, went through at least three distinct drafts with varying degrees of verbosity, before it was ultimately trimmed down lest it prove overly distracting or out of place. Here is the original version of the rant, in its unabridged entirety._
 
 <div style="text-align: center; vertical-align: sub; margin: 1em;">*</div>
 
