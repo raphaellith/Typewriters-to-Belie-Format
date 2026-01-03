@@ -8,7 +8,7 @@ tags: review
 
 ### Before we begin...
 
-This is a follow-up to a [previous post]({{ site.baseurl }}/Phantom-Act-1/)! Last time I reviewed Act 1 of _The Phantom of the Opera_, where I shared my thoughts on seeing a live performance of the musical. This post is a continuation of that, with the focus being shifted to the second act instead.
+This is a follow-up to a [previous post]({{ site.baseurl }}/From-Screen-to-Stage-Thoughts-on-Seeing-The-Phantom-of-the-Opera-Live-at-the-West-End-Act-1/)! Last time I reviewed Act 1 of _The Phantom of the Opera_, where I shared my thoughts on seeing a live performance of the musical. This post is a continuation of that, with the focus being shifted to the second act instead.
 
 Like the last post, this one comes with a...
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fire, Radiation and the Twelfth Ember: Some Only Connect-esque sequences"
+title:  "Fire, Radiation and the Twelfth Ember: Some Only Connect-esque Sequences"
 date:   2025-02-02
 description: "
 Fill in the blank:<br><br>
