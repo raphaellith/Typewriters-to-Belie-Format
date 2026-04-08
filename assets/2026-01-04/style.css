@@ -1,0 +1,21 @@
+.scrabblese-chart-wrapper {
+  margin: 2rem 0;
+}
+
+.scrabblese-chart-wrapper h2 {
+  margin-bottom: 0.75rem;
+}
+
+.scrabblese-chart {
+  width: 100%;
+  height: 75vh;
+  min-height: 600px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.scrabblese-error {
+  margin: 1rem;
+  color: #a40000;
+}
