@@ -4,12 +4,12 @@ layout: default
 
 <article class="post h-entry" itemscope itemtype="https://schema.org/BlogPosting">
 
-  <div class="post-meta">
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  <span class="post-meta">
     <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {{ page.date | date: date_format }}
     </time>
-  </div>
+  </span>
 
   {% include custom/post-header.html title=page.title title_itemprop="name headline" description=page.description description_itemprop="description" tags=page.tags tags_with_link=true %}
 
