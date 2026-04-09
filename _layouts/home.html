@@ -15,8 +15,10 @@ layout: default
       {%- for post in site.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        {% include custom/post-header.html title=post.title url=post.url title_tag="h2" description=post.description tags=post.tags tags_with_link=true %}
+        <div class="post-date-title-group">
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          {% include custom/post-header.html title=post.title url=post.url title_tag="h2" description=post.description tags=post.tags tags_with_link=true %}
+        </div>
 
         <hr>
       </li>

@@ -1,3 +1,8 @@
+.post-date-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.05em;
+}
 /**
  * Site header
  */
@@ -202,6 +207,7 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+  margin-bottom: $spacing-unit / 3;
 }
 
 .post-date {
