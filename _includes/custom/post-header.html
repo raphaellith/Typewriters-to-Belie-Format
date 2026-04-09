@@ -1,0 +1,21 @@
+<header class="post-header">
+  {%- if include.url -%}
+    <{{ include.title_tag | default: "h1" }} class="post-title"{% if include.title_itemprop %} itemprop="{{ include.title_itemprop }}"{% endif %}>
+      <a class="post-title-link" href="{{ include.url | relative_url }}">{{ include.title | escape }}</a>
+    </{{ include.title_tag | default: "h1" }}>
+  {%- else -%}
+    <{{ include.title_tag | default: "h1" }} class="post-title"{% if include.title_itemprop %} itemprop="{{ include.title_itemprop }}"{% endif %}>{{ include.title | escape }}</{{ include.title_tag | default: "h1" }}>
+  {%- endif -%}
+
+  {%- if include.description -%}
+    <p class="post-description"{% if include.description_itemprop %} itemprop="{{ include.description_itemprop }}"{% endif %}>{{ include.description }}</p>
+  {%- endif -%}
+
+  {%- if include.tags -%}
+    <div class="post-tags">
+      <b>{{ include.tags_label | default: "Tags:" }}</b> &nbsp;
+      {% include custom/tags.html tags=include.tags with_link=include.tags_with_link %}
+    </div>
+  {%- endif -%}
+</header>
+

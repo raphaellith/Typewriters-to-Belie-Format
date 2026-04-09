@@ -21,7 +21,6 @@
   float: left;
   color: $text-color;
 
-  &,
   &:visited {
     color: $text-color;
   }
@@ -205,14 +204,19 @@
   color: $grey-color;
 }
 
-.post-link {
-  display: block;
-  @include relative-font-size(1.5);
+.post-date {
+  text-align: right;
+  white-space: nowrap;
 }
 
 // Custom
 .post-description {
   color: $grey-color;
+}
+
+.post-tags {
+  font-size: 14px;
+  line-height: 2.2;
 }
 
 /**
@@ -227,6 +231,9 @@
   @include relative-font-size(2.4);
   letter-spacing: -1px;
   line-height: 1;
+  display: block;
+  color: $text-color;
+  text-decoration: none;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -235,11 +242,32 @@
   font-weight: bold;
 }
 
+.post-title-link {
+  color: $text-color;
+  text-decoration: none;
+
+  &:visited {
+    color: $text-color;
+  }
+
+  // Keep home post-title links visually consistent on hover, including visited links.
+  &:hover,
+  &:visited:hover {
+    color: lighten($theme-color, 20%);
+    text-decoration: underline;
+  }
+}
+
 .post-content {
   // Added to remove extra unnecessary spacing between
   // the horizontal line and the actual post content
   margin-top: -20px;
   margin-bottom: $spacing-unit;
+
+  // Keep hover color change from the global link rule, but remove underline in post bodies.
+  a:hover {
+    text-decoration: none;
+  }
 
   h2 {
     @include relative-font-size(2);

@@ -16,35 +16,13 @@ layout: default
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3 style="margin-top: 0; margin-bottom: 35px;">
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-
-          {%- if post.tags -%}
-            <div style="margin-top: 5px; margin-bottom: 15px;">
-              {% include custom/tags.html tags=post.tags with_link=true %}
-            </div>
-          {%- endif -%}
-
-          {%- if post.description -%}
-            <div>
-              {{ post.description }}
-            </div>
-          {%- endif -%}
-        </h3>
+        {% include custom/post-header.html title=post.title url=post.url title_tag="h2" description=post.description tags=post.tags tags_with_link=true %}
 
         <hr>
-
-        <!-- {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%} -->
       </li>
       {%- endfor -%}
     </ul>
 
-    <!-- Removed unnecessary rss subscription message -->
-    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
   {%- endif -%}
 
 </div>
