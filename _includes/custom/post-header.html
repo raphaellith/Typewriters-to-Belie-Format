@@ -1,4 +1,7 @@
 <header class="post-header">
+      {%- if include.date -%}
+        <span class="post-meta">{{ include.date | date: include.date_format | default: "%b %-d, %Y" }}</span>
+      {%- endif -%}
   {%- if include.url -%}
     <{{ include.title_tag | default: "h1" }} class="post-title"{% if include.title_itemprop %} itemprop="{{ include.title_itemprop }}"{% endif %}>
       <a class="post-title-link" href="{{ include.url | relative_url }}">{{ include.title | escape }}</a>
