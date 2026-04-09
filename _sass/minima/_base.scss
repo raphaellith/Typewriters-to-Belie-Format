@@ -109,15 +109,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $theme-color;
+  color: lighten($theme-color, 15%);
   text-decoration: none;
 
   &:visited {
-    color: $theme-color;
+    color: lighten($theme-color, 15%);
   }
 
   &:hover {
-    color: lighten($theme-color, 20%);
+    color: lighten($theme-color, 30%);
     text-decoration: underline;
   }
 
