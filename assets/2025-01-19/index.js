@@ -91,7 +91,7 @@ function main() {
             clueBoxButton.style.textAlign = "center";
             clueBoxButton.style.borderStyle = "solid";
             clueBoxButton.style.borderWidth = "3px";
-            clueBoxButton.style.borderColor = "#007acc";
+            clueBoxButton.style.borderColor = "var(--theme-color)";
             clueBoxButton.style.borderRadius = "10px";
             clueBoxButton.style.backgroundColor = "LightBlue";
             clueBoxButton.style.margin = "3px";
@@ -107,7 +107,7 @@ function main() {
             clueBoxButton.style.opacity = (clueNum === 0) ? "1" : "0";
 
             let clueTextDiv = document.createElement("div");
-            clueTextDiv.style.color = "#007acc";
+            clueTextDiv.style.color = "var(--theme-color)";
             clueTextDiv.style.position = "relative";
             // clueTextDiv.style.top = "50%";
             // clueTextDiv.style.transform = "translateY(-50%)";
@@ -123,7 +123,7 @@ function main() {
         answerDiv.style.width = `calc(100% - ${answerDiv.style.margin}*2)`;
         answerDiv.style.padding = "10px 0";
         answerDiv.style.borderRadius = "10px";
-        answerDiv.style.backgroundColor = "#007acc";
+        answerDiv.style.backgroundColor = "var(--theme-color)";
         answerDiv.style.position = "relative";
         answerDiv.style.display = "inline-block";
         answerDiv.style.textAlign = "center";

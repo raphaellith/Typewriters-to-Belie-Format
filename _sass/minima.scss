@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import "theme-colors";
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 // Define defaults for each variable.
@@ -17,12 +19,6 @@ $spacing-unit:     30px !default;
 // https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529
 // $text-color:       #111 !default;
 // $background-color: #fdfdfd !default;
-$text-color:       #f8f9fa !default;
-$background-color: #212529 !default;
-
-// Custom added colors:
-$theme-color:      #15a5FF !default;
-$grey-color:       #bbbbbb !default;
 // $light-grey-color:       #bbbbbb !default;
 
 $table-text-align: left !default;

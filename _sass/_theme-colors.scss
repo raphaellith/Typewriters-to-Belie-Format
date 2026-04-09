@@ -1,0 +1,32 @@
+// Central source of truth for all theme colours
+// Use only these variables for theme colours throughout the site
+
+// SCSS color variables (single source of truth)
+$theme-color: #007acc;
+$theme-color-alt: #15a5FF; // If you want to keep both, otherwise remove
+$text-color: #f8f9fa;
+$background-color: #212529;
+$grey-color: #bbbbbb;
+$bingo-theme-color: #0D3B66;
+$marked-cell-color: #FCA08E;
+$button-color: #3376b6;
+$bingoed-cell-color: #F4D35E;
+$white: #f8f8ff;
+$link-button-color: #fefae0;
+// Add more as needed
+
+// Output as CSS variables for use in HTML/JS
+:root {
+  --theme-color: #{$theme-color};
+  --theme-color-alt: #{$theme-color-alt};
+  --text-color: #{$text-color};
+  --background-color: #{$background-color};
+  --grey-color: #{$grey-color};
+  --bingo-theme-color: #{$bingo-theme-color};
+  --marked-cell-color: #{$marked-cell-color};
+  --button-color: #{$button-color};
+  --bingoed-cell-color: #{$bingoed-cell-color};
+  --white: #{$white};
+  --link-button-color: #{$link-button-color};
+  // Add more as needed
+}
