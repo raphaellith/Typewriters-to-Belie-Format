@@ -19,10 +19,11 @@ function createBarPlotTrace(points, traceName) {
 }
 
 
-function createBarPlotLayout(title, pointCount, xLabel, yLabel) {
+function createBarPlotLayout(title, subtitle, pointCount, xLabel, yLabel) {
   return {
     title: {
       text: title,
+      subtitle: {text: subtitle},
       font: {size: 14, weight: 1000},
     },
     xaxis: {
