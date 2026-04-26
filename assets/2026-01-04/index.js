@@ -1,119 +1,107 @@
 "use strict";
 
-function toPlotPoints(rows) {
-  const points = [];
+const plotConfig = {
+  responsive: true,
+  displaylogo: false,
+  modeBarButtonsToRemove: ["lasso2d", "select2d"]
+};
 
-  for (let i = 0; i < rows.length; i += 1) {
-    const row = rows[i];
-    const x = Number(row.ngrams_probability);
-    const y = Number(row.scrabble_play_count);
+const assetBase = window.scrabbleseAssetBase || "/assets/2026-01-04";
+const pathToJsonData = `${assetBase}/listed_games_data.json`;
 
-    if (!Number.isFinite(x) || !Number.isFinite(y) || !row.word) {
+
+async function getDataPoints() {
+  const response = await fetch(pathToJsonData);
+
+  if (!response.ok) {
+    return [];
+  }
+
+  const data = await response.json();
+
+  if (!Array.isArray(data)) {
+    return [];
+  }
+
+  const dataPoints = [];
+
+  for (let i = 0; i < data.length; i += 1) {
+    const datum = data[i];
+    const x = Number(datum.ngrams_probability);
+    const y = Number(datum.scrabble_play_count);
+
+    if (!Number.isFinite(x) || !Number.isFinite(y) || !datum.word) {
       continue;
     }
 
-    points.push({
-      word: String(row.word),
+    dataPoints.push({
+      word: String(datum.word),
       ngramsProbability: x,
       playCount: y
     });
   }
 
-  return points;
+  return dataPoints;
 }
 
-function createTrace(points, traceName) {
-  return {
-    type: "scattergl",
-    mode: "markers",
-    name: traceName,
-    x: points.map((point) => point.ngramsProbability),
-    y: points.map((point) => point.playCount),
-    text: points.map((point) => point.word),
-    textposition: "top center",
-    textfont: {
-      size: 8
-    },
-    marker: {
-      size: 3,
-      opacity: 0.75
-    },
-    hovertemplate:
-      "<b>%{text}</b><br>n-gram probability: %{x:.6e}<br>Scrabble play count: %{y:,}<extra></extra>"
-  };
+
+function getTopNMostFrequentlyUsedWords(points, count) {
+  // Sort descending by playCount and take top N
+  return points.slice().sort((a, b) => b.playCount - a.playCount).slice(0, count);
 }
 
-function createLayout(title, pointCount) {
-  return {
-    title: `${title} (${pointCount.toLocaleString()} words)`,
-    xaxis: {
-      title: "Language-model probability (n-grams)",
-      type: "log"
-    },
-    yaxis: {
-      title: "Scrabble play frequency",
-      type: "log"
-    },
-    margin: {
-      t: 60,
-      r: 20,
-      b: 70,
-      l: 80
-    },
-    hovermode: "closest"
-  };
+
+function displayErrorInChartElement(chartElement) {
+  chartElement.innerHTML = '<p class="scrabblese-error">Could not load chart data.</p>';
 }
 
-function createConfig() {
-  return {
-    responsive: true,
-    displaylogo: false,
-    modeBarButtonsToRemove: ["lasso2d", "select2d"]
-  };
-}
 
-async function renderChart(datasetConfig) {
-  const chartElement = document.getElementById(datasetConfig.chartId);
+async function renderTopNMostFrequentlyUsedWordsBarChart(chartElementId, n) {
+  const chartElement = document.getElementById(chartElementId);
+  if (!chartElement) return;
 
-  if (!chartElement) {
-    return;
-  }
+  const chartTitle = `Top ${n} Most Frequently Played Words in Scrabble`;
 
   try {
-    const response = await fetch(datasetConfig.url);
+    const dataPoints = await getDataPoints();
+    const topNDataPoints = getTopNMostFrequentlyUsedWords(dataPoints, n);
 
-    if (!response.ok) {
-      chartElement.innerHTML =
-        '<p class="scrabblese-error">Could not load chart data.</p>';
-      return;
-    }
+    const trace = createBarPlotTrace(topNDataPoints, chartTitle);
+    const layout = createBarPlotLayout(chartTitle, topNDataPoints.length);
 
-    const data = await response.json();
-    const points = toPlotPoints(Array.isArray(data) ? data : []);
-    const trace = createTrace(points, datasetConfig.title);
-    const layout = createLayout(datasetConfig.title, points.length);
-
-    await Plotly.newPlot(chartElement, [trace], layout, createConfig());
+    await Plotly.newPlot(chartElement, [trace], layout, plotConfig);
   } catch (error) {
-    chartElement.innerHTML =
-      '<p class="scrabblese-error">Could not load chart data.</p>';
+    displayErrorInChartElement(chartElement);
     console.error(error);
   }
 }
 
-function init() {
-  const assetBase = window.scrabbleseAssetBase || "/assets/2026-01-04";
 
-  const datasets = [
-    {
-      chartId: "listed-games-chart",
-      url: `${assetBase}/listed_games_data.json`,
-      title: "Listed Games Data"
-    },
-  ];
+async function renderNgramsScrabbleScatterChart(chartElementId) {
+  const chartElement = document.getElementById(chartElementId);
+  if (!chartElement) return;
 
-  Promise.all(datasets.map(renderChart));
+  const chartTitle = "Listed Games Data";
+
+  try {
+    const dataPoints = await getDataPoints(chartElementId);
+
+    const trace = createScatterPlotTrace(dataPoints, chartTitle);
+    const layout = createScatterPlotLayout(chartTitle, dataPoints.length);
+
+    await Plotly.newPlot(chartElement, [trace], layout, plotConfig);
+  } catch (error) {
+    displayErrorInChartElement(chartElement);
+    console.error(error);
+  }
 }
+
+
+function init() {
+  renderNgramsScrabbleScatterChart("listed-games-chart");
+  renderTopNMostFrequentlyUsedWordsBarChart("top-words-bar-chart", 75);
+}
+
 
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", init);
