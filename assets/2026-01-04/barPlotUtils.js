@@ -40,7 +40,7 @@ function createBarPlotLayout(title, subtitle, pointCount, xLabel, yLabel) {
       b: 60,
       l: 60
     },
-    height: 20 * pointCount + 80,
+    height: 15 * pointCount + 80,
     hovermode: "closest",
     font: {
       family: "Arial",
