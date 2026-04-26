@@ -21,7 +21,10 @@ function createBarPlotTrace(points, traceName) {
 
 function createBarPlotLayout(title, pointCount) {
   return {
-    title: title,
+    title: {
+      text: title,
+      font: {size: 14, weight: 1000},
+    },
     xaxis: {
       title: "Scrabble play frequency",
       type: "linear"
