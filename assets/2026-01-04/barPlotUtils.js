@@ -19,18 +19,18 @@ function createBarPlotTrace(points, traceName) {
 }
 
 
-function createBarPlotLayout(title, pointCount) {
+function createBarPlotLayout(title, pointCount, xLabel, yLabel) {
   return {
     title: {
       text: title,
       font: {size: 14, weight: 1000},
     },
     xaxis: {
-      title: "Scrabble play frequency",
+      title: xLabel,
       type: "linear"
     },
     yaxis: {
-      title: "Word",
+      title: yLabel,
       automargin: true
     },
     margin: {

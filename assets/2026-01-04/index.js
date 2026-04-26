@@ -61,13 +61,15 @@ async function renderTopNMostFrequentlyUsedWordsBarChart(chartElementId, n) {
   if (!chartElement) return;
 
   const chartTitle = `Top ${n} Most Frequently Played Words in Scrabble`;
+  const xLabel = "Scrabble";
+  const yLabel = "Word";
 
   try {
     const dataPoints = await getDataPoints();
     const topNDataPoints = getTopNMostFrequentlyUsedWords(dataPoints, n);
 
     const trace = createBarPlotTrace(topNDataPoints, chartTitle);
-    const layout = createBarPlotLayout(chartTitle, topNDataPoints.length);
+    const layout = createBarPlotLayout(chartTitle, topNDataPoints.length,  xLabel, yLabel);
 
     await Plotly.newPlot(chartElement, [trace], layout, plotConfig);
   } catch (error) {
