@@ -36,8 +36,8 @@ function createBarPlotLayout(title, pointCount) {
     margin: {
       t: 60,
       r: 20,
-      b: 70,
-      l: 120
+      b: 60,
+      l: 60
     },
     height: 20 * pointCount + 80,
     hovermode: "closest",
