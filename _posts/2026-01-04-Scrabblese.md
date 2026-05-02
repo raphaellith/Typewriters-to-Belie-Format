@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Scrabblese"
+title: "To Win Competitive Scrabble, You Must Learn a New Language"
 date: 2026-01-04
-description: "Scatter plots of Scrabble play frequency versus language-model probability."
-tags:
-  - word-games
-  - data-visualisation
+description: "Scrabblese, Part 1."
+tags: 
   - programming
+  - maths
+  - wordplay
 ---
 
 This page compares listed and unlisted game words using interactive scatter plots.
