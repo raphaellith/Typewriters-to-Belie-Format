@@ -52,7 +52,7 @@ function getTopNMostFrequentlyUsedWords(points, count) {
 
 
 function displayErrorInChartElement(chartElement) {
-  chartElement.innerHTML = '<p class="scrabblese-error">Could not load chart data.</p>';
+  chartElement.innerHTML = '<p>Could not load chart data.</p>';
 }
 
 
