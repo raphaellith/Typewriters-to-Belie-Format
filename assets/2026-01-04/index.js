@@ -80,28 +80,7 @@ async function renderTopNMostFrequentlyUsedWordsBarChart(chartElementId, n) {
 }
 
 
-async function renderNgramsScrabbleScatterChart(chartElementId) {
-  const chartElement = document.getElementById(chartElementId);
-  if (!chartElement) return;
-
-  const chartTitle = "Listed Games Data";
-
-  try {
-    const dataPoints = await getDataPoints(chartElementId);
-
-    const trace = createScatterPlotTrace(dataPoints, chartTitle);
-    const layout = createScatterPlotLayout(chartTitle, dataPoints.length);
-
-    await Plotly.newPlot(chartElement, [trace], layout, plotConfig);
-  } catch (error) {
-    displayErrorInChartElement(chartElement);
-    console.error(error);
-  }
-}
-
-
 function init() {
-  renderNgramsScrabbleScatterChart("listed-games-chart");
   renderTopNMostFrequentlyUsedWordsBarChart("top-words-bar-chart", 75);
 }
 
