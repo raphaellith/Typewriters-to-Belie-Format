@@ -133,6 +133,7 @@ This perhaps preposterous postulation prompted me to perform some programmatic p
 
 Plotted below are the ten most commonly used words across the scraped games.
 
+<div class="top-words-chart" n="10"></div>
 
 
 
@@ -141,7 +142,6 @@ Plotted below are the ten most commonly used words across the scraped games.
 
 
 
-<div id="top-words-bar-chart"></div>
 
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-01-04/style.css">
 
@@ -150,5 +150,4 @@ Plotted below are the ten most commonly used words across the scraped games.
 </script>
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 <script src="{{ site.baseurl }}/assets/2026-01-04/barPlotUtils.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-01-04/scatterPlotUtils.js"></script>
 <script src="{{ site.baseurl }}/assets/2026-01-04/index.js"></script>
