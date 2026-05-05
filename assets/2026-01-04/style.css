@@ -1,18 +1,23 @@
-.scrabblese-chart-wrapper {
+.side-by-side {
+  display: flex;
+}
+
+.vspace {
   margin: 2rem 0;
 }
 
-.scrabblese-chart-wrapper h2 {
-  margin-bottom: 0.75rem;
+.column {
+  flex: 50%;
 }
 
-.scrabblese-chart {
-  width: 100%;
-  height: 75vh;
-  min-height: 600px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background: #fff;
+.centered {
+  text-align: center;
+}
+
+.asterisk {
+  text-align: center;
+  vertical-align: sub;
+  margin: 3rem 0;
 }
 
 .scrabblese-error {
