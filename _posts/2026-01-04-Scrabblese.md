@@ -143,8 +143,6 @@ Plotted below are the ten most commonly used words across the scraped games.
 
 <div id="top-words-bar-chart"></div>
 
-<div id="listed-games-chart"></div>
-
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-01-04/style.css">
 
 <script>
