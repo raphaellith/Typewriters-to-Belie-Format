@@ -20,11 +20,16 @@ function createBarPlotTrace(points, traceName) {
 
 
 function createBarPlotLayout(title, subtitle, pointCount, xLabel, yLabel) {
+  const bigChart = pointCount > 15;
+
+  const barThickness = bigChart ? 15 : 35;
+  const textFontSize = bigChart ? 8 : 12;
+
   return {
     title: {
       text: title,
-      subtitle: {text: subtitle},
-      font: {size: 14, weight: 1000},
+      subtitle: {text: subtitle, font: {style: "italic"}},
+      font: {size: 18, weight: 1000},
     },
     xaxis: {
       title: xLabel,
@@ -35,16 +40,16 @@ function createBarPlotLayout(title, subtitle, pointCount, xLabel, yLabel) {
       automargin: true
     },
     margin: {
-      t: 60,
+      t: 100,
       r: 20,
-      b: 60,
+      b: 70,
       l: 60
     },
-    height: 15 * pointCount + 80,
+    height: barThickness * pointCount + 80,
     hovermode: "closest",
     font: {
       family: "PT Serif",
-      size: 8
-    }
+      size: textFontSize,
+    },
   };
 }
