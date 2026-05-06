@@ -13,8 +13,7 @@ function createBarPlotTrace(points, traceName) {
     marker: {
       color: "var(--theme-color)"
     },
-    hovertemplate:
-      "<b>%{y}</b>, %{x:,}<extra></extra>"
+    hovertemplate: "<b>%{y}</b>, %{x}<extra></extra>"
   };
 }
 
