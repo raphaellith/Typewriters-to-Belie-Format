@@ -202,5 +202,5 @@ iceberg of vocabulary, shifting our focus to the big picture and visualising all
   window.scrabbleseAssetBase = "{{ site.baseurl }}/assets/2026-01-04";
 </script>
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-01-04/barPlotUtils.js"></script>
+<script src="{{ site.baseurl }}/assets/2026-01-04/plot-utils.js"></script>
 <script src="{{ site.baseurl }}/assets/2026-01-04/index.js"></script>
