@@ -61,7 +61,7 @@ async function renderTopNMostFrequentlyUsedWordsBarChart(chartElement, n) {
 
   const chartTitle = `Top ${n} Most Frequently Played Words in Scrabble`;
   const chartSubtitle = "based on 10000 Scrabble games listed on cross-tables.com";
-  const xLabel = "Number of times the word is played across all scraped games";
+  const xLabel = "Number of times the word is played across 10000 games";
   const yLabel = "Word";
 
   try {
