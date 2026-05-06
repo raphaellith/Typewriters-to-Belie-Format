@@ -129,17 +129,70 @@ tricks for mastering the game.
 
 <p class="asterisk">*</p>
 
-This perhaps preposterous postulation prompted me to perform some programmatic probing. Specifically, I extracted from cross-tables.com precisely 10000 competitive Scrabble games, comprising 52697 distinct words.
+This perhaps preposterous postulation prompted me to perform some programmatic probing. Specifically, I extracted from
+cross-tables.com precisely 10000 competitive Scrabble games, comprising 52697 distinct words.
 
 Plotted below are the ten most commonly used words across the scraped games.
 
-<div class="top-words-chart" n="10"></div>
+<div class="top-words-chart vspace" n="10"></div>
 
+Several things are immediately obvious.
 
+For starters, when it comes to sheer frequency, the word QI clearly dominates the competition. One episode of _QI_ (as
+in _Quite Interesting_, the British panel show) [briefly explained](https://www.youtube.com/watch?v=lSSrRAcAeKI) why
+QI (as in the Scrabble word in question) emerges as a winner:
 
+> QI is the most commonly played word in Scrabble, because it’s a Q that doesn’t need a U, and you can just put it next
+> to an I, and if it’s on a triple-letter you immediately score well.
+> <div style="text-align: right">– Stephen Fry, on QI, on <i>QI</i> (Series I, Episode 18)</div>
 
+The classic word game Boggle always prints the letter Q alongside a U, ensuring that the glyph is consistently
+serviceable. Scrabble players, however, did not have this privilege: Cue a new Q, and you’re due to queue for U’s to
+use. That is, until the fourth edition of the Official Scrabble Players Dictionary came along and added the word QI,
+which scores a whopping 11 points. Its brevity and value rendered QI a literal game changer, and the word has been a
+familiar sight in competitive gameplay ever since.
 
+Apart from QI, WE is the only other word on the top ten list that features a highly scoring letter, with the W tile
+being worth 4 points. The remaining words on the list all employ more common and less valuable letters like R, E, I, N
+and T.
 
+Another key insight that I skipped over is the rather surprising (or possibly unsurprising) fact that all ten words
+contain only two letters. Should you find this shocking, allow me to expand this chart by revealing the top 100 most
+used words.
+
+<div class="top-words-chart vspace" n="100"></div>
+
+In this hundred-word list, 99 words are bigrams. The sole exception here is QAT (ranked #71), a three-letter word whose
+playability can be attributed to the same reasons as QI.
+
+This may initially seem counterintuitive. In a game where points are awarded on a per-letter basis, why would one be
+motivated to play words as short as two letters? The answer is “parallel play”: a Scrabble technique where a new word is
+placed directly alongside an existing word, creating multiple new (and often two-letter) words simultaneously in the
+perpendicular direction. This technique, on which I elucidated in The Periodic Table of Two-Letter Scrabble Words,
+almost always maximises the score obtainable in a single move. The omnipresence of parallel play in competitive Scrabble
+results in the overwhelming plethora of two-letter words in the above list.
+
+This may be a good time to revisit our original question, where we sought to unveil (a) the patterns of Scrabblese and
+(b) how these patterns could be capitalised on to our advantage. The first half of this question could be answered, at
+least partially, by the three major patterns we noted from our bar chart thus far: the exceptional prevalence of QI, the
+striking ubiquity of two-letter words, and the three-letter word QAT being a statistical outlier. We may attempt to
+answer the second half by translating these patterns into more practical tactics and recommendations, such as the
+following.
+
+1. When a Q tile is drawn, aim to play QI. If QI cannot be played, consider QAT as an alternative.
+2. Knowing your two-letter Scrabble words is valuable when it comes to parallel play.
+
+Still, these so-called tactics leave a lot to be desired. To begin with, we’re only looking at the top 100 words in a
+vast sea of over 50000. This accounts for less than 0.2% of the total, making this examination anticlimactically myopic
+and somewhat purportless.
+
+What is similarly purportless is the advice to “know your two-letter Scrabble words”. The average person’s vernacular
+already contains numerous two-letter words --- IF, IT, IS, TO, BE, SO, to name but six. If it is to be so, it is
+important to distinguish between the two-letter words that most people already know, and the ones worth learning
+additionally.
+
+In the next part, we’ll wrestle with these two issues simultaneously by investigating beyond the tip of this colossal
+iceberg of vocabulary, shifting our focus to the big picture and visualising all 52697 words in a single chart.
 
 
 

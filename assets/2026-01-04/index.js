@@ -56,8 +56,7 @@ function displayErrorInChartElement(chartElement) {
 }
 
 
-async function renderTopNMostFrequentlyUsedWordsBarChart(chartElementId, n) {
-  const chartElement = document.getElementById(chartElementId);
+async function renderTopNMostFrequentlyUsedWordsBarChart(chartElement, n) {
   if (!chartElement) return;
 
   const chartTitle = `Top ${n} Most Frequently Played Words in Scrabble`;
@@ -81,7 +80,17 @@ async function renderTopNMostFrequentlyUsedWordsBarChart(chartElementId, n) {
 
 
 function init() {
-  renderTopNMostFrequentlyUsedWordsBarChart("top-words-bar-chart", 75);
+  const chartElements = document.querySelectorAll('.top-words-chart');
+  chartElements.forEach(chartElement => {
+    let n = 10; // default
+    if (chartElement.hasAttribute("n")) {
+      const nAttr = parseInt(chartElement.getAttribute("n"), 10);
+      if (Number.isFinite(nAttr) && nAttr > 0) {
+        n = nAttr;
+      }
+    }
+    renderTopNMostFrequentlyUsedWordsBarChart(chartElement, n);
+  });
 }
 
 
