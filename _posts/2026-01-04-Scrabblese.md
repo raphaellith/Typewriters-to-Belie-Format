@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "To Win Competitive Scrabble, You Must Learn a New Language"
+title: "To Compete in Scrabble, You Must Learn a New Language"
 date: 2026-01-04
 description: "Scrabblese, Part 1."
 tags:
