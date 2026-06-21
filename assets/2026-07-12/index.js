@@ -54,18 +54,19 @@ function showError(chartElement) {
 }
 
 
-async function renderHorizontalBarChart(chartElement, n) {
+async function renderVerticalBarChart(chartElement) {
   if (!chartElement) return;
 
-  const chartTitle = `Top ${n} Most Frequently Played Words in Scrabble`;
+  const chartTitle = "Top 10 Most Frequently Played Words in Scrabble";
   const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
+  const n = 10;
 
   try {
     const dataPoints = await fetchDataPoints();
     const topNPoints = getTopNByPlayCount(dataPoints, n);
 
-    const trace = createBarPlotTrace(topNPoints, chartTitle);
-    const layout = createBarPlotLayout(chartTitle, chartSubtitle, topNPoints.length, "Number of plays", "Word");
+    const trace = createVerticalBarPlotTrace(topNPoints);
+    const layout = createVerticalBarPlotLayout(chartTitle, chartSubtitle, topNPoints.length);
 
     await Plotly.newPlot(chartElement, [trace], layout, plotConfig);
   } catch (error) {
@@ -75,18 +76,145 @@ async function renderHorizontalBarChart(chartElement, n) {
 }
 
 
-function init() {
-  const horizontalCharts = document.querySelectorAll(".top-words-chart");
-  horizontalCharts.forEach(chartElement => {
-    let n = 10;
-    if (chartElement.hasAttribute("n")) {
-      const nAttr = parseInt(chartElement.getAttribute("n"), 10);
-      if (Number.isFinite(nAttr) && nAttr > 0) {
-        n = nAttr;
+async function renderAllWordsVerticalChart(chartElement) {
+  if (!chartElement) return;
+
+  const chartTitle = "All Words Recorded by Play Count";
+  const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
+
+  try {
+    const dataPoints = await fetchDataPoints();
+    const sortedPoints = dataPoints.sort((a, b) => b.playCount - a.playCount);
+
+    const trace = createAllWordsVerticalTrace(sortedPoints);
+    const layout = createAllWordsVerticalLayout(chartTitle, chartSubtitle, sortedPoints.length);
+
+    await Plotly.newPlot(chartElement, [trace], layout, plotConfig);
+  } catch (error) {
+    showError(chartElement);
+    console.error(error);
+  }
+}
+
+
+async function renderAllWordsVerticalChartLog(chartElement) {
+  if (!chartElement) return;
+
+  const chartTitle = "All Words Recorded by Play Count";
+  const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com (logarithmic scale)";
+
+  try {
+    const dataPoints = await fetchDataPoints();
+    const sortedPoints = dataPoints.sort((a, b) => b.playCount - a.playCount);
+
+    const trace = createAllWordsVerticalTrace(sortedPoints);
+    const layout = createAllWordsVerticalLayoutLog(chartTitle, chartSubtitle, sortedPoints.length);
+
+    await Plotly.newPlot(chartElement, [trace], layout, plotConfig);
+  } catch (error) {
+    showError(chartElement);
+    console.error(error);
+  }
+}
+
+
+async function renderScatterPlot(chartElement) {
+  if (!chartElement) return;
+
+  const chartTitle = "All Words by N-grams Count vs Play Count";
+  const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
+
+  try {
+    const dataPoints = await fetchDataPoints();
+    const filteredPoints = dataPoints.filter(
+      (p) => p.ngramsCount > 0 && p.playCount > 0
+    );
+
+    const trace = createScatterPlotTrace(filteredPoints);
+    const layout = createScatterPlotLayout(chartTitle, chartSubtitle);
+
+    await Plotly.newPlot(chartElement, [trace], layout, plotConfig);
+  } catch (error) {
+    showError(chartElement);
+    console.error(error);
+  }
+}
+
+
+async function renderScatterPlotFiltered(chartElement) {
+  if (!chartElement) return;
+
+  const chartTitle = "All Words by N-grams Count vs Play Count";
+  const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
+
+  try {
+    const dataPoints = await fetchDataPoints();
+    const checkbox = document.getElementById("word-length-checkbox");
+    const slider = document.getElementById("word-length-slider");
+    const display = document.getElementById("word-length-display");
+
+    function render() {
+      const filterActive = checkbox.checked;
+      const wordLength = parseInt(slider.value, 10);
+
+      let filteredPoints = dataPoints.filter(
+        (p) => p.ngramsCount > 0 && p.playCount > 0
+      );
+      if (filterActive) {
+        filteredPoints = filteredPoints.filter((p) => p.word.length === wordLength);
       }
+
+      const trace = createScatterPlotTrace(filteredPoints);
+      const layout = createScatterPlotLayout(
+        filterActive
+          ? `Words of Length ${wordLength} by N-grams Count vs Play Count`
+          : chartTitle,
+        chartSubtitle
+      );
+
+      Plotly.react(chartElement, [trace], layout, plotConfig);
     }
-    renderHorizontalBarChart(chartElement, n);
-  });
+
+    display.textContent = slider.value;
+    render();
+
+    slider.addEventListener("input", () => {
+      display.textContent = slider.value;
+      render();
+    });
+    checkbox.addEventListener("change", render);
+  } catch (error) {
+    showError(chartElement);
+    console.error(error);
+  }
+}
+
+
+function init() {
+  const verticalChart = document.querySelector(".top-words-chart-vertical");
+  if (verticalChart) {
+    renderVerticalBarChart(verticalChart);
+  }
+
+  const allWordsVerticalChart = document.querySelector(".all-words-chart-vertical");
+  if (allWordsVerticalChart) {
+    renderAllWordsVerticalChart(allWordsVerticalChart);
+  }
+
+  const allWordsVerticalChartLog = document.querySelector(".all-words-chart-vertical-log");
+  if (allWordsVerticalChartLog) {
+    renderAllWordsVerticalChartLog(allWordsVerticalChartLog);
+  }
+
+  const scatterPlot = document.querySelector(".scatter-plot");
+  if (scatterPlot) {
+    renderScatterPlot(scatterPlot);
+  }
+
+  const scatterPlotFiltered = document.querySelector(".scatter-plot-filtered");
+  if (scatterPlotFiltered) {
+    renderScatterPlotFiltered(scatterPlotFiltered);
+  }
 }
 
 
