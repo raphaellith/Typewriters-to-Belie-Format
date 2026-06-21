@@ -71,6 +71,7 @@ function initBoard(boardNum, bingoCellContent) {
     */
 
     let bingoGrid = document.querySelector(`#board${boardNum} .bingo-grid`);
+    bingoGrid.style.setProperty('--gridLen', gridLen);
 
     for (let y = 0; y < gridLen; y++) {
         for (let x = 0; x < gridLen; x++) {
