@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "To Compete in Scrabble, You Must Learn a New Language"
-date: 2026-01-04
+date: 2026-07-05
 description: "Scrabblese, Part 1."
 tags:
   - programming
   - maths
   - wordplay
+published: false
 ---
 
 Though most competitive Scrabble tournaments are played in English, their use of intimidatingly arcane words sets
@@ -199,5 +200,5 @@ iceberg of vocabulary, shifting our focus to the big picture and visualising all
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-01-04/style.css">
 
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-01-04/plot-utils.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-01-04/index.js"></script>
+<script src="{{ site.baseurl }}/assets/2026-07-05/plot-utils.js"></script>
+<script src="{{ site.baseurl }}/assets/2026-07-05/index.js"></script>

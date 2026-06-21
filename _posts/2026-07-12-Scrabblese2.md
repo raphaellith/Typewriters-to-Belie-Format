@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "Scrabblese, The Big Picture"
-date: 2026-01-05
+date: 2026-07-12
 description: "Scrabblese, Part 2."
 tags:
   - programming
   - maths
   - wordplay
+published: false
 ---
 
 In 2015, New Zealand Scrabble player Nigel Richards was crowned the winner of the annual French World Scrabble
@@ -152,5 +153,5 @@ As the line between common and uncommon words varies inevitably between person t
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-01-05/style.css">
 
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-01-05/plot-utils.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-01-05/index.js"></script>
+<script src="{{ site.baseurl }}/assets/2026-07-12/plot-utils.js"></script>
+<script src="{{ site.baseurl }}/assets/2026-07-12/index.js"></script>
