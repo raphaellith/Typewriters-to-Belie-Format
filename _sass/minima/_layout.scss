@@ -270,6 +270,10 @@
   margin-top: -20px;
   margin-bottom: $spacing-unit;
 
+  p {
+    text-align: justify;
+  }
+
   // Keep hover color change from the global link rule, but remove underline in post bodies.
   a:hover {
     text-decoration: none;
