@@ -79,7 +79,7 @@ be a different language.
 And on that note, what if it is? What if this vocabulary _is_ indeed its own language with its own syntactical patterns?
 What are these patterns, and how can we use these patterns to our advantage?
 
-<p class="asterisk">*</p>
+<div class="asterisk">*</div>
 
 Crossword puzzles, especially those found in American newspapers, are notorious for their inclusion of similarly unusual
 words, known collectively as Crosswordese. While cruciverbalists try their best to avoid these words, the New York Times
@@ -128,7 +128,7 @@ tricks for mastering the game.
   <p>Would a Crosswordese or Scrabblese “speaker” be able to communicate smoothly with an English speaker? What would it even mean for someone to be a fluent speaker of Crosswordese, but not of English?</p>
 </div>
 
-<p class="asterisk">*</p>
+<div class="asterisk">*</div>
 
 This perhaps preposterous postulation prompted me to perform some programmatic probing. Specifically, I extracted from
 cross-tables.com precisely 10000 competitive Scrabble games, comprising 52697 distinct words.
@@ -197,7 +197,7 @@ iceberg of vocabulary, shifting our focus to the big picture and visualising all
 
 
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-01-04/style.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-07-05/style.css">
 
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 <script src="{{ site.baseurl }}/assets/2026-07-05/plot-utils.js"></script>

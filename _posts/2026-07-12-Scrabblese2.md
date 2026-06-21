@@ -21,7 +21,7 @@ Three years later in 2018, Richards won the French World Scrabble Championships 
 the equally remarkable accomplishment of [winning](https://www.theguardian.com/world/2024/dec/10/scrabble-star-nigel-richards-wins-spanish-world-title-despite-not-speaking-spanish)
 the Spanish World Scrabble Championships, despite not being fluent in Spanish.
 
-<p class="asterisk">*</p>
+<div class="asterisk">*</div>
 
 _Words are just combinations of letters._ It is to this central doctrine that many popular word games, including the New
 York Times’ Spelling Bee and Wordle, seem to boil down. Other linguistic aspects like semantics and pragmatics are all
@@ -150,7 +150,7 @@ As the line between common and uncommon words varies inevitably between person t
   </label>
 </div>
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-01-05/style.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-07-12/style.css">
 
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 <script src="{{ site.baseurl }}/assets/2026-07-12/plot-utils.js"></script>
