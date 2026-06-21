@@ -10,7 +10,6 @@
 }
 
 .bingo-board {
-    display: inline-block;
     margin: auto;
 
     /* Square of maximum possible size without overflowing */
