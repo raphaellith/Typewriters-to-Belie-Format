@@ -196,11 +196,8 @@ iceberg of vocabulary, shifting our focus to the big picture and visualising all
 
 
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-01-04/style.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-01-04-and-2026-01-05/style.css">
 
-<script>
-  window.scrabbleseAssetBase = "{{ site.baseurl }}/assets/2026-01-04";
-</script>
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-01-04/plot-utils.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-01-04/index.js"></script>
+<script src="{{ site.baseurl }}/assets/2026-01-04-and-2026-01-05/plot-utils.js"></script>
+<script src="{{ site.baseurl }}/assets/2026-01-04-and-2026-01-05/index.js"></script>
