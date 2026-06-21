@@ -54,18 +54,19 @@ function showError(chartElement) {
 }
 
 
-async function renderHorizontalBarChart(chartElement, n) {
+async function renderVerticalBarChart(chartElement) {
   if (!chartElement) return;
 
-  const chartTitle = `Top ${n} Most Frequently Played Words in Scrabble`;
+  const chartTitle = "Top 10 Most Frequently Played Words in Scrabble";
   const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
+  const n = 10;
 
   try {
     const dataPoints = await fetchDataPoints();
     const topNPoints = getTopNByPlayCount(dataPoints, n);
 
-    const trace = createBarPlotTrace(topNPoints, chartTitle);
-    const layout = createBarPlotLayout(chartTitle, chartSubtitle, topNPoints.length, "Number of plays", "Word");
+    const trace = createVerticalBarPlotTrace(topNPoints);
+    const layout = createVerticalBarPlotLayout(chartTitle, chartSubtitle, topNPoints.length);
 
     await Plotly.newPlot(chartElement, [trace], layout, plotConfig);
   } catch (error) {
@@ -189,41 +190,7 @@ async function renderScatterPlotFiltered(chartElement) {
 }
 
 
-async function renderVerticalBarChart(chartElement) {
-  if (!chartElement) return;
-
-  const chartTitle = "Top 10 Most Frequently Played Words in Scrabble";
-  const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
-  const n = 10;
-
-  try {
-    const dataPoints = await fetchDataPoints();
-    const topNPoints = getTopNByPlayCount(dataPoints, n);
-
-    const trace = createVerticalBarPlotTrace(topNPoints);
-    const layout = createVerticalBarPlotLayout(chartTitle, chartSubtitle, topNPoints.length);
-
-    await Plotly.newPlot(chartElement, [trace], layout, plotConfig);
-  } catch (error) {
-    showError(chartElement);
-    console.error(error);
-  }
-}
-
-
 function init() {
-  const horizontalCharts = document.querySelectorAll(".top-words-chart");
-  horizontalCharts.forEach(chartElement => {
-    let n = 10;
-    if (chartElement.hasAttribute("n")) {
-      const nAttr = parseInt(chartElement.getAttribute("n"), 10);
-      if (Number.isFinite(nAttr) && nAttr > 0) {
-        n = nAttr;
-      }
-    }
-    renderHorizontalBarChart(chartElement, n);
-  });
-
   const verticalChart = document.querySelector(".top-words-chart-vertical");
   if (verticalChart) {
     renderVerticalBarChart(verticalChart);

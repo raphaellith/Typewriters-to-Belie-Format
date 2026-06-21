@@ -149,8 +149,8 @@ As the line between common and uncommon words varies inevitably between person t
   </label>
 </div>
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-01-04-and-2026-01-05/style.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-01-05/style.css">
 
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-01-04-and-2026-01-05/plot-utils.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-01-04-and-2026-01-05/index.js"></script>
+<script src="{{ site.baseurl }}/assets/2026-01-05/plot-utils.js"></script>
+<script src="{{ site.baseurl }}/assets/2026-01-05/index.js"></script>
