@@ -79,7 +79,7 @@ async function renderVerticalBarChart(chartElement) {
 async function renderAllWordsVerticalChart(chartElement) {
   if (!chartElement) return;
 
-  const chartTitle = "All Words Recorded by Play Count";
+  const chartTitle = "Scrabble Words by Play Count";
   const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
 
   try {
@@ -100,8 +100,8 @@ async function renderAllWordsVerticalChart(chartElement) {
 async function renderAllWordsVerticalChartLog(chartElement) {
   if (!chartElement) return;
 
-  const chartTitle = "All Words Recorded by Play Count";
-  const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com (logarithmic scale)";
+  const chartTitle = "Scrabble Words by Play Count";
+  const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
 
   try {
     const dataPoints = await fetchDataPoints();
@@ -121,7 +121,7 @@ async function renderAllWordsVerticalChartLog(chartElement) {
 async function renderScatterPlot(chartElement) {
   if (!chartElement) return;
 
-  const chartTitle = "All Words by N-grams Count vs Play Count";
+  const chartTitle = "Scrabble Words by Ngrams Count and Play Count";
   const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
 
   try {
@@ -144,7 +144,7 @@ async function renderScatterPlot(chartElement) {
 async function renderScatterPlotFiltered(chartElement) {
   if (!chartElement) return;
 
-  const chartTitle = "All Words by N-grams Count vs Play Count";
+  const chartTitle = "Scrabble Words by Ngrams Count and Play Count";
   const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
 
   try {
@@ -167,7 +167,7 @@ async function renderScatterPlotFiltered(chartElement) {
       const trace = createScatterPlotTrace(filteredPoints);
       const layout = createScatterPlotLayout(
         filterActive
-          ? `Words of Length ${wordLength} by N-grams Count vs Play Count`
+          ? `${wordLength}-Letter Scrabble Words by Ngrams Count and Play Count`
           : chartTitle,
         chartSubtitle
       );

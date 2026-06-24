@@ -74,8 +74,7 @@ function showError(chartElement) {
 async function renderScatterPlotComparison(chartElement) {
   if (!chartElement) return;
 
-  const chartTitle = "All Words by N-grams Count vs Play Count";
-  const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
+  const chartTitle = "Scrabble Words by Ngrams Count and Play Count";
 
   try {
     const [listedData, unlistedData] = await Promise.all([
@@ -123,7 +122,7 @@ async function renderScatterPlotComparison(chartElement) {
 
       let subtitle;
       if (useListed && useUnlisted) {
-        subtitle = "across all 14493 listed and unlisted Scrabble games on cross-tables.com";
+        subtitle = "across 14493 listed and unlisted Scrabble games on cross-tables.com";
       } else if (useListed) {
         subtitle = "across 10000 listed Scrabble games on cross-tables.com";
       } else if (useUnlisted) {
@@ -134,7 +133,7 @@ async function renderScatterPlotComparison(chartElement) {
 
       const layout = createScatterPlotLayout(
         filterActive
-          ? "Words of Length " + wordLength + " by N-grams Count vs Play Count"
+          ? `${wordLength}-Letter Scrabble Words by Ngrams Count and Play Count`
           : chartTitle,
         subtitle
       );

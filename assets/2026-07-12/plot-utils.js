@@ -149,7 +149,7 @@ function createScatterPlotTrace(points) {
       size: 4,
       opacity: 0.6,
     },
-    hovertemplate: "<b>%{customdata}</b><br>Play count: %{y}<br>N-grams count: %{x}<extra></extra>",
+    hovertemplate: "<b>%{customdata}</b><br>Play count: %{y}<br>Ngrams count: %{x}<extra></extra>",
     customdata: points.map((point) => point.word),
   };
 }
@@ -163,7 +163,7 @@ function createScatterPlotLayout(title, subtitle) {
       font: {size: 18, weight: 1000},
     },
     xaxis: {
-      title: "N-grams count",
+      title: "Ngrams collapsed relative match count",
       type: "log",
       dtick: 1,
     },

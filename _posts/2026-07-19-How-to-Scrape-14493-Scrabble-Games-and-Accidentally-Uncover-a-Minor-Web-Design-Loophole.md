@@ -7,7 +7,7 @@ tags:
   - programming
   - maths
   - wordplay
-published: false
+published: true
 ---
 
 The last two posts (see [Part 1]({{ site.baseurl }}/To-Compete-in-Scrabble-You-Must-Learn-a-New-Language)

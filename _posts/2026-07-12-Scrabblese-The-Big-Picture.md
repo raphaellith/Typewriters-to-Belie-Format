@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Scrabblese, The Big Picture"
-date: 2026-07-12
+date: 2026-01-12
 description: "Scrabblese, Part 2."
 tags:
   - programming
   - maths
   - wordplay
-published: false
+published: true
 ---
 
 In 2015, New Zealand Scrabble player Nigel Richards was crowned the winner of the annual French World Scrabble
