@@ -1,16 +1,9 @@
 "use strict";
 
-const plotConfig = {
-  responsive: true,
-  displaylogo: false,
-  modeBarButtonsToRemove: ["lasso2d", "select2d"]
-};
-
 const dataUrl = "https://raw.githubusercontent.com/raphaellith/Scrabblese/refs/heads/main/exports/listed_games_data.json";
 
-
-async function fetchDataPoints() {
-  const response = await fetch(dataUrl);
+async function fetchDataPoints(url) {
+  const response = await fetch(url);
 
   if (!response.ok) {
     return [];
@@ -43,17 +36,6 @@ async function fetchDataPoints() {
   return dataPoints;
 }
 
-
-function getTopNByPlayCount(points, count) {
-  return points.slice().sort((a, b) => b.playCount - a.playCount).slice(0, count);
-}
-
-
-function showError(chartElement) {
-  chartElement.innerHTML = '<p>Could not load chart data.</p>';
-}
-
-
 async function renderVerticalBarChart(chartElement) {
   if (!chartElement) return;
 
@@ -62,7 +44,7 @@ async function renderVerticalBarChart(chartElement) {
   const n = 10;
 
   try {
-    const dataPoints = await fetchDataPoints();
+    const dataPoints = await fetchDataPoints(dataUrl);
     const topNPoints = getTopNByPlayCount(dataPoints, n);
 
     const trace = createVerticalBarPlotTrace(topNPoints);
@@ -75,7 +57,6 @@ async function renderVerticalBarChart(chartElement) {
   }
 }
 
-
 async function renderAllWordsVerticalChart(chartElement) {
   if (!chartElement) return;
 
@@ -83,7 +64,7 @@ async function renderAllWordsVerticalChart(chartElement) {
   const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
 
   try {
-    const dataPoints = await fetchDataPoints();
+    const dataPoints = await fetchDataPoints(dataUrl);
     const sortedPoints = dataPoints.sort((a, b) => b.playCount - a.playCount);
 
     const trace = createAllWordsVerticalTrace(sortedPoints);
@@ -96,7 +77,6 @@ async function renderAllWordsVerticalChart(chartElement) {
   }
 }
 
-
 async function renderAllWordsVerticalChartLog(chartElement) {
   if (!chartElement) return;
 
@@ -104,7 +84,7 @@ async function renderAllWordsVerticalChartLog(chartElement) {
   const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
 
   try {
-    const dataPoints = await fetchDataPoints();
+    const dataPoints = await fetchDataPoints(dataUrl);
     const sortedPoints = dataPoints.sort((a, b) => b.playCount - a.playCount);
 
     const trace = createAllWordsVerticalTrace(sortedPoints);
@@ -117,7 +97,6 @@ async function renderAllWordsVerticalChartLog(chartElement) {
   }
 }
 
-
 async function renderScatterPlot(chartElement) {
   if (!chartElement) return;
 
@@ -125,7 +104,7 @@ async function renderScatterPlot(chartElement) {
   const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
 
   try {
-    const dataPoints = await fetchDataPoints();
+    const dataPoints = await fetchDataPoints(dataUrl);
     const filteredPoints = dataPoints.filter(
       (p) => p.ngramsCount > 0 && p.playCount > 0
     );
@@ -140,7 +119,6 @@ async function renderScatterPlot(chartElement) {
   }
 }
 
-
 async function renderScatterPlotFiltered(chartElement) {
   if (!chartElement) return;
 
@@ -148,7 +126,7 @@ async function renderScatterPlotFiltered(chartElement) {
   const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
 
   try {
-    const dataPoints = await fetchDataPoints();
+    const dataPoints = await fetchDataPoints(dataUrl);
     const checkbox = document.getElementById("word-length-checkbox");
     const slider = document.getElementById("word-length-slider");
     const display = document.getElementById("word-length-display");
@@ -189,7 +167,6 @@ async function renderScatterPlotFiltered(chartElement) {
   }
 }
 
-
 function init() {
   const verticalChart = document.querySelector(".top-words-chart-vertical");
   if (verticalChart) {
@@ -216,7 +193,6 @@ function init() {
     renderScatterPlotFiltered(scatterPlotFiltered);
   }
 }
-
 
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", init);

@@ -1,14 +1,7 @@
 "use strict";
 
-const plotConfig = {
-  responsive: true,
-  displaylogo: false,
-  modeBarButtonsToRemove: ["lasso2d", "select2d"]
-};
-
 const listedDataUrl = "https://raw.githubusercontent.com/raphaellith/Scrabblese/refs/heads/main/exports/listed_games_data.json";
 const unlistedDataUrl = "https://raw.githubusercontent.com/raphaellith/Scrabblese/refs/heads/main/exports/unlisted_games_data.json";
-
 
 async function fetchDataPoints(url) {
   const response = await fetch(url);
@@ -44,7 +37,6 @@ async function fetchDataPoints(url) {
   return dataPoints;
 }
 
-
 function combineDataPoints(listedPoints, unlistedPoints) {
   const map = new Map();
 
@@ -64,12 +56,6 @@ function combineDataPoints(listedPoints, unlistedPoints) {
 
   return Array.from(map.values());
 }
-
-
-function showError(chartElement) {
-  chartElement.innerHTML = "<p>Could not load chart data.</p>";
-}
-
 
 async function renderScatterPlotComparison(chartElement) {
   if (!chartElement) return;
@@ -157,14 +143,12 @@ async function renderScatterPlotComparison(chartElement) {
   }
 }
 
-
 function init() {
   const comparisonChart = document.querySelector(".scatter-plot-comparison");
   if (comparisonChart) {
     renderScatterPlotComparison(comparisonChart);
   }
 }
-
 
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", init);

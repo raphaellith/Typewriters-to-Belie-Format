@@ -1,16 +1,9 @@
 "use strict";
 
-const plotConfig = {
-  responsive: true,
-  displaylogo: false,
-  modeBarButtonsToRemove: ["lasso2d", "select2d"]
-};
-
 const dataUrl = "https://raw.githubusercontent.com/raphaellith/Scrabblese/refs/heads/main/exports/listed_games_data.json";
 
-
-async function fetchDataPoints() {
-  const response = await fetch(dataUrl);
+async function fetchDataPoints(url) {
+  const response = await fetch(url);
 
   if (!response.ok) {
     return [];
@@ -43,17 +36,6 @@ async function fetchDataPoints() {
   return dataPoints;
 }
 
-
-function getTopNByPlayCount(points, count) {
-  return points.slice().sort((a, b) => b.playCount - a.playCount).slice(0, count);
-}
-
-
-function showError(chartElement) {
-  chartElement.innerHTML = '<p>Could not load chart data.</p>';
-}
-
-
 async function renderHorizontalBarChart(chartElement, n) {
   if (!chartElement) return;
 
@@ -61,11 +43,11 @@ async function renderHorizontalBarChart(chartElement, n) {
   const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
 
   try {
-    const dataPoints = await fetchDataPoints();
+    const dataPoints = await fetchDataPoints(dataUrl);
     const topNPoints = getTopNByPlayCount(dataPoints, n);
 
-    const trace = createBarPlotTrace(topNPoints, chartTitle);
-    const layout = createBarPlotLayout(chartTitle, chartSubtitle, topNPoints.length, "Number of plays", "Word");
+    const trace = createHorizontalBarPlotTrace(topNPoints, chartTitle);
+    const layout = createHorizontalBarPlotLayout(chartTitle, chartSubtitle, topNPoints.length, "Number of plays", "Word");
 
     await Plotly.newPlot(chartElement, [trace], layout, plotConfig);
   } catch (error) {
@@ -73,7 +55,6 @@ async function renderHorizontalBarChart(chartElement, n) {
     console.error(error);
   }
 }
-
 
 function init() {
   const horizontalCharts = document.querySelectorAll(".top-words-chart");
@@ -88,7 +69,6 @@ function init() {
     renderHorizontalBarChart(chartElement, n);
   });
 }
-
 
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", init);

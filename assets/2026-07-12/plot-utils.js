@@ -1,5 +1,19 @@
 "use strict";
 
+function createBaseLayout(title, subtitle) {
+  return {
+    title: {
+      text: title,
+      subtitle: { text: subtitle, font: { style: "italic" } },
+      font: { size: 18, weight: 1000 },
+    },
+    hovermode: "closest",
+    font: {
+      family: "PT Serif",
+      size: 12,
+    },
+  };
+}
 
 function createVerticalBarPlotTrace(points) {
   return {
@@ -17,7 +31,6 @@ function createVerticalBarPlotTrace(points) {
   };
 }
 
-
 function createAllWordsVerticalTrace(points) {
   return {
     type: "bar",
@@ -33,14 +46,9 @@ function createAllWordsVerticalTrace(points) {
   };
 }
 
-
 function createAllWordsVerticalLayout(title, subtitle, pointCount) {
   return {
-    title: {
-      text: title,
-      subtitle: {text: subtitle, font: {style: "italic"}},
-      font: {size: 18, weight: 1000},
-    },
+    ...createBaseLayout(title, subtitle),
     xaxis: {
       showticklabels: false,
       showgrid: false,
@@ -59,24 +67,14 @@ function createAllWordsVerticalLayout(title, subtitle, pointCount) {
       l: 80
     },
     height: 650,
-    hovermode: "closest",
-    font: {
-      family: "PT Serif",
-      size: 12,
-    },
     bargap: 0,
     bargroupgap: 0,
   };
 }
 
-
 function createAllWordsVerticalLayoutLog(title, subtitle, pointCount) {
   return {
-    title: {
-      text: title,
-      subtitle: {text: subtitle, font: {style: "italic"}},
-      font: {size: 18, weight: 1000},
-    },
+    ...createBaseLayout(title, subtitle),
     xaxis: {
       showticklabels: false,
       showgrid: false,
@@ -96,24 +94,14 @@ function createAllWordsVerticalLayoutLog(title, subtitle, pointCount) {
       l: 80
     },
     height: 650,
-    hovermode: "closest",
-    font: {
-      family: "PT Serif",
-      size: 12,
-    },
     bargap: 0,
     bargroupgap: 0,
   };
 }
 
-
 function createVerticalBarPlotLayout(title, subtitle, pointCount) {
   return {
-    title: {
-      text: title,
-      subtitle: {text: subtitle, font: {style: "italic"}},
-      font: {size: 18, weight: 1000},
-    },
+    ...createBaseLayout(title, subtitle),
     xaxis: {
       title: "Word",
     },
@@ -128,14 +116,8 @@ function createVerticalBarPlotLayout(title, subtitle, pointCount) {
       l: 80
     },
     height: 400,
-    hovermode: "closest",
-    font: {
-      family: "PT Serif",
-      size: 12,
-    },
   };
 }
-
 
 function createScatterPlotTrace(points) {
   return {
@@ -154,14 +136,9 @@ function createScatterPlotTrace(points) {
   };
 }
 
-
 function createScatterPlotLayout(title, subtitle) {
   return {
-    title: {
-      text: title,
-      subtitle: {text: subtitle, font: {style: "italic"}},
-      font: {size: 18, weight: 1000},
-    },
+    ...createBaseLayout(title, subtitle),
     xaxis: {
       title: "Ngrams collapsed relative match count",
       type: "log",
@@ -179,10 +156,19 @@ function createScatterPlotLayout(title, subtitle) {
       l: 80
     },
     height: 650,
-    hovermode: "closest",
-    font: {
-      family: "PT Serif",
-      size: 12,
-    },
   };
+}
+
+const plotConfig = {
+  responsive: true,
+  displaylogo: false,
+  modeBarButtonsToRemove: ["lasso2d", "select2d"]
+};
+
+function showError(chartElement) {
+  chartElement.innerHTML = "<p>Could not load chart data.</p>";
+}
+
+function getTopNByPlayCount(points, count) {
+  return points.slice().sort((a, b) => b.playCount - a.playCount).slice(0, count);
 }

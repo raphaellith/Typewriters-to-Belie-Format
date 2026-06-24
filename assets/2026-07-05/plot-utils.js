@@ -1,7 +1,21 @@
 "use strict";
 
+function createBaseLayout(title, subtitle) {
+  return {
+    title: {
+      text: title,
+      subtitle: { text: subtitle, font: { style: "italic" } },
+      font: { size: 18, weight: 1000 },
+    },
+    hovermode: "closest",
+    font: {
+      family: "PT Serif",
+      size: 12,
+    },
+  };
+}
 
-function createBarPlotTrace(points, traceName) {
+function createHorizontalBarPlotTrace(points, traceName) {
   return {
     type: "bar",
     orientation: "h",
@@ -17,18 +31,17 @@ function createBarPlotTrace(points, traceName) {
   };
 }
 
-
-function createBarPlotLayout(title, subtitle, pointCount, xLabel, yLabel) {
+function createHorizontalBarPlotLayout(title, subtitle, pointCount, xLabel, yLabel) {
   const bigChart = pointCount > 15;
 
   const barThickness = bigChart ? 15 : 35;
   const textFontSize = bigChart ? 8 : 12;
 
   return {
-    title: {
-      text: title,
-      subtitle: {text: subtitle, font: {style: "italic"}},
-      font: {size: 18, weight: 1000},
+    ...createBaseLayout(title, subtitle),
+    font: {
+      family: "PT Serif",
+      size: textFontSize,
     },
     xaxis: {
       title: xLabel,
@@ -45,10 +58,19 @@ function createBarPlotLayout(title, subtitle, pointCount, xLabel, yLabel) {
       l: 60
     },
     height: barThickness * pointCount + 80,
-    hovermode: "closest",
-    font: {
-      family: "PT Serif",
-      size: textFontSize,
-    },
   };
+}
+
+const plotConfig = {
+  responsive: true,
+  displaylogo: false,
+  modeBarButtonsToRemove: ["lasso2d", "select2d"]
+};
+
+function showError(chartElement) {
+  chartElement.innerHTML = "<p>Could not load chart data.</p>";
+}
+
+function getTopNByPlayCount(points, count) {
+  return points.slice().sort((a, b) => b.playCount - a.playCount).slice(0, count);
 }
