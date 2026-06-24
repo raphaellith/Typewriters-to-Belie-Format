@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "To Compete in Scrabble, You Must Learn a New Language"
-date: 2026-01-05
+date: 2026-07-05
 description: "Scrabblese, Part 1."
 tags:
   - programming
   - maths
   - wordplay
-published: true
+published: false
 ---
 
 Though most competitive Scrabble tournaments are played in English, their use of intimidatingly arcane words sets

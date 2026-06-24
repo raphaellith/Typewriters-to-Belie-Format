@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "How to Scrape 14,493 Scrabble Games and Accidentally Uncover a Minor Web Design Loophole"
-date: 2026-01-19
+date: 2026-07-19
 description: "Scrabblese, the Appendix."
 tags:
   - programming
   - maths
   - wordplay
-published: true
+published: false
 ---
 
 The last two posts (see [Part 1]({{ site.baseurl }}/To-Compete-in-Scrabble-You-Must-Learn-a-New-Language)
