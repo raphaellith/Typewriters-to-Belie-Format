@@ -12,9 +12,8 @@ published: false
 
 Though most competitive Scrabble tournaments are played in English, their use of intimidatingly arcane words sets
 themselves apart from the amateur gameplay routinely seen in family gatherings and casual parties.
-A [tournament game](https://www.cross-tables.com/annotated.php?u=55435)
-from last year, for example, featured the following words, half of which one could argue would never surface in everyday
-discourse.
+A [tournament game](https://www.cross-tables.com/annotated.php?u=55435) from last year, for example, featured the
+following words, half of which one could argue would never surface in everyday discourse.
 
 <div class="side-by-side vspace">
   <div class="column centered">
