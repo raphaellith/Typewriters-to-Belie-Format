@@ -137,16 +137,18 @@ As the line between common and uncommon words varies inevitably between person t
 <div class="scatter-plot-filtered vspace"></div>
 
 <div class="scatter-controls vspace">
-  <div class="slider-title">
-    <b>Word length:</b>
-    <span id="word-length-display">2</span>
+  <div class="controls-row">
+    <span class="slider-title">
+      <b>Word length:</b>
+      <span id="word-length-display">2</span>
+    </span>
+    <label class="checkbox-label">
+      <input type="checkbox" id="word-length-checkbox" checked>
+      Apply filter
+    </label>
   </div>
   <label class="slider-label">
     <input type="range" id="word-length-slider" min="2" max="12" value="2" step="1" class="slider">
-  </label>
-  <label class="checkbox-label">
-    <input type="checkbox" id="word-length-checkbox" checked>
-    Apply filter
   </label>
 </div>
 
