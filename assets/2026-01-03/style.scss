@@ -2,75 +2,69 @@
 ---
 
 #scrolly-container * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #scrolly-container {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 1fr;
-  
-  /* border: darkgray solid 5px; */
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+%scrolly-row {
+    grid-row: 1/1;
 }
 
 .left-of-scrolly-container {
-  grid-column: 1/2;
-  grid-row: 1/1;
+    @extend %scrolly-row;
+    grid-column: 1/2;
 }
 
 .right-of-scrolly-container {
-  grid-column: 2/3;
-  grid-row: 1/1;
+    @extend %scrolly-row;
+    grid-column: 2/3;
 }
 
 .whole-of-scrolly-container {
-  grid-column: 1/3;
-  grid-row: 1/1;
+    @extend %scrolly-row;
+    grid-column: 1/3;
 }
-
-/* #step-container {
-  border: antiquewhite solid 5px;
-}
-
-#graphic-container {
-  border: aliceblue solid 5px;
-} */
 
 .step {
-  margin: auto;
-  width: 100%;
+    margin: auto;
+    width: 100%;
 
-  border-radius: 10px;
-  margin-top: 350px;
-  padding: 20px;
+    border-radius: 10px;
+    margin-top: 350px;
+    padding: 20px;
 
-  background-color: darkslategray;
-}
+    background-color: darkslategray;
 
-.step:last-child {
-  margin-bottom: 350px;
+    &:last-child {
+        margin-bottom: 350px;
+    }
 }
 
 #graphic {
-  position: sticky;
-  top: 0;  /* Modified by TypeScript */
+    position: sticky;
+    top: 0;  /* Modified by TypeScript */
 
-  margin: auto;
-  width: 100px;
-  aspect-ratio: 1.6;
+    margin: auto;
+    width: 100px;
+    aspect-ratio: 1.6;
 
-  padding: 10px;
-  border-radius: 10px;
-  
-  background-color: steelblue;
-  color: white;
+    padding: 10px;
+    border-radius: 10px;
 
-  font-weight: bold;
-  font-size: 40px;
+    background-color: steelblue;
+    color: white;
 
-  z-index: -1;
+    font-weight: bold;
+    font-size: 40px;
+
+    z-index: -1;
 }
 
 #graphic div {
-  text-align: center;
+    text-align: center;
 }

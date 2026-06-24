@@ -1,6 +1,15 @@
 ---
 ---
 
+%tag-base {
+    padding: 3px;
+    border-radius: 3px;
+}
+
+@mixin tinted-bg($color) {
+    background-color: color-mix(in srgb, $color 30%, transparent);
+}
+
 .grid-and-clue {
     display: grid;
     grid-template-columns: 0.45fr 0.55fr;
@@ -20,8 +29,7 @@
 }
 
 .clue-list-with-parse-buttons {
-    padding-top: 0;
-    padding-left: 2%;
+    padding: 0 0 0 2%;
 
     display: grid;
     grid-template-columns: 0.8fr 0.2fr;
@@ -30,10 +38,7 @@
 #close-hint-button {
     margin-left: auto;
     margin-right: 0;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 8px 15px;
     border-radius: 3px;
     color: white;
     border: none;
@@ -48,19 +53,11 @@
     grid-template-rows: repeat(auto-fill, 1fr);
     row-gap: 5px;
 
-    /* Centered horizontally */
-    margin-left: auto;
-    margin-right: auto;
-
-    /* Vertical margins */
-    margin-top: 30px;
-    margin-bottom: 30px;
+    /* Centered horizontally with vertical margins */
+    margin: 30px auto;
 
     /* Horizontal and vertical paddings */
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 30px;
 
     width: fit-content;
     border-radius: 5px;
@@ -74,22 +71,19 @@
     grid-row: 1fr;
 }
 
-.def {  /* definition*/
-    padding: 3px;
-    background-color: color-mix(in srgb, green 30%, transparent);
-    border-radius: 3px;
+.def {  /* definition */
+    @extend %tag-base;
+    @include tinted-bg(green);
 }
 
-.wp { /*wordplay*/
-    padding: 3px;
-    background-color: color-mix(in srgb, purple 30%, transparent);
-    border-radius: 3px;
+.wp { /* wordplay */
+    @extend %tag-base;
+    @include tinted-bg(purple);
 }
 
 .andlit {
-    padding: 3px;
+    @extend %tag-base;
     background-image: linear-gradient(to bottom, color-mix(in srgb, green 30%, transparent) 0% 50%, color-mix(in srgb, purple 30%, transparent) 50% 100%);
-    border-radius: 3px;
 }
 
 .dot {
@@ -101,9 +95,9 @@
 }
 
 .def-color {
-    background-color: color-mix(in srgb, green 30%, transparent);
+    @include tinted-bg(green);
 }
 
 .wp-color {
-    background-color: color-mix(in srgb, purple 30%, transparent);
+    @include tinted-bg(purple);
 }

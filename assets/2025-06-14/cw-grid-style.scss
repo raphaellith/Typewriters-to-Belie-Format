@@ -1,6 +1,14 @@
 ---
 ---
 
+%centered-flex {
+    /* Center contents (as long as their position is not absolute) */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .crossword-grid {
     /* Top left corner */
     grid-column: 1/2;
@@ -8,9 +16,7 @@
 
     /* Amount of horizontal space taken up by the whole grid */
     width: 80%;
-    margin-left: auto;  /* Center grid */
-    margin-right: auto;
-    margin-bottom: 15px;
+    margin: 0 auto 15px;  /* Center grid */
 
     /* Use CSS grid for cell layout (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) with 5 columns of equal width */
     display: grid;
@@ -20,11 +26,7 @@
 }
 
 .crossword-grid-cell {
-    /* Center contents (as long as their position is not absolute) */
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %centered-flex;
 
     /* Each cell has a width of 1 column and has 1:1 aspect ratio */
     width: 1fr;
@@ -41,17 +43,9 @@
     background-color: white;
 }
 
-/* .crossword-grid-white-cell:hover {
-    background-color: lightblue;
-    transition: background-color 0.1s;
-} */
-
 .crossword-solution-letter {
     /* Centered */
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %centered-flex;
 
     height: 100%;
     font-size: 30px;
@@ -66,5 +60,4 @@
     left: 3%;
 
     font-size: 13px;
-    /* font-weight: bold; */
 }
