@@ -1,9 +1,12 @@
+$vspace-margin: 2rem 0;
+$asterisk-margin: 3rem 0;
+
 .side-by-side {
   display: flex;
 }
 
 .vspace {
-  margin: 2rem 0;
+  margin: $vspace-margin;
 }
 
 .column {
@@ -15,7 +18,7 @@
 }
 
 .asterisk {
-  text-align: center;
+  @extend .centered;
   vertical-align: sub;
-  margin: 3rem 0;
+  margin: $asterisk-margin;
 }
