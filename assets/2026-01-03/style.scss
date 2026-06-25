@@ -1,0 +1,70 @@
+---
+---
+
+#scrolly-container * {
+  box-sizing: border-box;
+}
+
+#scrolly-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+%scrolly-row {
+  grid-row: 1/1;
+}
+
+.left-of-scrolly-container {
+  @extend %scrolly-row;
+  grid-column: 1/2;
+}
+
+.right-of-scrolly-container {
+  @extend %scrolly-row;
+  grid-column: 2/3;
+}
+
+.whole-of-scrolly-container {
+  @extend %scrolly-row;
+  grid-column: 1/3;
+}
+
+.step {
+  margin: auto;
+  width: 100%;
+
+  border-radius: 10px;
+  margin-top: 350px;
+  padding: 20px;
+
+  background-color: darkslategray;
+
+  &:last-child {
+    margin-bottom: 350px;
+  }
+}
+
+#graphic {
+  position: sticky;
+  top: 0;  /* Modified by TypeScript */
+
+  margin: auto;
+  width: 100px;
+  aspect-ratio: 1.6;
+
+  padding: 10px;
+  border-radius: 10px;
+
+  background-color: steelblue;
+  color: white;
+
+  font-weight: bold;
+  font-size: 40px;
+
+  z-index: -1;
+}
+
+#graphic div {
+  text-align: center;
+}

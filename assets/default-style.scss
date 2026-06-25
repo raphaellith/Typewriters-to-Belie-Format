@@ -1,0 +1,23 @@
+---
+---
+
+.highlight-block {
+  background: color-mix(in srgb, var(--theme-color), transparent 80%);
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border-left: 3px solid var(--theme-color);
+}
+
+.indent {
+  margin-left: 1em;
+}
+
+.spoiler {
+  background-color: currentColor;
+  border-radius: 3px;
+  transition: background-color 1s;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
