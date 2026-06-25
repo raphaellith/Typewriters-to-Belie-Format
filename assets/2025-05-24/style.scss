@@ -1,3 +1,6 @@
+---
+---
+
 #translation-button {
   background: var(--theme-color);
   border: none;
@@ -8,10 +11,10 @@
   display: inline-block;
   font-size: 14px;
   font-family: inherit;
-}
 
-#translation-button:hover {
-  filter: brightness(110%);
+  &:hover {
+    filter: brightness(110%);
+  }
 }
 
 .text-overlay-on-image-container {
