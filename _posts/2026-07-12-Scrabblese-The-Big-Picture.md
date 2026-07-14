@@ -104,7 +104,7 @@ Words in the bottom left are neither familiar nor useful:
 
 
 The main area of focus is the top left, which features unfamiliar words that surface in disproportionate abundance in
-Scrabble. Most of these words tend to be short and sweet, enabling players to score highly with just a few letters:
+Scrabble. Most of these words are short and sweet, enabling players to score highly with just a few letters:
 
 <div class="centered vspace">
   <div>DJIN</div>
