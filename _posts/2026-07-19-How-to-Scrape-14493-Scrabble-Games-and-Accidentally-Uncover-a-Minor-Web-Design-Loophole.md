@@ -36,7 +36,7 @@ or easily implementable:
 
 Amongst these hurdles, there is one that stood out to me for its not-too-technical and almost puzzlelike nature.
 Interactions between databases and web services typically employ standardised formats like JSON, XML and CSV. I fully
-expected cross-tables.com to follow this long-standing convention, so imagine my surprise when I discovered that there
+expected cross-tables.com to follow this long-standing convention, so imagine my surprise when I found out that there
 is a special file format and encoding syntax dedicated solely to describing Scrabble games.
 
 This is the .GCG file format, and I was amazed by how little documentation there is about this bespoke encoding. It was
