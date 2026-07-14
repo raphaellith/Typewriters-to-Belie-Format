@@ -7,25 +7,27 @@ tags:
   - programming
   - maths
   - wordplay
-published: false
+published: true
 ---
 
 In 2015, New Zealand Scrabble player Nigel Richards was crowned the winner of the annual French World Scrabble
 Championships, which saw players going head-to-head in a francophone version of the classic word game. What made this
-otherwise dull [headline](https://www.theguardian.com/lifeandstyle/2015/jul/21/new-french-scrabble-champion-nigel-richards-doesnt-speak-french)
+otherwise
+dull [headline](https://www.theguardian.com/lifeandstyle/2015/jul/21/new-french-scrabble-champion-nigel-richards-doesnt-speak-french)
 unusually gripping is the fact that Richards, unlike the hundreds of contenders he beat, didn’t speak French. Instead,
 he had apparently spent nine weeks learning the full French Scrabble Dictionary. “He’s a fighting machine,” commented
 championship organiser Yves Brenez. “To him, _words are just combinations of letters_.”
 
 Three years later in 2018, Richards won the French World Scrabble Championships for a second time. In 2024, he attained
-the equally remarkable accomplishment of [winning](https://www.theguardian.com/world/2024/dec/10/scrabble-star-nigel-richards-wins-spanish-world-title-despite-not-speaking-spanish)
+the equally remarkable accomplishment
+of [winning](https://www.theguardian.com/world/2024/dec/10/scrabble-star-nigel-richards-wins-spanish-world-title-despite-not-speaking-spanish)
 the Spanish World Scrabble Championships, despite not being fluent in Spanish.
 
 <div class="asterisk">*</div>
 
 _Words are just combinations of letters._ It is to this central doctrine that many popular word games, including the New
 York Times’ Spelling Bee and Wordle, seem to boil down. Other linguistic aspects like semantics and pragmatics are all
-thrown out the window, and this defenestration can often lead to interesting patterns in how frequently different words 
+thrown out the window, and this defenestration can often lead to interesting patterns in how frequently different words
 are used. The previous part of this series motivated this premise with the hypothetical language of Scrabblese, but
 analyses were limited to top one hundred most prevalently used words. In this second part, we will consider the big
 picture by visualising over 52697 extracted words at the same time.
@@ -56,7 +58,7 @@ games; just a small subset is enough. In more quantitative terms, we find that
 - 70.41% of plays result from 5% of words (_w_ = 2634); and
 - Half of the plays result from 0.86% of words (_w_ = 453)
 
-where w refers to the number of words contributing to the percentage of plays in question.  The last statement here is
+where w refers to the number of words contributing to the percentage of plays in question. The last statement here is
 especially astonishing: you only need to learn 450-odd words to emulate half of what is seen in competitive play. Of
 course, some of these words will already be in our daily vernacular, so the true number might be slightly smaller.
 
@@ -130,8 +132,15 @@ In addition, shorter words are more likely to show up more in competitive play t
 |  HUNGER  |            6             |
 | VINEYARD |            2             |
 
+Of course, the above list of patterns is by no means comprehensive. There will indubitably be a lot of noteworthy
+patterns waiting to be uncovered from this data-rich scatterplot, and countless more that aren’t even captured within.
+If anything, most of these patterns come down ultimately to subjectivity, as the line between common and uncommon words
+inevitably varies between person to person. After all, graphs are nothing but abstractions: abstractions that are
+fabricated by discarding apparently immaterial details and where readers are invited to judge the remnants.
 
-As the line between common and uncommon words varies inevitably between person to person, the only way to truly understand this scatter graph is through personal exploration. To aid this exploration, I’ve included a slider which, when enabled, only shows words of a given length in the graph. Have a look around, uncover patterns and see where your line between familiarity and obscurity lies in this Big Picture of Scrabblese.
+And judge the remnants you can! Below is a version of the previous graph, except I’ve added a slider which, when
+enabled, only shows data points corresponding to words of a given length. Have a look around, discover patterns and see
+where your line between familiarity and obscurity lies in this Big Picture of Scrabblese.
 
 
 <div class="scatter-plot-filtered vspace"></div>
