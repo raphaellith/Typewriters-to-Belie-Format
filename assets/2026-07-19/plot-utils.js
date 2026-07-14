@@ -15,43 +15,49 @@ function createBaseLayout(title, subtitle) {
   };
 }
 
-function createScatterPlotTrace(points) {
+function createHorizontalBarPlotTrace(points, traceName) {
   return {
-    type: "scatter",
-    mode: "markers",
-    name: "All Words",
-    x: points.map((point) => point.ngramsCount),
-    y: points.map((point) => point.playCount),
+    type: "bar",
+    orientation: "h",
+    name: traceName,
+    y: points.map((point) => point.word).reverse(),
+    x: points.map((point) => point.playCount).reverse(),
+    text: points.map((point) => point.playCount).reverse(),
+    textposition: "outside",
     marker: {
-      color: "var(--theme-color)",
-      size: 4,
-      opacity: 0.6,
+      color: "var(--theme-color)"
     },
-    hovertemplate: "<b>%{customdata}</b><br>Play count: %{y}<br>Ngrams count: %{x}<extra></extra>",
-    customdata: points.map((point) => point.word),
+    hovertemplate: "<b>%{y}</b>, %{x}<extra></extra>"
   };
 }
 
-function createScatterPlotLayout(title, subtitle) {
+function createHorizontalBarPlotLayout(title, subtitle, pointCount, xLabel, yLabel) {
+  const bigChart = pointCount > 15;
+
+  const barThickness = bigChart ? 15 : 35;
+  const textFontSize = bigChart ? 8 : 12;
+
   return {
     ...createBaseLayout(title, subtitle),
+    font: {
+      family: "PT Serif",
+      size: textFontSize,
+    },
     xaxis: {
-      title: "Ngrams collapsed relative match count",
-      type: "log",
-      dtick: 1,
+      title: xLabel,
+      type: "linear"
     },
     yaxis: {
-      title: "Number of plays",
-      type: "log",
-      dtick: 1,
+      title: yLabel,
+      automargin: true
     },
     margin: {
       t: 100,
-      r: 40,
-      b: 80,
-      l: 80
+      r: 20,
+      b: 70,
+      l: 60
     },
-    height: 650,
+    height: barThickness * pointCount + 80,
   };
 }
 
@@ -63,4 +69,8 @@ const plotConfig = {
 
 function showError(chartElement) {
   chartElement.innerHTML = "<p>Could not load chart data.</p>";
+}
+
+function getTopNByPlayCount(points, count) {
+  return points.slice().sort((a, b) => b.playCount - a.playCount).slice(0, count);
 }

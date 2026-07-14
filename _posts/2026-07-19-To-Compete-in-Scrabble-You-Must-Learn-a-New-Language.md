@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "To Compete in Scrabble, You Must Learn a New Language"
-date: 2026-07-05
+date: 2026-07-19
 description: "Scrabblese, Part 1."
 tags:
   - programming
@@ -196,8 +196,8 @@ iceberg of vocabulary, shifting our focus to the big picture and visualising all
 
 
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-07-05/style.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-07-19/style.css">
 
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-07-05/plot-utils.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-07-05/index.js"></script>
+<script src="{{ site.baseurl }}/assets/2026-07-19/plot-utils.js"></script>
+<script src="{{ site.baseurl }}/assets/2026-07-19/index.js"></script>

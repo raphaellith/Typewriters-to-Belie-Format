@@ -1,7 +1,6 @@
 "use strict";
 
-const listedDataUrl = "https://raw.githubusercontent.com/raphaellith/Scrabblese/refs/heads/main/exports/listed_games_data.json";
-const unlistedDataUrl = "https://raw.githubusercontent.com/raphaellith/Scrabblese/refs/heads/main/exports/unlisted_games_data.json";
+const dataUrl = "https://raw.githubusercontent.com/raphaellith/Scrabblese/refs/heads/main/exports/listed_games_data.json";
 
 async function fetchDataPoints(url) {
   const response = await fetch(url);
@@ -37,106 +36,20 @@ async function fetchDataPoints(url) {
   return dataPoints;
 }
 
-function combineDataPoints(listedPoints, unlistedPoints) {
-  const map = new Map();
-
-  for (const point of listedPoints) {
-    map.set(point.word, { word: point.word, ngramsCount: point.ngramsCount, playCount: point.playCount });
-  }
-
-  for (const point of unlistedPoints) {
-    const existing = map.get(point.word);
-    if (existing) {
-      existing.ngramsCount += point.ngramsCount;
-      existing.playCount += point.playCount;
-    } else {
-      map.set(point.word, { word: point.word, ngramsCount: point.ngramsCount, playCount: point.playCount });
-    }
-  }
-
-  return Array.from(map.values());
-}
-
-async function renderScatterPlotComparison(chartElement) {
+async function renderHorizontalBarChart(chartElement, n) {
   if (!chartElement) return;
 
-  const chartTitle = "Scrabble Words by Ngrams Count and Play Count";
+  const chartTitle = `Top ${n} Most Frequently Played Words in Scrabble`;
+  const chartSubtitle = "across 10000 Scrabble games listed on cross-tables.com";
 
   try {
-    const [listedData, unlistedData] = await Promise.all([
-      fetchDataPoints(listedDataUrl),
-      fetchDataPoints(unlistedDataUrl)
-    ]);
+    const dataPoints = await fetchDataPoints(dataUrl);
+    const topNPoints = getTopNByPlayCount(dataPoints, n);
 
-    const listedCheckbox = document.getElementById("dataset-listed-checkbox");
-    const unlistedCheckbox = document.getElementById("dataset-unlisted-checkbox");
-    const filterCheckbox = document.getElementById("word-length-checkbox");
-    const slider = document.getElementById("word-length-slider");
-    const display = document.getElementById("word-length-display");
+    const trace = createHorizontalBarPlotTrace(topNPoints, chartTitle);
+    const layout = createHorizontalBarPlotLayout(chartTitle, chartSubtitle, topNPoints.length, "Number of plays", "Word");
 
-    function getDataPoints() {
-      const useListed = listedCheckbox.checked;
-      const useUnlisted = unlistedCheckbox.checked;
-
-      if (useListed && useUnlisted) {
-        return combineDataPoints(listedData, unlistedData);
-      } else if (useListed) {
-        return listedData;
-      } else if (useUnlisted) {
-        return unlistedData;
-      } else {
-        return [];
-      }
-    }
-
-    function render() {
-      const filterActive = filterCheckbox.checked;
-      const wordLength = parseInt(slider.value, 10);
-      const useListed = listedCheckbox.checked;
-      const useUnlisted = unlistedCheckbox.checked;
-
-      let dataPoints = getDataPoints();
-
-      let filteredPoints = dataPoints.filter(
-        (p) => p.ngramsCount > 0 && p.playCount > 0
-      );
-      if (filterActive) {
-        filteredPoints = filteredPoints.filter((p) => p.word.length === wordLength);
-      }
-
-      const trace = createScatterPlotTrace(filteredPoints);
-
-      let subtitle;
-      if (useListed && useUnlisted) {
-        subtitle = "across 14493 listed and unlisted Scrabble games on cross-tables.com";
-      } else if (useListed) {
-        subtitle = "across 10000 listed Scrabble games on cross-tables.com";
-      } else if (useUnlisted) {
-        subtitle = "across 4493 unlisted Scrabble games on cross-tables.com";
-      } else {
-        subtitle = "no dataset selected";
-      }
-
-      const layout = createScatterPlotLayout(
-        filterActive
-          ? `${wordLength}-Letter Scrabble Words by Ngrams Count and Play Count`
-          : chartTitle,
-        subtitle
-      );
-
-      Plotly.react(chartElement, [trace], layout, plotConfig);
-    }
-
-    display.textContent = slider.value;
-    render();
-
-    slider.addEventListener("input", () => {
-      display.textContent = slider.value;
-      render();
-    });
-    filterCheckbox.addEventListener("change", render);
-    listedCheckbox.addEventListener("change", render);
-    unlistedCheckbox.addEventListener("change", render);
+    await Plotly.newPlot(chartElement, [trace], layout, plotConfig);
   } catch (error) {
     showError(chartElement);
     console.error(error);
@@ -144,10 +57,17 @@ async function renderScatterPlotComparison(chartElement) {
 }
 
 function init() {
-  const comparisonChart = document.querySelector(".scatter-plot-comparison");
-  if (comparisonChart) {
-    renderScatterPlotComparison(comparisonChart);
-  }
+  const horizontalCharts = document.querySelectorAll(".top-words-chart");
+  horizontalCharts.forEach(chartElement => {
+    let n = 10;
+    if (chartElement.hasAttribute("n")) {
+      const nAttr = parseInt(chartElement.getAttribute("n"), 10);
+      if (Number.isFinite(nAttr) && nAttr > 0) {
+        n = nAttr;
+      }
+    }
+    renderHorizontalBarChart(chartElement, n);
+  });
 }
 
 if (document.readyState === "loading") {

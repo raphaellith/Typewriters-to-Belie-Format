@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Scrape 14,493 Scrabble Games and Accidentally Uncover a Minor Web Design Loophole"
-date: 2026-07-19
+date: 2026-08-02
 description: "Scrabblese, the Appendix."
 tags:
   - programming
@@ -174,8 +174,8 @@ that the scraped contents of GCG files are not published.
 
 
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-07-19/style.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-08-02/style.css">
 
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-07-19/plot-utils.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-07-19/index.js"></script>
+<script src="{{ site.baseurl }}/assets/2026-08-02/plot-utils.js"></script>
+<script src="{{ site.baseurl }}/assets/2026-08-02/index.js"></script>
