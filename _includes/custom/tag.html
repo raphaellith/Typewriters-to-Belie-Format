@@ -1,3 +1,3 @@
 
 {%- assign tag_url = 'tags/' | relative_url -%}
-<span style="font-size: small; background: lightgrey; color: black; padding: 0.3em; border-radius: 0.3em; margin-right: 0.6em;"><b>{% if include.with_link %}<a href="{{ tag_url }}#anchor-tag-{{ include.tag }}" style="color: black;">{{ include.tag }}</a>{% else %}{{ include.tag }}{% endif %}</b></span>
+<span style="font-size: small; background: lightgrey; color: black; padding: 0.3em; border-radius: 0.3em; margin-right: 0.6em; font-family: PT Serif"><b>{% if include.with_link %}<a href="{{ tag_url }}#anchor-tag-{{ include.tag }}" style="color: black;">{{ include.tag }}</a>{% else %}{{ include.tag }}{% endif %}</b></span>

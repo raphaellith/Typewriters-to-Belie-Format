@@ -1,0 +1,100 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+.note {
+  --note-background-dark: var(--theme-color);
+  --note-background-light: color-mix(in srgb, var(--theme-color), white 45%);
+
+  position: relative;
+  margin: 2rem auto 0;
+  width: fit-content;
+  max-width: 40%;
+  padding: 1.5rem;
+  border-radius: 2px;
+  transform-origin: center center;
+
+  background: linear-gradient(
+    135deg,
+    var(--note-background-dark),
+    30%,
+    var(--note-background-light)
+  );
+  box-shadow: 5px 10px 5px transparentize(black, 0.5);
+
+  color: black;
+  font-size: clamp(0.75rem, 2.5vw, 1rem);
+  font-family: "Playpen Sans", cursive;
+  font-weight: 400;
+
+  &::before {  // Tape for the post-it note
+    --tape-breadth: 20px;
+    --tape-length: 20%;
+    content: "";
+    width: var(--tape-length);
+    height: var(--tape-breadth);
+    background-color: transparentize(grey, 0.45);
+    position: absolute;
+    top: calc(-1 * var(--tape-breadth)/2);
+    left: calc(50% - var(--tape-length)/2);
+    border-radius: calc(var(--tape-breadth)/2 * 0.4);
+  }
+
+  ul:last-child {
+    margin-bottom: 0;
+  }
+
+  &-centered {
+    text-align: center;
+  }
+}
+
+#note {
+  &-introduction {
+    margin-top: 4rem;
+    filter: hue-rotate(0deg);
+    // translateX(calc(50% - 50vw)) touches left edge
+    // translateX(calc(-50% + 50vw)) touches right edge
+    // So we clamp the desired displacement between these two boundaries
+    transform: rotate(-3deg) translateX(clamp(-16vw, calc(50% - 50vw), calc(-50% + 50vw)));
+  }
+
+  &-schools {
+    margin-top: 0.5rem;
+    filter: hue-rotate(30deg);
+    transform: rotate(-1deg) translateX(clamp(-16vw, calc(50% - 50vw), calc(-50% + 50vw))) scale(0.6);
+  }
+
+  &-description {
+    filter: hue-rotate(200deg);
+    transform: rotate(0.5deg);
+  }
+
+  &-topics {
+    filter: hue-rotate(180deg);
+    transform: rotate(-1deg) translateX(clamp(16vw, calc(50% - 50vw), calc(-50% + 50vw)));
+  }
+
+  &-tags {
+    margin-top: 6em;
+    margin-bottom: 6em;
+    filter: hue-rotate(-10deg);
+    transform: rotate(-0.5deg);
+  }
+
+  &-num-of-posts {
+    filter: hue-rotate(70deg);
+    transform: rotate(-1deg) translateX(clamp(-12vw, calc(50% - 50vw), calc(-50% + 50vw)));
+  }
+
+  &-num-of-tags {
+    filter: hue-rotate(220deg);
+    transform: rotate(0.5deg);
+  }
+
+  &-new-posts {
+    filter: hue-rotate(5deg);
+    transform: rotate(-1deg) translateX(clamp(12vw, calc(50% - 50vw), calc(-50% + 50vw)));
+  }
+}
