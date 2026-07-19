@@ -19,7 +19,7 @@ tags:
 <style>
 @font-face {
 	font-family: "FF Din";
-	src: url("{{ site.baseurl }}/assets/fonts/din-medium-regular.ttf");
+	src: url("{{ '/assets/fonts/din-medium-regular.ttf' | relative_url }}");
 }
 
 .ff-din {
@@ -28,7 +28,7 @@ tags:
 </style>
 
 
-Like the ones presented in the [previous post]({{ site.baseurl }}/Only-Connect/), the puzzles in this post are inspired by (and have the same format as) the BBC quiz show Only Connect. This time, however, the puzzles are based on the show's second round: Sequences.
+Like the ones presented in the [previous post]({{ '/Only-Connect/' | relative_url }}), the puzzles in this post are inspired by (and have the same format as) the BBC quiz show Only Connect. This time, however, the puzzles are based on the show's second round: Sequences.
 
 Like last time, below are six puzzles waiting for you to solve. Each puzzle consists of four clues that form some sort of sequence, but you may only see up to three of them. Your goal is to work out what the fourth and final item is.
 
@@ -85,4 +85,4 @@ Good luck and have fun with the ones below! (And if you're reading this on your 
 <div id="sequencePuzzles">
 </div>
 
-<script src="{{ site.baseurl }}/assets/2025-02-02/index.js"></script>
+<script src="{{ '/assets/2025-02-02/index.js' | relative_url }}"></script>

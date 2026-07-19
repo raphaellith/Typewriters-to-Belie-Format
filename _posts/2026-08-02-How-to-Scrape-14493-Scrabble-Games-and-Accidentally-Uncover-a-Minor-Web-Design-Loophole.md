@@ -10,8 +10,8 @@ tags:
 published: false
 ---
 
-The last two posts (see [Part 1]({{ site.baseurl }}/To-Compete-in-Scrabble-You-Must-Learn-a-New-Language)
-and [Part 2]({{ site.baseurl }}/Scrabblese-The-Big-Picture)) saw an investigation into the playing styles of competitive
+The last two posts (see [Part 1]({{ '/To-Compete-in-Scrabble-You-Must-Learn-a-New-Language' | relative_url }})
+and [Part 2]({{ '/Scrabblese-The-Big-Picture' | relative_url }})) saw an investigation into the playing styles of competitive
 Scrabble, the words they use most commonly, and the rules and patterns that govern them. We motivated this by
 envisioning a fictional language called Scrabblese, where word frequencies are not influenced by grammar and semantics,
 but by scoring rules and game mechanics. Our exposition ended with a logarithmic scatter plot of Scrabble play count
@@ -116,7 +116,7 @@ data-driven questions. Given the last two posts on Scrabblese worked with data f
 could removing the four and half thousand unlisted ones have biassed the dataset one way or another? Would it affect the
 conclusions established previously?
 
-I don’t believe so. Below are two variations on the final chart from [_Scrabblese, the Big Picture_]({{ site.baseurl
+I don’t believe so. Below are two variations on the final chart from [_Scrabblese, the Big Picture_]({{ '/Scrabblese-The-Big-Picture' | relative_url }}
 }}/Scrabblese-The-Big-Picture). The first reproduction is derived only from the 4493 unlisted games, whereas the second
 takes into account all 14493 listed and unlisted games. While I failed to spot any significant differences between these
 versions, I again invite you to unearth any peculiarities that I might have overlooked.
@@ -174,8 +174,8 @@ that the scraped contents of GCG files are not published.
 
 
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-08-02/style.css">
+<link rel="stylesheet" href="{{ '/assets/2026-08-02/style.css' | relative_url }}">
 
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-08-02/plot-utils.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-08-02/index.js"></script>
+<script src="{{ '/assets/2026-08-02/plot-utils.js' | relative_url }}"></script>
+<script src="{{ '/assets/2026-08-02/index.js' | relative_url }}"></script>

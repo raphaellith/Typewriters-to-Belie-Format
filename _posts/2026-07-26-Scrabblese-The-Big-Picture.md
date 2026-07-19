@@ -161,8 +161,8 @@ where your line between familiarity and obscurity lies in this Big Picture of Sc
   </label>
 </div>
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-07-26/style.css">
+<link rel="stylesheet" href="{{ '/assets/2026-07-26/style.css' | relative_url }}">
 
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-07-26/plot-utils.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-07-26/index.js"></script>
+<script src="{{ '/assets/2026-07-26/plot-utils.js' | relative_url }}"></script>
+<script src="{{ '/assets/2026-07-26/index.js' | relative_url }}"></script>

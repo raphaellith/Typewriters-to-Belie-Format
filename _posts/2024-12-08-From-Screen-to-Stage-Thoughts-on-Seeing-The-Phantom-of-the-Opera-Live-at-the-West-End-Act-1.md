@@ -21,7 +21,7 @@ Now, I'm not typically a fan of fictional media, so when I discover a story that
 
 I can neither confirm nor deny whether my ever-growing desire to see this masterpiece of a show in person constituted a tiny part of my motivation to secure an offer to study in the UK. Either way, last month --- almost a full year after I clicked on that alluring thumbnail --- I finally got to see the musical chef-d'œuvre that is _The Phantom of the Opera_ at His Majesty's Theatre, where the show first premiered 38 years ago.
 
-![His Majesty's Theatre at London's West End.]({{ site.baseurl }}/assets/2024-12-08/His-Majestys-Theatre.jpeg){: width="60%" style="display:block; margin-left:auto; margin-right:auto"}
+![His Majesty's Theatre at London's West End.]({{ '/assets/2024-12-08/His-Majestys-Theatre.jpeg' | relative_url }}){: width="60%" style="display:block; margin-left:auto; margin-right:auto"}
 
 Full disclosure: Prior to this theatre trip, I spent literal weeks repeatedly telling myself to lower my expectations, that it was going to be nothing like the 2011 proshot, and that it would be an utter trainwreck of a show. And I did this for good reason. When theatres were forced to shut down due to COVID restrictions in 2020, the production company behind _Phantom_ took the opportunity to modify the scenic design, staging, orchestrations and many other aspects of the show. Apparently, not everyone was happy with these changes, and if you browsed through the comment sections of some then-recent [slime tutorials](https://www.urbandictionary.com/define.php?term=slime+tutorial) like [this one](https://www.youtube.com/watch?v=8gKVuKpaCPA) or [this one](https://www.youtube.com/watch?v=kpkE3haNRQk), you'd find a fair number of negative remarks regarding the musical's post-COVID revival: actors rushing through their lines, underwhelming orchestrations and oversimplified staging, to name but a few.
 
@@ -40,7 +40,7 @@ Mostly, I'll be comparing what I saw in the 2011 concert film to what I saw on s
 
 Note how there's a gap in both time and space between these two performances. I know that the 2011 proshot may not be an accurate representation of the show pre-COVID, and that the script has evolved considerably during the last 13 years. Nevertheless, I will _only_ be comparing these two specific performances that I saw --- no more and no less.
 
-![There's a gap in both time and space between the two performances.]({{ site.baseurl }}/assets/2024-12-08/Time-space-graph.jpeg){: width="95%" style="display:block; margin-left:auto; margin-right:auto"}
+![There's a gap in both time and space between the two performances.]({{ '/assets/2024-12-08/Time-space-graph.jpeg' | relative_url }}){: width="95%" style="display:block; margin-left:auto; margin-right:auto"}
 
 | Cast list | _The Phantom of the Opera <br> at the Royal Albert Hall_ <br> (2011 concert film) | _The Phantom of the Opera_ <br> (18 Sep 2024, <br> His Majesty's Theatre) |
 | :---: | :---: | :---: |
@@ -73,7 +73,7 @@ With that formality done, let's start with the opening scene: the prologue.
 
 The opening scene of _Phantom_ is proleptic: rather than presenting the plot events in completely chronological order, the play begins by introducing us to the story's ending (or rather, an event that happens decades thereafter). As the audience arrive and are seated at the auditorium, they are greeted by a series of mystifying props placed across the stage, each covered with a sizeable piece of fabric. A wave of silence slowly comes over the crowd as the lights are dimmed and the actors swiftly take the stage. A bang from the auctioneer's gavel is heard, marking the commencement of the play and transporting us to the stage of the Paris Opera House (a.k.a. the Opera Populaire) in 1905.
 
-![The stage setup as viewed before the opening scene begins.]({{ site.baseurl }}/assets/2024-12-08/Prologue.jpeg){: width="60%" style="display:block; margin-left:auto; margin-right:auto"}
+![The stage setup as viewed before the opening scene begins.]({{ '/assets/2024-12-08/Prologue.jpeg' | relative_url }}){: width="60%" style="display:block; margin-left:auto; margin-right:auto"}
 
 "Sold!" the auctioneer cries, as mementos from the Opera House are purchased one by one. A lot of these auctioned items, unsurprisingly, provide foreshadowing of the events that we'll see later.
 
@@ -324,11 +324,11 @@ Rhyming "he's there" with "beware" is genius. Honestly, the whole number is so f
 
 It's worth noting how their underground journey is depicted on stage. In the Royal Albert Hall performance, Christine and the Phantom traverse across a vertically descending platform, like this:
 
-![In the 2011 Royal Albert Hall performance, Christine and the Phantom traverse across a vertically descending platform.]({{ site.baseurl }}/assets/2024-12-08/POTO-Vertically-descending.jpg){: width="70%" style="display:block; margin-left:auto; margin-right:auto"}
+![In the 2011 Royal Albert Hall performance, Christine and the Phantom traverse across a vertically descending platform.]({{ '/assets/2024-12-08/POTO-Vertically-descending.jpg' | relative_url }}){: width="70%" style="display:block; margin-left:auto; margin-right:auto"}
 
 In the West End performance, the platform moves in a zigzag manner, as if the actors are actually walking down a long, elaborate staircase:
 
-![In the West End performance, Christine and the Phantom traverse across a vertically descending platform.]({{ site.baseurl }}/assets/2024-12-08/POTO-Zigzag.jpeg){: width="50%" style="display:block; margin-left:auto; margin-right:auto"}
+![In the West End performance, Christine and the Phantom traverse across a vertically descending platform.]({{ '/assets/2024-12-08/POTO-Zigzag.jpeg' | relative_url }}){: width="50%" style="display:block; margin-left:auto; margin-right:auto"}
 
 After crossing a subterranean lake by boat, the two finally reaches the Phantom's hidden, candlelit lair. There, the Phantom commands Christine to sing for him, referring to her as _his_ Angel of Music. Entranced, Christine finishes the number by belting an absolutely breathtaking E6, the highest note ever sung in the entire show.
 
@@ -587,5 +587,5 @@ And with all that said and Act 1 complete, it's time for an intermission. Feel f
 
 &nbsp;
 <video width='80%' preload='auto' style="display:block; margin-left:auto; margin-right:auto;" controls>
-    <source src="{{ site.baseurl }}/assets/2024-12-08/Intermission.mp4" type="video/mp4">
+    <source src="{{ '/assets/2024-12-08/Intermission.mp4' | relative_url }}" type="video/mp4">
 </video>
