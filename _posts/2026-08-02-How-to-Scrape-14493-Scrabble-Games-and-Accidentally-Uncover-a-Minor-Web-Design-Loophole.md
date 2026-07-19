@@ -5,7 +5,6 @@ date: 2026-08-02
 description: "Scrabblese, the Appendix."
 tags:
   - programming
-  - maths
   - wordplay
 published: false
 ---

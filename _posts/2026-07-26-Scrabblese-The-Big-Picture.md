@@ -5,7 +5,6 @@ date: 2026-07-26
 description: "Scrabblese, Part 2."
 tags:
   - programming
-  - maths
   - wordplay
 published: false
 ---
