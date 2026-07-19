@@ -1,0 +1,106 @@
+---
+---
+
+$vspace-margin: 2rem 0;
+$asterisk-margin: 3rem 0;
+$label-color: blue;
+$label-font: monospace;
+$label-font-size: 14px;
+$slider-thumb-size: 15px;
+
+%label-text {
+  color: $label-color;
+  font-family: $label-font;
+  font-size: $label-font-size;
+}
+
+%slider-thumb {
+  width: $slider-thumb-size;
+  height: $slider-thumb-size;
+  border-radius: 50%;
+  background: $label-color;
+  cursor: pointer;
+}
+
+.side-by-side {
+  display: flex;
+}
+
+.vspace {
+  margin: $vspace-margin;
+}
+
+.column {
+  flex: 50%;
+}
+
+.centered {
+  text-align: center;
+}
+
+.asterisk {
+  @extend .centered;
+  vertical-align: sub;
+  margin: $asterisk-margin;
+}
+
+.scatter-controls {
+  width: 50%;
+  margin: 2rem auto;
+  padding: 20px;
+  background: lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  .controls-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .slider-label,
+  .checkbox-label {
+    @extend %label-text;
+  }
+
+  .slider-title {
+    @extend %label-text;
+  }
+
+  .checkbox-label {
+    display: inline-flex;
+    align-items: center;
+
+    &--left {
+      align-self: flex-start;
+    }
+
+    input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+      cursor: pointer;
+    }
+  }
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  background: grey;
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  @extend %slider-thumb;
+}
+
+.slider::-moz-range-thumb {
+  @extend %slider-thumb;
+}

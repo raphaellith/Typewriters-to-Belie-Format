@@ -8,6 +8,6 @@ tags:
 - wordplay
 ---
 
-The solutions to the cryptic crossword I posted last week can be downloaded [here]({{ site.baseurl }}/assets/2024-11-23/Themed-Cryptic-Crossword-Solutions.pdf). My favourite clues are 2 Across, 3 Down and 17 Down.
+The solutions to the cryptic crossword I posted last week can be downloaded [here]({{ '/assets/2024-11-23/Themed-Cryptic-Crossword-Solutions.pdf' | relative_url }}). My favourite clues are 2 Across, 3 Down and 17 Down.
 
 The answer to the clue given in the description of this post is WORDPLAY (SWORDPLAY without its leading letter).

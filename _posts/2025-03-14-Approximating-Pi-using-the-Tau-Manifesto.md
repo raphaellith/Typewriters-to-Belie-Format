@@ -8,7 +8,7 @@ tags:
 - programming
 ---
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/2025-03-14/style.css">
+<link rel="stylesheet" href="{{ '/assets/2025-03-14/style.css' | relative_url }}">
 
 I started writing this post ten days ago when I realised Pi Day was approaching. Much like how people panic-buy in anticipation of a shortage, this post is very much the product of some last-minute panic writing.
 
@@ -281,13 +281,13 @@ an immodest proposal we begin repairing the damage wrought by by first understan
 
 We can then run a simple letter frequency counter on the pre-processed text:
 
-![A graph showing the number of appearances made by each letter in the Tau Manifesto]({{ site.baseurl }}/assets/2025-03-14/plot-frequency-against-letter.png){: width="80%" style="display:block; margin-left:auto; margin-right:auto"}
+![A graph showing the number of appearances made by each letter in the Tau Manifesto]({{ '/assets/2025-03-14/plot-frequency-against-letter.png' | relative_url }}){: width="80%" style="display:block; margin-left:auto; margin-right:auto"}
 
-![A graph of f(r).]({{ site.baseurl }}/assets/2025-03-14/plot-frequency-function.png){: width="80%" style="display:block; margin-left:auto; margin-right:auto"}
+![A graph of f(r).]({{ '/assets/2025-03-14/plot-frequency-function.png' | relative_url }}){: width="80%" style="display:block; margin-left:auto; margin-right:auto"}
 
 This enables us to plot a graph of $$R_{\text{est}}(r)$$, displayed below.
 
-![A graph of f(r).]({{ site.baseurl }}/assets/2025-03-14/plot-r-est.png){: width="80%" style="display:block; margin-left:auto; margin-right:auto"}
+![A graph of f(r).]({{ '/assets/2025-03-14/plot-r-est.png' | relative_url }}){: width="80%" style="display:block; margin-left:auto; margin-right:auto"}
 
 That's a pretty decent approximation!
 
