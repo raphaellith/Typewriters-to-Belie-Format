@@ -57,6 +57,6 @@ appear-in-top-right: true
 </div>
 
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/non-post-pages/about/style.css">
-<script src="{{ site.baseurl }}/assets/non-post-pages/about/index.js"></script>
+<link rel="stylesheet" href="{{ '/assets/non-post-pages/about/style.css' | relative_url }}">
+<script src="{{ '/assets/non-post-pages/about/index.js' | relative_url }}"></script>
 

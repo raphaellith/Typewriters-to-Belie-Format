@@ -8,7 +8,7 @@ tags: review
 
 ### Before we begin...
 
-This is a follow-up to a [previous post]({{ site.baseurl }}/From-Screen-to-Stage-Thoughts-on-Seeing-The-Phantom-of-the-Opera-Live-at-the-West-End-Act-1/)! Last time I reviewed Act 1 of _The Phantom of the Opera_, where I shared my thoughts on seeing a live performance of the musical. This post is a continuation of that, with the focus being shifted to the second act instead.
+This is a follow-up to a [previous post]({{ '/From-Screen-to-Stage-Thoughts-on-Seeing-The-Phantom-of-the-Opera-Live-at-the-West-End-Act-1/' | relative_url }})! Last time I reviewed Act 1 of _The Phantom of the Opera_, where I shared my thoughts on seeing a live performance of the musical. This post is a continuation of that, with the focus being shifted to the second act instead.
 
 Like the last post, this one comes with a...
 
@@ -389,12 +389,12 @@ Overall, my feelings about this scene are somewhat mixed, but plot-wise it remai
 And this brings us to the end of the show! The performers take their bows, the orchestra plays one final medley from the pit, and the audience erupts into thunderous applause. I would have included a brief summary here to encapsulate the multitude of reasons why I love this emotional rollercoaster of a show, but frankly I feel like I've already said everything there is to say about this musical masterpiece! I won't bother repeating points, but it's an absolute tour de force, and there is no other way to describe it.
 
 <div class="text-overlay-on-image-container">
-    <img src="{{ site.baseurl }}/assets/2025-05-24/Theatre.jpeg" alt="Inside the auditorium." style="width:100%;" class="darkened-image">
+    <img src="{{ '/assets/2025-05-24/Theatre.jpeg' | relative_url }}" alt="Inside the auditorium." style="width:100%;" class="darkened-image">
     <div id="the-end-text-on-image">
         <span style="font-size: 32px;"><b>The end.</b></span><br>
         <span>Oh, and I should really think twice next time before spending over half a year writing a review for a show. This one's worth it though.</span>
     </div>
 </div>
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/2025-05-24/style.css">
-<script src="{{ site.baseurl }}/assets/2025-05-24/index.js"></script>
+<link rel="stylesheet" href="{{ '/assets/2025-05-24/style.css' | relative_url }}">
+<script src="{{ '/assets/2025-05-24/index.js' | relative_url }}"></script>
