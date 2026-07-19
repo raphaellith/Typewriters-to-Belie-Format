@@ -7,7 +7,6 @@ tags:
   - programming
   - maths
   - wordplay
-published: false
 ---
 
 Though most competitive Scrabble tournaments are played in English, their use of intimidatingly arcane words sets
@@ -156,7 +155,7 @@ Apart from QI, WE is the only other word on the top ten list that features a hig
 being worth 4 points. The remaining words on the list all employ more common and less valuable letters like R, E, I, N
 and T.
 
-Another key insight that I skipped over is the rather surprising (or possibly unsurprising) fact that all ten words
+Another key insight is the rather surprising (or possibly unsurprising) fact that all ten words
 contain only two letters. Should you find this shocking, allow me to expand this chart by revealing the top 100 most
 used words.
 
