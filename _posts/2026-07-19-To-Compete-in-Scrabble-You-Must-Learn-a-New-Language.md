@@ -167,8 +167,8 @@ playability can be attributed to the same reasons as QI.
 This may initially seem counterintuitive. In a game where points are awarded on a per-letter basis, why would one be
 motivated to play words as short as two letters? The answer is “parallel play”: a Scrabble technique where a new word is
 placed directly alongside an existing word, creating multiple new (and often two-letter) words simultaneously in the
-perpendicular direction. This technique, on which I elucidated in [The Periodic Table of Two-Letter Scrabble Words]({{
-site.baseurl }}/The-Periodic-Table-of-Two-Letter-Scrabble-Words/), almost always maximises the score obtainable in a
+perpendicular direction. This technique, on which I elucidated in [The Periodic Table of Two-Letter Scrabble Words]({{ '
+/The-Periodic-Table-of-Two-Letter-Scrabble-Words/' | relative_url }}), almost always maximises the score obtainable in a
 single move. The omnipresence of parallel play in competitive Scrabble results in the overwhelming plethora of
 two-letter words in the above list.
 
