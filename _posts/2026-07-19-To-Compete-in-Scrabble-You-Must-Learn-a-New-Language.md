@@ -167,9 +167,10 @@ playability can be attributed to the same reasons as QI.
 This may initially seem counterintuitive. In a game where points are awarded on a per-letter basis, why would one be
 motivated to play words as short as two letters? The answer is “parallel play”: a Scrabble technique where a new word is
 placed directly alongside an existing word, creating multiple new (and often two-letter) words simultaneously in the
-perpendicular direction. This technique, on which I elucidated in The Periodic Table of Two-Letter Scrabble Words,
-almost always maximises the score obtainable in a single move. The omnipresence of parallel play in competitive Scrabble
-results in the overwhelming plethora of two-letter words in the above list.
+perpendicular direction. This technique, on which I elucidated in [The Periodic Table of Two-Letter Scrabble Words]({{
+site.baseurl }}/The-Periodic-Table-of-Two-Letter-Scrabble-Words/), almost always maximises the score obtainable in a
+single move. The omnipresence of parallel play in competitive Scrabble results in the overwhelming plethora of
+two-letter words in the above list.
 
 This may be a good time to revisit our original question, where we sought to unveil (a) the patterns of Scrabblese and
 (b) how these patterns could be capitalised on to our advantage. The first half of this question could be answered, at
