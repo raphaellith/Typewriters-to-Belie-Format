@@ -36,6 +36,6 @@ tags: website programming
   </div>
 </section>
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/2026-01-03/style.css">
-<script src="{{ site.baseurl }}/assets/2026-01-03/noframework.waypoints.min.js"></script>
-<script src="{{ site.baseurl }}/assets/2026-01-03/index.js"></script>
+<link rel="stylesheet" href="{{ '/assets/2026-01-03/style.css' | relative_url }}">
+<script src="{{ '/assets/2026-01-03/noframework.waypoints.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/2026-01-03/index.js' | relative_url }}"></script>

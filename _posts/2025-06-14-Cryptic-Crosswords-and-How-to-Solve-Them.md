@@ -708,6 +708,6 @@ Oh, and the clue shown in the description of this post has the answer <span clas
 
 
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/2025-06-14/style.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/2025-06-14/cw-grid-style.css">
-<script src="{{ site.baseurl }}/assets/2025-06-14/index.js"></script>
+<link rel="stylesheet" href="{{ '/assets/2025-06-14/style.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/2025-06-14/cw-grid-style.css' | relative_url }}">
+<script src="{{ '/assets/2025-06-14/index.js' | relative_url }}"></script>

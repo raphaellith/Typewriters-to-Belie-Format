@@ -10,7 +10,7 @@ tags:
 
 The title says it all: I wrote a cryptic crossword themed around public transport in Hong Kong, and certain related incidents that may or may not have happened within my friend group. I'm really bad at solving cryptic crosswords myself, but I thought I'd try setting one anyway.
 
-Download the crossword as a PDF file [here]({{ site.baseurl }}/assets/2024-11-16/Themed-Cryptic-Crossword.pdf).
+Download the crossword as a PDF file [here]({{ '/assets/2024-11-16/Themed-Cryptic-Crossword.pdf' | relative_url }}).
 
 Compared to ordinary crosswords where each clue provides a synonym or definition for the answer word, cryptic crosswords more wordplay-oriented. I found [this post on Puzzling Stack Exchange](https://puzzling.stackexchange.com/a/45985) to be a very useful and comprehensive beginners' guide to cryptic crosswords. In fact, the puzzle I've set involves all nine clue types introduced in that post.
 

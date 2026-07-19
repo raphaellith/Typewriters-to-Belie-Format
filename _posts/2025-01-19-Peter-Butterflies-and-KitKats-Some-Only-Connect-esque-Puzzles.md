@@ -11,7 +11,7 @@ tags:
 <style>
 @font-face {
 	font-family: "FF Din";
-	src: url("{{ site.baseurl }}/assets/fonts/din-medium-regular.ttf");
+	src: url("{{ '/assets/fonts/din-medium-regular.ttf' | relative_url }}");
 }
 
 .ff-din {
@@ -56,5 +56,5 @@ Have fun with the ones below! (And if you're reading this on your phone, tilt yo
 <div id="connectionPuzzles">
 </div>
 
-<script src="{{ site.baseurl }}/assets/2025-01-19/index.js"></script>
+<script src="{{ '/assets/2025-01-19/index.js' | relative_url }}"></script>
 
