@@ -10,15 +10,13 @@ tags:
 
 In 2015, New Zealand Scrabble player Nigel Richards was crowned the winner of the annual French World Scrabble
 Championships, which saw players going head-to-head in a francophone version of the classic word game. What made this
-otherwise
-dull [headline](https://www.theguardian.com/lifeandstyle/2015/jul/21/new-french-scrabble-champion-nigel-richards-doesnt-speak-french)
+otherwise dull [headline](https://www.theguardian.com/lifeandstyle/2015/jul/21/new-french-scrabble-champion-nigel-richards-doesnt-speak-french)
 unusually gripping is the fact that Richards, unlike the hundreds of contenders he beat, didn’t speak French. Instead,
 he had apparently spent nine weeks learning the full French Scrabble Dictionary. “He’s a fighting machine,” commented
 championship organiser Yves Brenez. “To him, _words are just combinations of letters_.”
 
 Three years later in 2018, Richards won the French World Scrabble Championships for a second time. In 2024, he attained
-the equally remarkable accomplishment
-of [winning](https://www.theguardian.com/world/2024/dec/10/scrabble-star-nigel-richards-wins-spanish-world-title-despite-not-speaking-spanish)
+the equally remarkable accomplishment of [winning](https://www.theguardian.com/world/2024/dec/10/scrabble-star-nigel-richards-wins-spanish-world-title-despite-not-speaking-spanish)
 the Spanish World Scrabble Championships, despite not being fluent in Spanish.
 
 <div class="asterisk">*</div>
@@ -26,9 +24,10 @@ the Spanish World Scrabble Championships, despite not being fluent in Spanish.
 _Words are just combinations of letters._ It is to this central doctrine that many popular word games, including the New
 York Times’ Spelling Bee and Wordle, seem to boil down. Other linguistic aspects like semantics and pragmatics are all
 thrown out the window, and this defenestration can often lead to interesting patterns in how frequently different words
-are used. The [previous part]({{'/To-Compete-in-Scrabble-You-Must-Learn-a-New-Language/' | relative_url }}) of this series motivated this premise with the hypothetical language of Scrabblese, but
-analyses were limited to top one hundred most prevalently used words. In this second part, we will consider the big
-picture by visualising over 52697 extracted words at the same time.
+are used. The [previous part]({{'/To-Compete-in-Scrabble-You-Must-Learn-a-New-Language/' | relative_url }}) of this
+series motivated this premise with the hypothetical language of Scrabblese, but analyses were limited to top one hundred
+most prevalently used words. In this second part, we will consider the big picture by visualising over 52697 extracted
+words at the same time.
 
 We will start by revisiting a previous graph. The bar chart below displays the ten most frequently played words across
 ten thousand games listed on cross-tables.com.
@@ -132,8 +131,8 @@ Moreover, shorter words are more likely to show up more in competitive play than
 
 Of course, the above list of patterns is by no means comprehensive. There will indubitably be a lot of noteworthy
 patterns waiting to be uncovered from this data-rich scatterplot, and countless more that aren’t even captured within.
-If anything, most of these patterns will ultimately come down to subjectivity, as the line between common and uncommon words
-varies inevitably between person to person. After all, graphs are nothing but abstractions: abstractions that are
+If anything, most of these patterns will ultimately come down to subjectivity, as the line between common and uncommon
+words varies inevitably between person to person. After all, graphs are nothing but abstractions: abstractions that are
 fabricated by discarding apparently immaterial details and where readers are invited to judge the remnants.
 
 And judge the remnants you can! Below is an adaptation of the previous graph, except I’ve added a slider which, when
