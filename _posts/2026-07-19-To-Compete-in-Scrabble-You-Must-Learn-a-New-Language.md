@@ -190,7 +190,7 @@ already contains numerous two-letter words --- IF, IT, IS, TO, BE, SO, to name b
 important to distinguish between the two-letter words that most people already know, and the ones worth learning
 additionally.
 
-In the next part, we’ll wrestle with these two issues simultaneously by investigating beyond the tip of this colossal
+In the [next part]({{ '/Scrabblese-The-Big-Picture/' | relative_url }}), we’ll wrestle with these two issues simultaneously by investigating beyond the tip of this colossal
 iceberg of vocabulary, shifting our focus to the big picture and visualising all 52697 words in a single chart.
 
 
