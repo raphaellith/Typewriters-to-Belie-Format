@@ -149,9 +149,9 @@ versions, I again invite you to unearth any peculiarities that I might have over
 </div>
 
 
-In addition to the source code, the project’s GitHub repository includes two exported datasets for listed and unlisted
-games respectively. Each data point contains a word, its ngrams probability, and the number of times it is played. Note
-that the scraped GCG files contents are not published.
+In addition to the source code, the project’s [GitHub repository](https://github.com/raphaellith/Scrabblese) includes
+two exported datasets for listed and unlisted games respectively. Each data point contains a word, its ngrams
+probability, and the number of times it is played. Note that the scraped GCG files contents are not published.
 
 <div class="asterisk">*</div>
 
