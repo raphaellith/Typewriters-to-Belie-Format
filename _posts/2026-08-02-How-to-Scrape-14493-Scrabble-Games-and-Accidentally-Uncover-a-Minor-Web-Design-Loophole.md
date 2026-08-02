@@ -6,7 +6,6 @@ description: "Scrabblese, the Appendix."
 tags:
   - programming
   - wordplay
-published: false
 ---
 
 The last two posts (see [Part 1]({{ '/To-Compete-in-Scrabble-You-Must-Learn-a-New-Language' | relative_url }})
