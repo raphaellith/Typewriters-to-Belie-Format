@@ -5,29 +5,24 @@ permalink: /tags/
 appear-in-top-right: true
 ---
 
-Here is a list of posts on this site, classified by tags.
+Each blog post comes with one or more tags indicating the subject or topic to which it pertains.
 
-<hr style="color: lightgrey; margin-bottom: 1em">
+Click on a tag to see a list of all posts that feature it.
 
-{% assign sitetags = site.tags | sort %}
+<hr>
 
-{%- for sitetag in sitetags -%}
+{% assign sitetags = site.tags | sort -%}
 
-{% assign tag_name = sitetag[0] %}
-{% assign posts_for_tag = sitetag[1] %}
+<div id="tag-list">
+  {%- for sitetag in sitetags -%}
+    {%- assign tag_name = sitetag[0] -%}
+    <span class="clickable-tag" data-tag-name="{{ tag_name }}">
+      {% include custom/tag.html tag=tag_name with_link=false %}
+    </span>
+  {%- endfor -%}
+</div>
 
-<div style="margin-bottom: 1.75em;">
+<div id="tag-posts"></div>
 
-<div id="anchor-tag-{{tag_name}}"></div>
-{% include custom/tag.html tag=tag_name with_link=false %}
-
-<div style="margin-top: 0.4em">
-<ul>
-{%- for post in posts_for_tag -%}
-<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-{%- endfor -%}
-</ul>
-
-<div style="margin-bottom: 30px;"></div>
-
-{%- endfor -%}
+<script src="{{ '/assets/non-post-pages/tags/index.js' | relative_url }}"></script>
+<link rel="stylesheet" href="{{ '/assets/non-post-pages/tags/style.css' | relative_url }}">
