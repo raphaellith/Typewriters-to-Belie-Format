@@ -1,0 +1,27 @@
+---
+---
+
+#tag-list {
+  width: 80%;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.clickable-tag {
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 0.5em;
+}
+
+.clickable-tag.selected-tag span {
+  background-color: color-mix(in srgb, var(--theme-color), white 30%) !important;
+  transition: background-color 200ms;
+}
+
+#tag-posts {
+  margin-top: 1.5em;
+
+  ul li:not(:last-child) {
+    margin-bottom: 0.4em;
+  }
+}
