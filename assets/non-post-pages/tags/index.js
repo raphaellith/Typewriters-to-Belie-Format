@@ -16,7 +16,7 @@ function renderPosts(selectedTagName) {
     const noPostsFoundMessage = document.createElement("p");
     noPostsFoundMessage.style.textAlign = "center";
     noPostsFoundMessage.style.fontStyle = "italic";
-    noPostsFoundMessage.textContent = `No posts featuring this tag are found.`;
+    noPostsFoundMessage.textContent = "No posts featuring this tag are found.";
     container.appendChild(noPostsFoundMessage);
     return;
   }
