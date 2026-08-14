@@ -10,12 +10,7 @@ function renderPosts(selectedTagName) {
     return;
   }
 
-  const postsMatchingSelectedTag = [];
-  for (const post of posts) {
-    if (post.tags && post.tags.indexOf(selectedTagName) !== -1) {  // If post uses tag
-      postsMatchingSelectedTag.push(post);
-    }
-  }
+  const postsMatchingSelectedTag = posts.filter(post => post.tags && post.tags.indexOf(selectedTagName) !== -1);
 
   if (postsMatchingSelectedTag.length === 0) {
     const noPostsFoundMessage = document.createElement("p");
