@@ -14,8 +14,7 @@
 }
 
 .clickable-tag.selected-tag span {
-  background-color: color-mix(in srgb, var(--theme-color), black 20%) !important;
-  color: white !important;
+  background-color: color-mix(in srgb, var(--theme-color), white 30%) !important;
   transition: background-color 500ms;
 }
 
