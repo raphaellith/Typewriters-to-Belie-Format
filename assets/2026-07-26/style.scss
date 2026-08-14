@@ -14,7 +14,7 @@ $slider-thumb-size: 15px;
   font-size: $label-font-size;
 }
 
-%slider-thumb {
+@mixin slider-thumb {
   width: $slider-thumb-size;
   height: $slider-thumb-size;
   border-radius: 50%;
@@ -96,11 +96,11 @@ $slider-thumb-size: 15px;
 }
 
 .slider::-webkit-slider-thumb {
+  @include slider-thumb;
   -webkit-appearance: none;
   appearance: none;
-  @extend %slider-thumb;
 }
 
 .slider::-moz-range-thumb {
-  @extend %slider-thumb;
+  @include slider-thumb;
 }
