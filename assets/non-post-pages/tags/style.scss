@@ -20,4 +20,8 @@
 
 #tag-posts {
   margin-top: 1.5em;
+
+  ul li:not(:last-child) {
+    margin-bottom: 0.4em;
+  }
 }
