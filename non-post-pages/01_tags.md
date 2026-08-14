@@ -5,6 +5,12 @@ permalink: /tags/
 appear-in-top-right: true
 ---
 
+Each blog post comes with one or more tags indicating the subject or topic to which it pertains.
+
+Click on a tag to see a list of all posts that feature it.
+
+<hr>
+
 {% assign sitetags = site.tags | sort -%}
 
 <div id="tag-list">
