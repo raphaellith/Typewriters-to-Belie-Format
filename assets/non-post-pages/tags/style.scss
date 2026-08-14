@@ -15,7 +15,7 @@
 
 .clickable-tag.selected-tag span {
   background-color: color-mix(in srgb, var(--theme-color), white 30%) !important;
-  transition: background-color 500ms;
+  transition: background-color 200ms;
 }
 
 #tag-posts {
