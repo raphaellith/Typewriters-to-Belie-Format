@@ -14,7 +14,9 @@ function renderPosts(selectedTagName) {
 
   if (postsMatchingSelectedTag.length === 0) {
     const noPostsFoundMessage = document.createElement("p");
-    noPostsFoundMessage.textContent = `No posts found for tag “${selectedTagName}”.`;
+    noPostsFoundMessage.style.textAlign = "center";
+    noPostsFoundMessage.style.fontStyle = "italic";
+    noPostsFoundMessage.textContent = "No posts featuring this tag are found.";
     container.appendChild(noPostsFoundMessage);
     return;
   }
