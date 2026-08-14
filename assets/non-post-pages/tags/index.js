@@ -1,90 +1,112 @@
-var postsData = null;
+let posts = null;  // As JSON
 
-function fetchPosts() {
-  return fetch('/posts.json').then(function (r) {
-    return r.json();
-  });
-}
+function renderPosts(selectedTagName) {
+  /* Clears the #tag-posts element and populates it with posts corresponding to the selected tag. */
 
-function renderPosts(tag) {
-  var container = document.getElementById('tag-posts');
-  if (!tag || !postsData) {
-    container.innerHTML = '';
+  const container = document.getElementById('tag-posts');
+  container.replaceChildren();  // Clear contents in tag-posts container
+
+  if (!(selectedTagName && posts)) {
     return;
   }
-  var filtered = [];
-  for (var i = 0; i < postsData.length; i++) {
-    var post = postsData[i];
-    if (post.tags && post.tags.indexOf(tag) !== -1) {
-      filtered.push(post);
+
+  const postsMatchingSelectedTag = [];
+  for (const post of posts) {
+    if (post.tags && post.tags.indexOf(selectedTagName) !== -1) {  // If post uses tag
+      postsMatchingSelectedTag.push(post);
     }
   }
-  if (filtered.length === 0) {
-    container.innerHTML = '<p>No posts found for tag &ldquo;' + tag + '&rdquo;.</p>';
+
+  if (postsMatchingSelectedTag.length === 0) {
+    const noPostsFoundMessage = document.createElement("p");
+    noPostsFoundMessage.textContent = `No posts found for tag “${selectedTagName}”.`;
+    container.appendChild(noPostsFoundMessage);
     return;
   }
-  var html = '<ul>';
-  for (var j = 0; j < filtered.length; j++) {
-    html += '<li><a href="' + filtered[j].url + '">' + filtered[j].title + '</a></li>';
+
+  const bulletedList = document.createElement("ul");
+  for (const postMatchingTag of postsMatchingSelectedTag) {
+    const listItem = document.createElement("li");
+
+    linkInListItem = document.createElement("a");
+    linkInListItem.href = postMatchingTag.url;
+    linkInListItem.textContent = postMatchingTag.title;
+
+    listItem.appendChild(linkInListItem);
+
+    bulletedList.append(listItem);
   }
-  html += '</ul>';
-  container.innerHTML = html;
+
+  container.appendChild(bulletedList);
 }
 
-function setSelectedTag(tag) {
-  var tags = document.querySelectorAll('.clickable-tag');
-  for (var i = 0; i < tags.length; i++) {
-    if (tags[i].getAttribute('data-tag') === tag) {
-      tags[i].classList.add('selected-tag');
+function selectTag(selectedTagName) {
+  /*
+    Selects the tag corresponding to the given name.
+    Adds the .selected-tag class to that tag element and updates the list of posts accordingly.
+  */
+
+  const tags = document.querySelectorAll('.clickable-tag');
+  for (const tag of tags) {
+    if (tag.getAttribute('data-tag-name') === selectedTagName) {
+      tag.classList.add('selected-tag');
     } else {
-      tags[i].classList.remove('selected-tag');
+      tag.classList.remove('selected-tag');
     }
   }
+
+  renderPosts(selectedTagName);
 }
 
-function selectTag(tag) {
-  setSelectedTag(tag);
-  renderPosts(tag);
+function getTagNameFromQueryParameters() {
+  /* Returns the tag name specified by the query parameter 'tag'. If there is no such query parameter, returns null. */
+
+  const parameters = new URLSearchParams(window.location.search);
+  return parameters.get('tag') || null;
 }
 
-function getTagFromQueryParam() {
-  var params = new URLSearchParams(window.location.search);
-  return params.get('tag') || null;
-}
+function updateUrl(tagName) {
+  /* Updates the query parameter 'tag' with the value tagName. */
 
-function updateUrl(tag) {
-  var base = window.location.pathname;
-  var url = tag ? base + '?tag=' + encodeURIComponent(tag) : base;
-  history.pushState({ tag: tag }, '', url);
+  const base = window.location.pathname;
+  const url = base + (tagName ? `?tag=${encodeURIComponent(tagName)}` : '');
+  history.pushState({ tag: tagName }, '', url);
 }
 
 function onDOMContentLoaded() {
-  fetchPosts().then(function (data) {
-    postsData = data;
-    const tagFromQuery = getTagFromQueryParam();
-    if (tagFromQuery) {
-      selectTag(tagFromQuery);
-    }
-  });
+  /*
+    Loads post data from posts.json and caches it in the posts variable.
+    Selects the tag specified in the query parameter 'tag', if any.
+    Initialises clickable tags.
+   */
+
+  fetch('/posts.json')
+    .then(r => r.json())
+    .then(function (data) {
+      posts = data;
+      const tagNameFromQueryParameters = getTagNameFromQueryParameters();
+      if (tagNameFromQueryParameters) {
+        selectTag(tagNameFromQueryParameters);
+      }
+    });
 
   const tags = document.querySelectorAll('.clickable-tag');
-  for (var i = 0; i < tags.length; i++) {
-    tags[i].addEventListener('click', function () {
-      const tag = this.getAttribute('data-tag');
-      if (tag === getTagFromQueryParam()) {
+  for (const tag of tags) {
+    tag.addEventListener('click', function () {
+      const tagName = this.getAttribute('data-tag-name');
+      if (tagName === getTagNameFromQueryParameters()) {
+        // Clicking an already selected tag should unselect it
         selectTag(null);
         updateUrl(null);
       } else {
-        selectTag(tag);
-        updateUrl(tag);
+        // Clicking an unselected tag should select it
+        selectTag(tagName);
+        updateUrl(tagName);
       }
     });
   }
 
-  window.addEventListener('popstate', function () {
-    var tag = getTagFromQueryParam();
-    selectTag(tag);
-  });
+  window.addEventListener('popstate', function () { selectTag(getTagNameFromQueryParameters()); });
 }
 
 document.addEventListener('DOMContentLoaded', onDOMContentLoaded);

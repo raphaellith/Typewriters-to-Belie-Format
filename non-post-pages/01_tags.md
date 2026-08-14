@@ -10,7 +10,7 @@ appear-in-top-right: true
 <div id="tag-list">
   {%- for sitetag in sitetags -%}
     {%- assign tag_name = sitetag[0] -%}
-    <span class="clickable-tag" data-tag="{{ tag_name }}">
+    <span class="clickable-tag" data-tag-name="{{ tag_name }}">
       {% include custom/tag.html tag=tag_name with_link=false %}
     </span>
   {%- endfor -%}
