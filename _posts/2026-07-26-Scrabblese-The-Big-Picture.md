@@ -6,20 +6,17 @@ description: "Scrabblese, Part 2."
 tags:
   - programming
   - wordplay
-published: false
 ---
 
 In 2015, New Zealand Scrabble player Nigel Richards was crowned the winner of the annual French World Scrabble
 Championships, which saw players going head-to-head in a francophone version of the classic word game. What made this
-otherwise
-dull [headline](https://www.theguardian.com/lifeandstyle/2015/jul/21/new-french-scrabble-champion-nigel-richards-doesnt-speak-french)
+otherwise dull [headline](https://www.theguardian.com/lifeandstyle/2015/jul/21/new-french-scrabble-champion-nigel-richards-doesnt-speak-french)
 unusually gripping is the fact that Richards, unlike the hundreds of contenders he beat, didn’t speak French. Instead,
 he had apparently spent nine weeks learning the full French Scrabble Dictionary. “He’s a fighting machine,” commented
 championship organiser Yves Brenez. “To him, _words are just combinations of letters_.”
 
 Three years later in 2018, Richards won the French World Scrabble Championships for a second time. In 2024, he attained
-the equally remarkable accomplishment
-of [winning](https://www.theguardian.com/world/2024/dec/10/scrabble-star-nigel-richards-wins-spanish-world-title-despite-not-speaking-spanish)
+the equally remarkable accomplishment of [winning](https://www.theguardian.com/world/2024/dec/10/scrabble-star-nigel-richards-wins-spanish-world-title-despite-not-speaking-spanish)
 the Spanish World Scrabble Championships, despite not being fluent in Spanish.
 
 <div class="asterisk">*</div>
@@ -27,9 +24,10 @@ the Spanish World Scrabble Championships, despite not being fluent in Spanish.
 _Words are just combinations of letters._ It is to this central doctrine that many popular word games, including the New
 York Times’ Spelling Bee and Wordle, seem to boil down. Other linguistic aspects like semantics and pragmatics are all
 thrown out the window, and this defenestration can often lead to interesting patterns in how frequently different words
-are used. The previous part of this series motivated this premise with the hypothetical language of Scrabblese, but
-analyses were limited to top one hundred most prevalently used words. In this second part, we will consider the big
-picture by visualising over 52697 extracted words at the same time.
+are used. The [previous part]({{'/To-Compete-in-Scrabble-You-Must-Learn-a-New-Language/' | relative_url }}) of this
+series motivated this premise with the hypothetical language of Scrabblese, but analyses were limited to top one hundred
+most prevalently used words. In this second part, we will consider the big picture by visualising over 52697 extracted
+words at the same time.
 
 We will start by revisiting a previous graph. The bar chart below displays the ten most frequently played words across
 ten thousand games listed on cross-tables.com.
@@ -62,18 +60,18 @@ especially astonishing: you only need to learn 450-odd words to emulate half of 
 course, some of these words will already be in our daily vernacular, so the true number might be slightly smaller.
 
 How much smaller exactly? To gauge this, I hooked up the Scrabble database with Google Books Ngram Viewer. This Ngram
-Viewer dataset allows us to retrieve a word’s collapsed relative match count — the number of times it has appeared in
+Viewer dataset allows us to retrieve a word’s _collapsed relative match count_: the number of times it has appeared in
 books and printed publications over the years, normalised with respect to all other words in the English language. This
 gives us the following scatter plot.
 
 <div class="scatter-plot vspace"></div>
 
 
-On the x-axis is each word’s collapsed relative match count; on the y-axis is the number of times each word has been
+On the _x_-axis is each word’s collapsed relative match count; on the _y_-axis is the number of times each word has been
 played across ten thousand games. Both axes are logarithmic, so steps are multiplicative rather than additive. (This
-logarithmic nature gives rise to the artefact at the lower end of the graph, where the scattered data points appear to
+logarithmic nature gives rise to the artefact at the lower end of the graph, where scattered data points appear to
 form a pattern of horizontal lines. Closer inspection reveals that the bottommost line corresponds to words played only
-once, the second line to words played twice; and so on.)
+once, the second line to words played twice, and so on.)
 
 This scatter plot may be roughly partitioned into four quarters.
 
@@ -86,7 +84,7 @@ The bottom right contains words that are familiar to most people, but aren’t p
 </div>
 
 
-Words in the top right are similarly familiar, but are useful in Scrabble:
+Words in the top right are similarly familiar, but _are_ useful in Scrabble:
 
 <div class="centered vspace">
   <div>AN</div>
@@ -122,7 +120,7 @@ uncommon either:
   <div>OHIA</div>
 </div>
 
-In addition, shorter words are more likely to show up more in competitive play than longer ones.
+Moreover, shorter words are more likely to show up more in competitive play than longer ones.
 
 |   Word   | Number of recorded plays |
 |:--------:|:------------------------:|
@@ -133,11 +131,11 @@ In addition, shorter words are more likely to show up more in competitive play t
 
 Of course, the above list of patterns is by no means comprehensive. There will indubitably be a lot of noteworthy
 patterns waiting to be uncovered from this data-rich scatterplot, and countless more that aren’t even captured within.
-If anything, most of these patterns come down ultimately to subjectivity, as the line between common and uncommon words
-inevitably varies between person to person. After all, graphs are nothing but abstractions: abstractions that are
+If anything, most of these patterns will ultimately come down to subjectivity, as the line between common and uncommon
+words varies inevitably between person to person. After all, graphs are nothing but abstractions: abstractions that are
 fabricated by discarding apparently immaterial details and where readers are invited to judge the remnants.
 
-And judge the remnants you can! Below is a version of the previous graph, except I’ve added a slider which, when
+And judge the remnants you can! Below is an adaptation of the previous graph, except I’ve added a slider which, when
 enabled, only shows data points corresponding to words of a given length. Have a look around, discover patterns and see
 where your line between familiarity and obscurity lies in this Big Picture of Scrabblese.
 

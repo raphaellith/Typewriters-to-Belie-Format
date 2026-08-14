@@ -6,7 +6,6 @@ description: "Scrabblese, the Appendix."
 tags:
   - programming
   - wordplay
-published: false
 ---
 
 The last two posts (see [Part 1]({{ '/To-Compete-in-Scrabble-You-Must-Learn-a-New-Language' | relative_url }})
@@ -38,9 +37,9 @@ Interactions between databases and web services typically employ standardised fo
 expected cross-tables.com to follow this long-standing convention, so imagine my surprise when I found out that there
 is a special file format and encoding syntax dedicated solely to describing Scrabble games.
 
-This is the .GCG file format, and I was amazed by how little documentation there is about this bespoke encoding. It was
+This is the .GCG format, and I was amazed by how little documentation there is about this bespoke encoding. It was
 barely mentioned in the Wikipedia article for Scrabble, except for one line in the External Links section which
-references a fairly barebones HTML documentation page. (See the addendum at the end of this article for a list of the
+references a fairly bare-bones HTML documentation page. (See the addendum at the end of this article for a list of the
 very few sources I could dig up about GCG.) Deciphering and assimilating this piece of documentation was a really
 delightful challenge, and using it to write a robust GCG parser was even more fun.
 
@@ -150,9 +149,9 @@ versions, I again invite you to unearth any peculiarities that I might have over
 </div>
 
 
-In addition to the source code, the project’s GitHub repository includes two exported datasets for listed and unlisted
-games respectively. Each data point contains a word, its ngrams probability, and the number of times it is played. Note
-that the scraped contents of GCG files are not published.
+In addition to the source code, the project’s [GitHub repository](https://github.com/raphaellith/Scrabblese) includes
+two exported datasets for listed and unlisted games respectively. Each data point contains a word, its ngrams
+probability, and the number of times it is played. Note that the scraped GCG files contents are not published.
 
 <div class="asterisk">*</div>
 
