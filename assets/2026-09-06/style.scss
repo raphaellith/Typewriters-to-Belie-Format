@@ -1,0 +1,107 @@
+---
+---
+
+$card-inner-border-radius: 5px;
+$card-border-thickness: 5px;
+$card-outer-border-radius: $card-inner-border-radius + $card-border-thickness;
+
+$rule-background-color: chocolate;
+$rule-border-color: darken(chocolate, 20%);
+
+$modifier-background-color: darkgoldenrod;
+$modifier-border-color: darken(darkgoldenrod, 20%);
+
+$prompt-background-color: whitesmoke;
+$prompt-border-color: darken(whitesmoke, 60%);
+
+@mixin card-box {
+  display: grid;
+  place-items: center;
+
+  text-align: center;
+
+  position: relative;
+
+  margin: 2em auto;
+  width: 16em;
+  height: 9em;
+  border-radius: $card-outer-border-radius;
+}
+
+@mixin card-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  padding: 5px;
+  border-radius: 0 0 $card-inner-border-radius 0;
+
+  font-size: x-small;
+  color: $prompt-background-color;
+}
+
+.rule-box {
+  @include card-box;
+
+  background-color: $rule-background-color;
+  border: $card-border-thickness solid $rule-border-color;
+
+  &::before {
+    @include card-label;
+    content: "RULE";
+    background-color: $rule-border-color;
+  }
+}
+
+.modifier-box {
+  @include card-box;
+
+  background-color: $modifier-background-color;
+  border: $card-border-thickness solid $modifier-border-color;
+
+  &::before {
+    @include card-label;
+    content: "MODIFIER";
+    background-color: $modifier-border-color;
+  }
+}
+
+.prompt-box {
+  @include card-box;
+
+  background-color: $prompt-background-color;
+  border: $card-border-thickness solid $prompt-border-color;
+
+  color: black;
+
+  &::before {
+    @include card-label;
+    content: "PROMPT";
+    background-color: $prompt-border-color;
+  }
+
+  .card-name {
+    font-style: italic;
+  }
+}
+
+:is(.rule-box, .modifier-box, .prompt-box) {
+  .card-contents {
+    line-height: 1.2;
+    padding: 0.75em;
+
+    * {
+      margin: 0.2em;
+    }
+
+    .card-name {
+      font-size: large;
+      font-weight: bold;
+    }
+
+    .card-description {
+      font-size: smaller;
+      font-style: italic;
+    }
+  }
+}
