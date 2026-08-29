@@ -8,6 +8,12 @@ tags:
   - programming
 ---
 
+<div class="highlight-block">
+<b>This article contains minimal spoilers.</b><br>
+This article describes “Rulette”, an episode from Season 7 of <i>Game Changer</i>.
+It includes a summary of its game mechanics, but contains little to no spoilers.
+</div>
+
 I'm pretty sure _Game Changer_ is one of the most innovative game shows out there. While almost all other game shows
 adhere to a strict structure and format, _Game Changer_ prides itself on being "the only game show where the game
 changes every show". Every episode sees a trio of comedians compete in an entirely different game. Unaware of the game's
@@ -53,21 +59,13 @@ decks and scoreboards, I _do_ have the ability to make a cheap homemade digital 
 software frameworks that support this: Unity, Godot and Pygame, to name but three. However, I wanted the end result to
 look as polished as possible, so naturally I opted for the classic game engine of Google Slides.
 
-[Screenshot of Rule Board slide]
-
-[Screenshot of Scoreboard slide]
+<img src="{{ '/assets/2026-09-06/RuleBoard.png' | relative_url }}" alt="The BINGO logo." id="bingo-logo">
+<img src="{{ '/assets/2026-09-06/Scoreboard.png' | relative_url }}" alt="The BINGO logo." id="bingo-logo">
 
 Did you know Google has a cloud-based coding platform that lets you extend its apps' functionalities? It’s called Apps
 Script, and it lets you automate tasks across various Google Workspace applications using JavaScript. Here, I used it to
 implement a number of game mechanics and assets from Rulette, all accessible from a custom UI menu in the Google Slides
 toolbar.
-
-[Screenshot of UI menu]
-
-At the top of the menu is an Add Rules Slide button, which automatically initialises the game board by generating a new
-slide with thirty randomised stacks of "cards" (or, perhaps less fancily, layered rounded rectangles), including rules,
-prompts and modifiers. Sitting at the bottom is a Flip Selected Rule button, which flips a rule to reveal its evil
-twin --- whatever that might mean.
 
 Rather than duping the original episode verbatim, I wanted to put my own creative spin on it (if you would pardon the
 pun). To do this, I came up with over fifty original rules, alongside new modifiers and prompts. My favourites include:
@@ -127,19 +125,15 @@ pun). To do this, I came up with over fifty original rules, alongside new modifi
 
 
 Whereas most board games encourage in-person play, this version of Rulette exists entirely online and can easily be
-played over a video call. With my Apps Script plugin locked and loaded, I invited a couple of friends to playtest it
-over Discord. I can't speak for our other players, but never has a Google Slides presentation elicited so many belly
-laughs from me. I genuinely had so much fun, and we even managed to recreate the plot twist in the _Game Changer_
-original.
+played over a video call. I playtested it with a couple of friends over Discord, and never has a Google Slides
+presentation elicited so many belly laughs from me. I genuinely had so much fun, and we even managed to recreate the
+plot twist in the _Game Changer_ original.
 
-If you want to host a game of Rulette for your friends, the project's source code is available
-on [GitHub](https://github.com/raphaellith/Rulette). There, you can see all sixty-one rules I used for my three-player
-Discord game, along with accompanying prompts and modifiers. These cards have been written specially for my friend
-group, so it may be necessary to adjust them based on your group's overall comfort level. After all, the game is always
-changing.
-
-
-
-
+If you want to host a game of Rulette for your friends, you can use the Google Slides template linked
+[here](https://docs.google.com/presentation/d/1wDJyPUtWH2tsUDqhrcGP3jKrra8LRjFuNdtibAFmhxs/edit?usp=sharing), or view
+its source code on [GitHub](https://github.com/raphaellith/Rulette). There, you can see all sixty-one rules used for my 
+three-player Discord game, along with accompanying prompts and modifiers. Of course, these cards have been written
+specially for my friend group, so you might want to adjust them based on your players' overall comfort level. After all,
+the game is always changing.
 
 <link rel="stylesheet" href="{{ '/assets/2026-09-06/style.css' | relative_url }}">
