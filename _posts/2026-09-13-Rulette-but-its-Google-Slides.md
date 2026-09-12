@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "“Rulette”, but it’s Google Slides"
-date: 2026-08-02
+date: 2026-09-13
 description: "The rule game where the rule changes every game."
+published: true
 tags:
   - game
   - programming
@@ -59,8 +60,8 @@ decks and scoreboards, I _do_ have the ability to make a cheap homemade digital 
 software frameworks that support this: Unity, Godot and Pygame, to name but three. However, I wanted the end result to
 look as polished as possible, so naturally I opted for the classic game engine of Google Slides.
 
-<img src="{{ '/assets/2026-09-06/RuleBoard.png' | relative_url }}" alt="The BINGO logo." id="bingo-logo">
-<img src="{{ '/assets/2026-09-06/Scoreboard.png' | relative_url }}" alt="The BINGO logo." id="bingo-logo">
+<img src="{{ '/assets/2026-09-13/RuleBoard.png' | relative_url }}" alt="The BINGO logo." id="bingo-logo">
+<img src="{{ '/assets/2026-09-13/Scoreboard.png' | relative_url }}" alt="The BINGO logo." id="bingo-logo">
 
 Did you know Google has a cloud-based coding platform that lets you extend its apps' functionalities? It’s called Apps
 Script, and it lets you automate tasks across various Google Workspace applications using JavaScript. Here, I used it to
@@ -136,4 +137,4 @@ three-player Discord game, along with accompanying prompts and modifiers. Of cou
 specially for my friend group, so you might want to adjust them based on your players' overall comfort level. After all,
 the game is always changing.
 
-<link rel="stylesheet" href="{{ '/assets/2026-09-06/style.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/2026-09-13/style.css' | relative_url }}">
