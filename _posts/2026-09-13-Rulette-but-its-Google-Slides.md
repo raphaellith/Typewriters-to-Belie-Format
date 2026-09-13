@@ -132,8 +132,8 @@ plot twist in the _Game Changer_ original.
 
 If you want to host a game of Rulette for your friends, you can use the Google Slides template linked
 [here](https://docs.google.com/presentation/d/1wDJyPUtWH2tsUDqhrcGP3jKrra8LRjFuNdtibAFmhxs/edit?usp=sharing), or view
-its source code on [GitHub](https://github.com/raphaellith/Rulette). There, you can see all sixty-one rules used for my 
-three-player Discord game, along with accompanying prompts and modifiers. Of course, these cards have been written
+its source code on [GitHub](https://github.com/raphaellith/Rulette). There, you can see all sixty-one rules I used for
+my three-player Discord game, along with accompanying prompts and modifiers. Of course, these cards have been written
 specially for my friend group, so you might want to adjust them based on your players' overall comfort level. After all,
 the game is always changing.
 
