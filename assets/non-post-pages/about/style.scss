@@ -60,12 +60,6 @@
     transform: rotate(-3deg) translateX(clamp(-16vw, calc(50% - 50vw), calc(-50% + 50vw)));
   }
 
-  &-schools {
-    margin-top: 0.5rem;
-    filter: hue-rotate(30deg);
-    transform: rotate(-1deg) translateX(clamp(-16vw, calc(50% - 50vw), calc(-50% + 50vw))) scale(0.6);
-  }
-
   &-description {
     filter: hue-rotate(200deg);
     transform: rotate(0.5deg);
