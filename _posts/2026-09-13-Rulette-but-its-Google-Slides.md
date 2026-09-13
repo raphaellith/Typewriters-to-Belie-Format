@@ -124,7 +124,6 @@ pun). To do this, I came up with over fifty original rules, alongside new modifi
   </div>
 </div>
 
-
 Whereas most board games encourage in-person play, this version of Rulette exists entirely online and can easily be
 played over a video call. I playtested it with a couple of friends over Discord, and never has a Google Slides
 presentation elicited so many belly laughs from me. I genuinely had so much fun, and we even managed to recreate the
